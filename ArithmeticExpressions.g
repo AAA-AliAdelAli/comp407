@@ -93,7 +93,7 @@ return_type
 initialize: (types('['']')? VAR SEMICOLON|VAR* SEMICOLON);
 
 initialize_1
-	:	VAR '=' (New|VAR) Dot? VAR '('(NUM|VAR)?')' ;
+	:	VAR '=' (New|VAR) Dot? VAR '('(NUM|VAR)?','?(NUM|VAR)? ')' ;
 sys_print
 	:	System Dot Out Dot Println '('(NUM|VAR Dot VAR '('NUM?')')  ')' SEMICOLON;
 object	:	('!')? VAR Dot VAR '(' (NUM|VAR)? ')' | VAR?;
