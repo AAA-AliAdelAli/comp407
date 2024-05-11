@@ -117,8 +117,8 @@ ifstmt  :
 	'if' '(' ('!' '(')? if_cond (')')? ')' ('{')? stmt* ('}')? ('else' ('{')? stmt* ('}')?)? ('else' ('{')? stmt* ('}')?)?;
 	
   
- if_cond	:  if_nor | object ; 
- if_nor :	 VAR (( '>' | '<' )^  VAR )*;
+ if_cond	:  if_nor  ; 
+ if_nor :	 object (( '>' | '<' )^  object )*;
 forloop	:   
 	'for' '(' (decl) (condition) SEMICOLON (VAR change) ')' '{' stmt* '}'
 	;
