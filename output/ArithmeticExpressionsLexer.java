@@ -1,4 +1,4 @@
-// $ANTLR 3.4 C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g 2024-05-11 23:52:37
+// $ANTLR 3.4 E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g 2024-05-12 01:03:54
 
 import org.antlr.runtime.*;
 import java.util.Stack;
@@ -98,15 +98,15 @@ public class ArithmeticExpressionsLexer extends Lexer {
     public ArithmeticExpressionsLexer(CharStream input, RecognizerSharedState state) {
         super(input,state);
     }
-    public String getGrammarFileName() { return "C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g"; }
+    public String getGrammarFileName() { return "E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g"; }
 
     // $ANTLR start "T__55"
     public final void mT__55() throws RecognitionException {
         try {
             int _type = T__55;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:2:7: ( '!' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:2:9: '!'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:2:7: ( '!' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:2:9: '!'
             {
             match('!'); 
 
@@ -126,8 +126,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__56;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:3:7: ( '(' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:3:9: '('
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:3:7: ( '(' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:3:9: '('
             {
             match('('); 
 
@@ -147,8 +147,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__57;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:4:7: ( ')' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:4:9: ')'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:4:7: ( ')' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:4:9: ')'
             {
             match(')'); 
 
@@ -168,8 +168,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__58;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:5:7: ( '*' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:5:9: '*'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:5:7: ( '*' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:5:9: '*'
             {
             match('*'); 
 
@@ -189,8 +189,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__59;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:6:7: ( '+' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:6:9: '+'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:6:7: ( '+' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:6:9: '+'
             {
             match('+'); 
 
@@ -210,8 +210,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__60;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:7:7: ( '++' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:7:9: '++'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:7:7: ( '++' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:7:9: '++'
             {
             match("++"); 
 
@@ -233,8 +233,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__61;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:8:7: ( '+=' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:8:9: '+='
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:8:7: ( '+=' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:8:9: '+='
             {
             match("+="); 
 
@@ -256,8 +256,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__62;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:9:7: ( ',' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:9:9: ','
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:9:7: ( ',' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:9:9: ','
             {
             match(','); 
 
@@ -277,8 +277,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__63;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:10:7: ( '-' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:10:9: '-'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:10:7: ( '-' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:10:9: '-'
             {
             match('-'); 
 
@@ -298,8 +298,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__64;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:11:7: ( '--' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:11:9: '--'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:11:7: ( '--' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:11:9: '--'
             {
             match("--"); 
 
@@ -321,8 +321,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__65;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:12:7: ( '-=' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:12:9: '-='
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:12:7: ( '-=' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:12:9: '-='
             {
             match("-="); 
 
@@ -344,8 +344,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__66;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:13:7: ( '/' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:13:9: '/'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:13:7: ( '/' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:13:9: '/'
             {
             match('/'); 
 
@@ -365,8 +365,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__67;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:14:7: ( '<' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:14:9: '<'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:14:7: ( '<' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:14:9: '<'
             {
             match('<'); 
 
@@ -386,8 +386,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__68;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:15:7: ( '=' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:15:9: '='
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:15:7: ( '=' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:15:9: '='
             {
             match('='); 
 
@@ -407,8 +407,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__69;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:16:7: ( '>' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:16:9: '>'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:16:7: ( '>' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:16:9: '>'
             {
             match('>'); 
 
@@ -428,8 +428,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__70;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:17:7: ( '[' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:17:9: '['
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:17:7: ( '[' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:17:9: '['
             {
             match('['); 
 
@@ -449,8 +449,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__71;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:18:7: ( ']' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:18:9: ']'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:18:7: ( ']' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:18:9: ']'
             {
             match(']'); 
 
@@ -470,8 +470,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__72;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:19:7: ( 'a' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:19:9: 'a'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:19:7: ( 'a' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:19:9: 'a'
             {
             match('a'); 
 
@@ -491,8 +491,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__73;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:20:7: ( 'else' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:20:9: 'else'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:20:7: ( 'else' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:20:9: 'else'
             {
             match("else"); 
 
@@ -514,8 +514,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__74;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:21:7: ( 'for' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:21:9: 'for'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:21:7: ( 'for' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:21:9: 'for'
             {
             match("for"); 
 
@@ -537,8 +537,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__75;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:22:7: ( 'if' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:22:9: 'if'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:22:7: ( 'if' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:22:9: 'if'
             {
             match("if"); 
 
@@ -560,8 +560,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__76;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:23:7: ( 'return' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:23:9: 'return'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:23:7: ( 'return' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:23:9: 'return'
             {
             match("return"); 
 
@@ -583,8 +583,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__77;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:24:7: ( 'while' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:24:9: 'while'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:24:7: ( 'while' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:24:9: 'while'
             {
             match("while"); 
 
@@ -606,8 +606,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__78;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:25:7: ( '{' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:25:9: '{'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:25:7: ( '{' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:25:9: '{'
             {
             match('{'); 
 
@@ -627,8 +627,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = T__79;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:26:7: ( '}' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:26:9: '}'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:26:7: ( '}' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:26:9: '}'
             {
             match('}'); 
 
@@ -648,8 +648,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = Class;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:196:6: ( 'class' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:196:7: 'class'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:196:6: ( 'class' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:196:7: 'class'
             {
             match("class"); 
 
@@ -671,8 +671,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = System;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:197:8: ( 'System' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:197:9: 'System'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:197:8: ( 'System' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:197:9: 'System'
             {
             match("System"); 
 
@@ -694,8 +694,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = New;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:198:5: ( 'new' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:198:7: 'new'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:198:5: ( 'new' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:198:7: 'new'
             {
             match("new"); 
 
@@ -717,8 +717,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = Dot;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:199:5: ( '.' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:199:7: '.'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:199:5: ( '.' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:199:7: '.'
             {
             match('.'); 
 
@@ -738,8 +738,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = Out;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:200:5: ( 'out' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:200:7: 'out'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:200:5: ( 'out' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:200:7: 'out'
             {
             match("out"); 
 
@@ -761,8 +761,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = Println;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:201:9: ( 'println' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:201:11: 'println'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:201:9: ( 'println' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:201:11: 'println'
             {
             match("println"); 
 
@@ -784,8 +784,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = Args;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:203:6: ( 'args' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:203:8: 'args'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:203:6: ( 'args' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:203:8: 'args'
             {
             match("args"); 
 
@@ -807,8 +807,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = Static;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:204:8: ( 'static' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:204:10: 'static'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:204:8: ( 'static' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:204:10: 'static'
             {
             match("static"); 
 
@@ -830,8 +830,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = Main;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:205:6: ( 'main' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:205:8: 'main'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:205:6: ( 'main' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:205:8: 'main'
             {
             match("main"); 
 
@@ -853,7 +853,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = AndOr;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:207:7: ( '&&' | '||' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:207:7: ( '&&' | '||' )
             int alt1=2;
             int LA1_0 = input.LA(1);
 
@@ -872,7 +872,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
             }
             switch (alt1) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:207:9: '&&'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:207:9: '&&'
                     {
                     match("&&"); 
 
@@ -881,7 +881,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:207:14: '||'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:207:14: '||'
                     {
                     match("||"); 
 
@@ -905,7 +905,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = Modifier;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:208:9: ( 'private' | 'public' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:208:9: ( 'private' | 'public' )
             int alt2=2;
             int LA2_0 = input.LA(1);
 
@@ -935,7 +935,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
             }
             switch (alt2) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:208:11: 'private'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:208:11: 'private'
                     {
                     match("private"); 
 
@@ -944,7 +944,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:208:21: 'public'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:208:21: 'public'
                     {
                     match("public"); 
 
@@ -968,7 +968,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = Fun;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:209:5: ( 'sin' | 'cos' | 'tan' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:209:5: ( 'sin' | 'cos' | 'tan' )
             int alt3=3;
             switch ( input.LA(1) ) {
             case 's':
@@ -996,7 +996,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
 
             switch (alt3) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:209:7: 'sin'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:209:7: 'sin'
                     {
                     match("sin"); 
 
@@ -1005,7 +1005,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:209:15: 'cos'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:209:15: 'cos'
                     {
                     match("cos"); 
 
@@ -1014,7 +1014,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:209:22: 'tan'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:209:22: 'tan'
                     {
                     match("tan"); 
 
@@ -1038,8 +1038,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = INT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:210:5: ( 'int' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:210:7: 'int'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:210:5: ( 'int' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:210:7: 'int'
             {
             match("int"); 
 
@@ -1061,8 +1061,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = DOUBLE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:211:8: ( 'double' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:211:10: 'double'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:211:8: ( 'double' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:211:10: 'double'
             {
             match("double"); 
 
@@ -1084,8 +1084,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = VOID;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:212:6: ( 'void' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:212:8: 'void'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:212:6: ( 'void' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:212:8: 'void'
             {
             match("void"); 
 
@@ -1107,8 +1107,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = BOOLEAN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:213:9: ( 'boolean' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:213:11: 'boolean'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:213:9: ( 'boolean' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:213:11: 'boolean'
             {
             match("boolean"); 
 
@@ -1130,8 +1130,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = STRING;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:214:9: ( 'String' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:214:11: 'String'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:214:9: ( 'String' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:214:11: 'String'
             {
             match("String"); 
 
@@ -1153,8 +1153,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = VAR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:215:5: ( ( 'a' .. 'z' | 'A' .. 'Z' | '$' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' | '$' )* )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:215:7: ( 'a' .. 'z' | 'A' .. 'Z' | '$' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' | '$' )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:215:5: ( ( 'a' .. 'z' | 'A' .. 'Z' | '$' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' | '$' )* )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:215:7: ( 'a' .. 'z' | 'A' .. 'Z' | '$' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' | '$' )*
             {
             if ( input.LA(1)=='$'||(input.LA(1) >= 'A' && input.LA(1) <= 'Z')||input.LA(1)=='_'||(input.LA(1) >= 'a' && input.LA(1) <= 'z') ) {
                 input.consume();
@@ -1166,7 +1166,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
             }
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:215:35: ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' | '$' )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:215:35: ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' | '$' )*
             loop4:
             do {
                 int alt4=2;
@@ -1179,7 +1179,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
 
                 switch (alt4) {
             	case 1 :
-            	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:
             	    {
             	    if ( input.LA(1)=='$'||(input.LA(1) >= '0' && input.LA(1) <= '9')||(input.LA(1) >= 'A' && input.LA(1) <= 'Z')||input.LA(1)=='_'||(input.LA(1) >= 'a' && input.LA(1) <= 'z') ) {
             	        input.consume();
@@ -1216,10 +1216,10 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = NUM;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:216:5: ( ( '-' )? ( '0' .. '9' )* )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:216:7: ( '-' )? ( '0' .. '9' )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:216:5: ( ( '-' )? ( '0' .. '9' )* )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:216:7: ( '-' )? ( '0' .. '9' )*
             {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:216:7: ( '-' )?
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:216:7: ( '-' )?
             int alt5=2;
             int LA5_0 = input.LA(1);
 
@@ -1228,7 +1228,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
             }
             switch (alt5) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:216:8: '-'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:216:8: '-'
                     {
                     match('-'); 
 
@@ -1238,7 +1238,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
             }
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:216:13: ( '0' .. '9' )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:216:13: ( '0' .. '9' )*
             loop6:
             do {
                 int alt6=2;
@@ -1251,7 +1251,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
 
                 switch (alt6) {
             	case 1 :
-            	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:
             	    {
             	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
             	        input.consume();
@@ -1288,10 +1288,10 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = DNUM;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:217:6: ( ( '-' )? ( '0' .. '9' )* '.' ( '0' .. '9' )* )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:217:8: ( '-' )? ( '0' .. '9' )* '.' ( '0' .. '9' )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:217:6: ( ( '-' )? ( '0' .. '9' )* '.' ( '0' .. '9' )* )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:217:8: ( '-' )? ( '0' .. '9' )* '.' ( '0' .. '9' )*
             {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:217:8: ( '-' )?
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:217:8: ( '-' )?
             int alt7=2;
             int LA7_0 = input.LA(1);
 
@@ -1300,7 +1300,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
             }
             switch (alt7) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:217:9: '-'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:217:9: '-'
                     {
                     match('-'); 
 
@@ -1310,7 +1310,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
             }
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:217:14: ( '0' .. '9' )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:217:14: ( '0' .. '9' )*
             loop8:
             do {
                 int alt8=2;
@@ -1323,7 +1323,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
 
                 switch (alt8) {
             	case 1 :
-            	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:
             	    {
             	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
             	        input.consume();
@@ -1346,7 +1346,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
 
             match('.'); 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:217:30: ( '0' .. '9' )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:217:30: ( '0' .. '9' )*
             loop9:
             do {
                 int alt9=2;
@@ -1359,7 +1359,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
 
                 switch (alt9) {
             	case 1 :
-            	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:
             	    {
             	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
             	        input.consume();
@@ -1396,8 +1396,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = SEMICOLON;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:218:10: ( ';' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:218:12: ';'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:218:10: ( ';' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:218:12: ';'
             {
             match(';'); 
 
@@ -1417,12 +1417,12 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = Strings;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:219:9: ( '\"' ( . )* '\"' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:219:11: '\"' ( . )* '\"'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:219:9: ( '\"' ( . )* '\"' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:219:11: '\"' ( . )* '\"'
             {
             match('\"'); 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:219:15: ( . )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:219:15: ( . )*
             loop10:
             do {
                 int alt10=2;
@@ -1438,7 +1438,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
 
                 switch (alt10) {
             	case 1 :
-            	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:219:16: .
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:219:16: .
             	    {
             	    matchAny(); 
 
@@ -1469,7 +1469,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = RelationalOperators;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:220:20: ( '==' | '!=' | '>' | '<' | '>=' | '<=' |)
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:220:20: ( '==' | '!=' | '>' | '<' | '>=' | '<=' |)
             int alt11=7;
             switch ( input.LA(1) ) {
             case '=':
@@ -1512,7 +1512,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
 
             switch (alt11) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:220:24: '=='
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:220:24: '=='
                     {
                     match("=="); 
 
@@ -1521,7 +1521,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:220:29: '!='
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:220:29: '!='
                     {
                     match("!="); 
 
@@ -1530,21 +1530,21 @@ public class ArithmeticExpressionsLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:220:34: '>'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:220:34: '>'
                     {
                     match('>'); 
 
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:220:38: '<'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:220:38: '<'
                     {
                     match('<'); 
 
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:220:42: '>='
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:220:42: '>='
                     {
                     match(">="); 
 
@@ -1553,7 +1553,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                     }
                     break;
                 case 6 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:220:47: '<='
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:220:47: '<='
                     {
                     match("<="); 
 
@@ -1562,7 +1562,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                     }
                     break;
                 case 7 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:220:52: 
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:220:52: 
                     {
                     }
                     break;
@@ -1582,14 +1582,14 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = ML_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:221:12: ( '/*' ( options {greedy=false; } : . )* ( '*/' )+ )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:221:14: '/*' ( options {greedy=false; } : . )* ( '*/' )+
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:221:12: ( '/*' ( options {greedy=false; } : . )* ( '*/' )+ )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:221:14: '/*' ( options {greedy=false; } : . )* ( '*/' )+
             {
             match("/*"); 
 
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:221:19: ( options {greedy=false; } : . )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:221:19: ( options {greedy=false; } : . )*
             loop12:
             do {
                 int alt12=2;
@@ -1614,7 +1614,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
 
                 switch (alt12) {
             	case 1 :
-            	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:221:47: .
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:221:47: .
             	    {
             	    matchAny(); 
 
@@ -1627,7 +1627,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
             } while (true);
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:221:51: ( '*/' )+
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:221:51: ( '*/' )+
             int cnt13=0;
             loop13:
             do {
@@ -1641,7 +1641,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
 
                 switch (alt13) {
             	case 1 :
-            	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:221:51: '*/'
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:221:51: '*/'
             	    {
             	    match("*/"); 
 
@@ -1678,14 +1678,14 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = SL_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:222:12: ( '//' ( . )* ( '\\n' )+ )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:222:14: '//' ( . )* ( '\\n' )+
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:222:12: ( '//' ( . )* ( '\\n' )+ )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:222:14: '//' ( . )* ( '\\n' )+
             {
             match("//"); 
 
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:222:19: ( . )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:222:19: ( . )*
             loop14:
             do {
                 int alt14=2;
@@ -1701,7 +1701,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
 
                 switch (alt14) {
             	case 1 :
-            	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:222:20: .
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:222:20: .
             	    {
             	    matchAny(); 
 
@@ -1714,7 +1714,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
             } while (true);
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:222:23: ( '\\n' )+
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:222:23: ( '\\n' )+
             int cnt15=0;
             loop15:
             do {
@@ -1728,7 +1728,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
 
                 switch (alt15) {
             	case 1 :
-            	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:222:23: '\\n'
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:222:23: '\\n'
             	    {
             	    match('\n'); 
 
@@ -1763,10 +1763,10 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = WhiteSpace;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:223:11: ( ( ' ' | '\\n' | '\\r' | '\\t' )+ )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:223:13: ( ' ' | '\\n' | '\\r' | '\\t' )+
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:223:11: ( ( ' ' | '\\n' | '\\r' | '\\t' )+ )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:223:13: ( ' ' | '\\n' | '\\r' | '\\t' )+
             {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:223:13: ( ' ' | '\\n' | '\\r' | '\\t' )+
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:223:13: ( ' ' | '\\n' | '\\r' | '\\t' )+
             int cnt16=0;
             loop16:
             do {
@@ -1780,7 +1780,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
 
                 switch (alt16) {
             	case 1 :
-            	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:
             	    {
             	    if ( (input.LA(1) >= '\t' && input.LA(1) <= '\n')||input.LA(1)=='\r'||input.LA(1)==' ' ) {
             	        input.consume();
@@ -1819,12 +1819,12 @@ public class ArithmeticExpressionsLexer extends Lexer {
     // $ANTLR end "WhiteSpace"
 
     public void mTokens() throws RecognitionException {
-        // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:8: ( T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | Class | System | New | Dot | Out | Println | Args | Static | Main | AndOr | Modifier | Fun | INT | DOUBLE | VOID | BOOLEAN | STRING | VAR | NUM | DNUM | SEMICOLON | Strings | RelationalOperators | ML_COMMENT | SL_COMMENT | WhiteSpace )
+        // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:8: ( T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | Class | System | New | Dot | Out | Println | Args | Static | Main | AndOr | Modifier | Fun | INT | DOUBLE | VOID | BOOLEAN | STRING | VAR | NUM | DNUM | SEMICOLON | Strings | RelationalOperators | ML_COMMENT | SL_COMMENT | WhiteSpace )
         int alt17=51;
         alt17 = dfa17.predict(input);
         switch (alt17) {
             case 1 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:10: T__55
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:10: T__55
                 {
                 mT__55(); 
 
@@ -1832,7 +1832,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 2 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:16: T__56
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:16: T__56
                 {
                 mT__56(); 
 
@@ -1840,7 +1840,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 3 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:22: T__57
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:22: T__57
                 {
                 mT__57(); 
 
@@ -1848,7 +1848,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 4 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:28: T__58
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:28: T__58
                 {
                 mT__58(); 
 
@@ -1856,7 +1856,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 5 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:34: T__59
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:34: T__59
                 {
                 mT__59(); 
 
@@ -1864,7 +1864,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 6 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:40: T__60
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:40: T__60
                 {
                 mT__60(); 
 
@@ -1872,7 +1872,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 7 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:46: T__61
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:46: T__61
                 {
                 mT__61(); 
 
@@ -1880,7 +1880,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 8 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:52: T__62
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:52: T__62
                 {
                 mT__62(); 
 
@@ -1888,7 +1888,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 9 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:58: T__63
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:58: T__63
                 {
                 mT__63(); 
 
@@ -1896,7 +1896,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 10 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:64: T__64
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:64: T__64
                 {
                 mT__64(); 
 
@@ -1904,7 +1904,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 11 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:70: T__65
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:70: T__65
                 {
                 mT__65(); 
 
@@ -1912,7 +1912,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 12 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:76: T__66
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:76: T__66
                 {
                 mT__66(); 
 
@@ -1920,7 +1920,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 13 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:82: T__67
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:82: T__67
                 {
                 mT__67(); 
 
@@ -1928,7 +1928,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 14 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:88: T__68
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:88: T__68
                 {
                 mT__68(); 
 
@@ -1936,7 +1936,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 15 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:94: T__69
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:94: T__69
                 {
                 mT__69(); 
 
@@ -1944,7 +1944,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 16 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:100: T__70
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:100: T__70
                 {
                 mT__70(); 
 
@@ -1952,7 +1952,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 17 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:106: T__71
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:106: T__71
                 {
                 mT__71(); 
 
@@ -1960,7 +1960,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 18 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:112: T__72
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:112: T__72
                 {
                 mT__72(); 
 
@@ -1968,7 +1968,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 19 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:118: T__73
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:118: T__73
                 {
                 mT__73(); 
 
@@ -1976,7 +1976,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 20 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:124: T__74
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:124: T__74
                 {
                 mT__74(); 
 
@@ -1984,7 +1984,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 21 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:130: T__75
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:130: T__75
                 {
                 mT__75(); 
 
@@ -1992,7 +1992,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 22 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:136: T__76
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:136: T__76
                 {
                 mT__76(); 
 
@@ -2000,7 +2000,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 23 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:142: T__77
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:142: T__77
                 {
                 mT__77(); 
 
@@ -2008,7 +2008,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 24 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:148: T__78
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:148: T__78
                 {
                 mT__78(); 
 
@@ -2016,7 +2016,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 25 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:154: T__79
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:154: T__79
                 {
                 mT__79(); 
 
@@ -2024,7 +2024,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 26 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:160: Class
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:160: Class
                 {
                 mClass(); 
 
@@ -2032,7 +2032,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 27 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:166: System
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:166: System
                 {
                 mSystem(); 
 
@@ -2040,7 +2040,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 28 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:173: New
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:173: New
                 {
                 mNew(); 
 
@@ -2048,7 +2048,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 29 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:177: Dot
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:177: Dot
                 {
                 mDot(); 
 
@@ -2056,7 +2056,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 30 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:181: Out
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:181: Out
                 {
                 mOut(); 
 
@@ -2064,7 +2064,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 31 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:185: Println
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:185: Println
                 {
                 mPrintln(); 
 
@@ -2072,7 +2072,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 32 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:193: Args
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:193: Args
                 {
                 mArgs(); 
 
@@ -2080,7 +2080,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 33 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:198: Static
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:198: Static
                 {
                 mStatic(); 
 
@@ -2088,7 +2088,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 34 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:205: Main
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:205: Main
                 {
                 mMain(); 
 
@@ -2096,7 +2096,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 35 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:210: AndOr
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:210: AndOr
                 {
                 mAndOr(); 
 
@@ -2104,7 +2104,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 36 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:216: Modifier
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:216: Modifier
                 {
                 mModifier(); 
 
@@ -2112,7 +2112,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 37 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:225: Fun
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:225: Fun
                 {
                 mFun(); 
 
@@ -2120,7 +2120,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 38 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:229: INT
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:229: INT
                 {
                 mINT(); 
 
@@ -2128,7 +2128,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 39 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:233: DOUBLE
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:233: DOUBLE
                 {
                 mDOUBLE(); 
 
@@ -2136,7 +2136,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 40 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:240: VOID
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:240: VOID
                 {
                 mVOID(); 
 
@@ -2144,7 +2144,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 41 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:245: BOOLEAN
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:245: BOOLEAN
                 {
                 mBOOLEAN(); 
 
@@ -2152,7 +2152,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 42 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:253: STRING
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:253: STRING
                 {
                 mSTRING(); 
 
@@ -2160,7 +2160,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 43 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:260: VAR
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:260: VAR
                 {
                 mVAR(); 
 
@@ -2168,7 +2168,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 44 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:264: NUM
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:264: NUM
                 {
                 mNUM(); 
 
@@ -2176,7 +2176,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 45 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:268: DNUM
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:268: DNUM
                 {
                 mDNUM(); 
 
@@ -2184,7 +2184,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 46 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:273: SEMICOLON
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:273: SEMICOLON
                 {
                 mSEMICOLON(); 
 
@@ -2192,7 +2192,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 47 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:283: Strings
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:283: Strings
                 {
                 mStrings(); 
 
@@ -2200,7 +2200,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 48 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:291: RelationalOperators
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:291: RelationalOperators
                 {
                 mRelationalOperators(); 
 
@@ -2208,7 +2208,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 49 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:311: ML_COMMENT
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:311: ML_COMMENT
                 {
                 mML_COMMENT(); 
 
@@ -2216,7 +2216,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 50 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:322: SL_COMMENT
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:322: SL_COMMENT
                 {
                 mSL_COMMENT(); 
 
@@ -2224,7 +2224,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                 }
                 break;
             case 51 :
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:1:333: WhiteSpace
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:1:333: WhiteSpace
                 {
                 mWhiteSpace(); 
 
