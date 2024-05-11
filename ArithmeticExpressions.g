@@ -96,7 +96,7 @@ initialize_1
 	:	VAR '=' (New|VAR) Dot? VAR '('(NUM|VAR)?')' ;
 sys_print
 	:	System Dot Out Dot Println '('(NUM|VAR Dot VAR '('NUM?')')  ')' SEMICOLON;
-object	:	VAR Dot VAR '(' (NUM|VAR)? ')' | VAR?;
+object	:	('!')? VAR Dot VAR '(' (NUM|VAR)? ')' | VAR?;
 
 
 params	:	'('((types VAR|VAR VAR) (',' types VAR)*)? ')';
@@ -114,11 +114,11 @@ whilestmt	:
 	//ifstmt_2  :    
 	//'if' '(' if_cond ')' VAR ('{')? stmt* ('}')?('else' ('{')? stmt* ('}')?)?; 
 ifstmt  :    
-	'if' '(' ('!' '(')? if_cond (')')? ')' ('{')? stmt* ('}')? ('else' ('{')? stmt* ('}')?)? ('else' ('{')? stmt* ('}')?)?;
+	'if' '(' ('!' )? ('(')? if_cond (')')? ')' ('{')? stmt* ('}')? ('else' ('{')? stmt* ('}')?)? ('else' ('{')? stmt* ('}')?)?;
 	
   
  if_cond	:  if_nor  ; 
- if_nor :	 object (( '>' | '<' )^  object )*;
+ if_nor :	 object (( '>' | '<' |'&&' )^  object )*;
 forloop	:   
 	'for' '(' (decl) (condition) SEMICOLON (VAR change) ')' '{' stmt* '}'
 	;
