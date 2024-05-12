@@ -96,9 +96,10 @@ initialize_1
 	:	VAR '=' (New|VAR) Dot? VAR '('(NUM|VAR)?','?(NUM|VAR)? ')' ;
 sys_print
 	:	System Dot Out Dot Println '('(NUM|VAR Dot VAR '('NUM?')')  ')' SEMICOLON;
-object	:	('!')? VAR Dot VAR '(' (NUM|VAR)? ')' | VAR?;
+object	:	ob_cho | VAR? | NUM;
 
-
+ob_body :	('!')? VAR Dot VAR '(' (NUM|VAR)  (generalArithExpr) ')';
+ob_cho	:('!')? VAR Dot VAR '(' (NUM|VAR)?  ')' | ob_body;	
 params	:	'('((types VAR|VAR VAR) (',' types VAR)*)? ')';
 decl    :   
 	int_dec	-> ^(Int_dec int_dec)
@@ -118,7 +119,7 @@ ifstmt  :
 	
   
  if_cond	:  if_nor  ; 
- if_nor :	 object (( '>' | '<' |'&&' )^  object )*;
+ if_nor :	 object (( '>' | '<' |'&&' )^  object  )*;
 forloop	:   
 	'for' '(' (decl) (condition) SEMICOLON (VAR change) ')' '{' stmt* '}'
 	;
@@ -130,9 +131,12 @@ assigment:
   catch[MismatchedTokenException e] { s = s +getErrorMessage(e,new String[]{e.input.toString()})+": "+getErrorHeader(e) +"\n";}
   catch[NoViableAltException e] { s = s +getErrorMessage(e,new String[]{e.input.toString()})+": "+getErrorHeader(e) +"\n";}
   catch[RecognitionException e] { s = s +getErrorMessage(e,new String[]{e.input.toString()})+": "+getErrorHeader(e) +"\n";}
+//object	:	ob_cho | VAR? | NUM;
 
+//ob_body :	('!')? VAR Dot VAR '(' (NUM|VAR)  (generalArithExpr) ')';
+//ob_cho	:('!')? VAR Dot VAR '(' (NUM|VAR)?  ')' | ob_body;	
 assign	:	
-	VAR (change|'=' generalArithExpr) SEMICOLON
+	 VAR (change?|'=' ((VAR)? ('*')?  generalArithExpr) ) SEMICOLON 
 	;
 change	:
 	('++'|'--'|('+='|'-=')generalArithExpr)
@@ -425,4 +429,3 @@ WhiteSpace:	(' '|'\n'|'\r'|'\t')+{skip();};
 
 
 //WhiteSpace	:	(' '|'\n'|'\r'|'\t')+ -> skip;
-

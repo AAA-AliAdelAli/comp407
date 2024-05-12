@@ -1,4 +1,4 @@
-// $ANTLR 3.4 C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g 2024-05-12 00:26:35
+// $ANTLR 3.4 E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g 2024-05-12 17:58:28
 
 import org.antlr.runtime.*;
 import java.util.Stack;
@@ -117,7 +117,7 @@ public TreeAdaptor getTreeAdaptor() {
     return adaptor;
 }
     public String[] getTokenNames() { return ArithmeticExpressionsParser.tokenNames; }
-    public String getGrammarFileName() { return "C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g"; }
+    public String getGrammarFileName() { return "E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g"; }
 
 
     String s="";
@@ -130,7 +130,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "startgeneralArithExpr"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:39:1: startgeneralArithExpr : ( classDec )* -> ^( Start ( classDec )* ) ;
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:39:1: startgeneralArithExpr : ( classDec )* -> ^( Start ( classDec )* ) ;
     public final ArithmeticExpressionsParser.startgeneralArithExpr_return startgeneralArithExpr() throws RecognitionException {
         ArithmeticExpressionsParser.startgeneralArithExpr_return retval = new ArithmeticExpressionsParser.startgeneralArithExpr_return();
         retval.start = input.LT(1);
@@ -143,10 +143,10 @@ public TreeAdaptor getTreeAdaptor() {
 
         RewriteRuleSubtreeStream stream_classDec=new RewriteRuleSubtreeStream(adaptor,"rule classDec");
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:39:23: ( ( classDec )* -> ^( Start ( classDec )* ) )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:39:25: ( classDec )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:39:23: ( ( classDec )* -> ^( Start ( classDec )* ) )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:39:25: ( classDec )*
             {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:39:25: ( classDec )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:39:25: ( classDec )*
             loop1:
             do {
                 int alt1=2;
@@ -159,7 +159,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt1) {
             	case 1 :
-            	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:39:25: classDec
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:39:25: classDec
             	    {
             	    pushFollow(FOLLOW_classDec_in_startgeneralArithExpr106);
             	    classDec1=classDec();
@@ -190,14 +190,14 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 39:35: -> ^( Start ( classDec )* )
             {
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:39:38: ^( Start ( classDec )* )
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:39:38: ^( Start ( classDec )* )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
                 (Object)adaptor.create(Start, "Start")
                 , root_1);
 
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:39:46: ( classDec )*
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:39:46: ( classDec )*
                 while ( stream_classDec.hasNext() ) {
                     adaptor.addChild(root_1, stream_classDec.nextTree());
 
@@ -247,7 +247,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "classDec"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:48:1: classDec : ( Modifier )? Class ( VAR )* '{' ( stmt )* '}' -> ^( ClassDec ( Modifier )? Class VAR '{' ( stmt )* '}' ) ;
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:48:1: classDec : ( Modifier )? Class ( VAR )* '{' ( stmt )* '}' -> ^( ClassDec ( Modifier )? Class VAR '{' ( stmt )* '}' ) ;
     public final ArithmeticExpressionsParser.classDec_return classDec() throws RecognitionException {
         ArithmeticExpressionsParser.classDec_return retval = new ArithmeticExpressionsParser.classDec_return();
         retval.start = input.LT(1);
@@ -275,10 +275,10 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleTokenStream stream_Modifier=new RewriteRuleTokenStream(adaptor,"token Modifier");
         RewriteRuleSubtreeStream stream_stmt=new RewriteRuleSubtreeStream(adaptor,"rule stmt");
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:48:9: ( ( Modifier )? Class ( VAR )* '{' ( stmt )* '}' -> ^( ClassDec ( Modifier )? Class VAR '{' ( stmt )* '}' ) )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:48:11: ( Modifier )? Class ( VAR )* '{' ( stmt )* '}'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:48:9: ( ( Modifier )? Class ( VAR )* '{' ( stmt )* '}' -> ^( ClassDec ( Modifier )? Class VAR '{' ( stmt )* '}' ) )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:48:11: ( Modifier )? Class ( VAR )* '{' ( stmt )* '}'
             {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:48:11: ( Modifier )?
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:48:11: ( Modifier )?
             int alt2=2;
             int LA2_0 = input.LA(1);
 
@@ -287,7 +287,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt2) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:48:11: Modifier
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:48:11: Modifier
                     {
                     Modifier2=(Token)match(input,Modifier,FOLLOW_Modifier_in_classDec151);  
                     stream_Modifier.add(Modifier2);
@@ -303,7 +303,7 @@ public TreeAdaptor getTreeAdaptor() {
             stream_Class.add(Class3);
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:48:27: ( VAR )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:48:27: ( VAR )*
             loop3:
             do {
                 int alt3=2;
@@ -316,7 +316,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt3) {
             	case 1 :
-            	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:48:27: VAR
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:48:27: VAR
             	    {
             	    VAR4=(Token)match(input,VAR,FOLLOW_VAR_in_classDec156);  
             	    stream_VAR.add(VAR4);
@@ -335,7 +335,7 @@ public TreeAdaptor getTreeAdaptor() {
             stream_79.add(char_literal5);
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:48:36: ( stmt )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:48:36: ( stmt )*
             loop4:
             do {
                 int alt4=2;
@@ -348,7 +348,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt4) {
             	case 1 :
-            	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:48:36: stmt
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:48:36: stmt
             	    {
             	    pushFollow(FOLLOW_stmt_in_classDec161);
             	    stmt6=stmt();
@@ -371,7 +371,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: Class, VAR, 79, stmt, 80, Modifier
+            // elements: 79, Modifier, stmt, VAR, 80, Class
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -383,14 +383,14 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 48:46: -> ^( ClassDec ( Modifier )? Class VAR '{' ( stmt )* '}' )
             {
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:48:48: ^( ClassDec ( Modifier )? Class VAR '{' ( stmt )* '}' )
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:48:48: ^( ClassDec ( Modifier )? Class VAR '{' ( stmt )* '}' )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
                 (Object)adaptor.create(ClassDec, "ClassDec")
                 , root_1);
 
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:48:59: ( Modifier )?
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:48:59: ( Modifier )?
                 if ( stream_Modifier.hasNext() ) {
                     adaptor.addChild(root_1, 
                     stream_Modifier.nextNode()
@@ -411,7 +411,7 @@ public TreeAdaptor getTreeAdaptor() {
                 stream_79.nextNode()
                 );
 
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:48:83: ( stmt )*
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:48:83: ( stmt )*
                 while ( stream_stmt.hasNext() ) {
                     adaptor.addChild(root_1, stream_stmt.nextTree());
 
@@ -464,7 +464,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "stmt"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:55:1: stmt : ( decl -> ^( Decl decl ) | main_method -> ^( Main_METHOD main_method ) | ifstmt -> ^( Ifstmt ifstmt ) | whilestmt -> ^( Whilestmt whilestmt ) | forloop -> ^( Forloop forloop ) | assigment -> ^( Assigment assigment ) | method -> ^( Method method ) | string_dec -> ^( String_Dec string_dec ) | initialize -> ^( Initialize initialize ) | initialize_1 -> ^( Initialize_1 initialize_1 ) | sys_print -> ^( Sys_print sys_print ) ) ;
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:55:1: stmt : ( decl -> ^( Decl decl ) | main_method -> ^( Main_METHOD main_method ) | ifstmt -> ^( Ifstmt ifstmt ) | whilestmt -> ^( Whilestmt whilestmt ) | forloop -> ^( Forloop forloop ) | assigment -> ^( Assigment assigment ) | method -> ^( Method method ) | string_dec -> ^( String_Dec string_dec ) | initialize -> ^( Initialize initialize ) | initialize_1 -> ^( Initialize_1 initialize_1 ) | sys_print -> ^( Sys_print sys_print ) ) ;
     public final ArithmeticExpressionsParser.stmt_return stmt() throws RecognitionException {
         ArithmeticExpressionsParser.stmt_return retval = new ArithmeticExpressionsParser.stmt_return();
         retval.start = input.LT(1);
@@ -507,10 +507,10 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_initialize=new RewriteRuleSubtreeStream(adaptor,"rule initialize");
         RewriteRuleSubtreeStream stream_sys_print=new RewriteRuleSubtreeStream(adaptor,"rule sys_print");
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:55:9: ( ( decl -> ^( Decl decl ) | main_method -> ^( Main_METHOD main_method ) | ifstmt -> ^( Ifstmt ifstmt ) | whilestmt -> ^( Whilestmt whilestmt ) | forloop -> ^( Forloop forloop ) | assigment -> ^( Assigment assigment ) | method -> ^( Method method ) | string_dec -> ^( String_Dec string_dec ) | initialize -> ^( Initialize initialize ) | initialize_1 -> ^( Initialize_1 initialize_1 ) | sys_print -> ^( Sys_print sys_print ) ) )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:55:13: ( decl -> ^( Decl decl ) | main_method -> ^( Main_METHOD main_method ) | ifstmt -> ^( Ifstmt ifstmt ) | whilestmt -> ^( Whilestmt whilestmt ) | forloop -> ^( Forloop forloop ) | assigment -> ^( Assigment assigment ) | method -> ^( Method method ) | string_dec -> ^( String_Dec string_dec ) | initialize -> ^( Initialize initialize ) | initialize_1 -> ^( Initialize_1 initialize_1 ) | sys_print -> ^( Sys_print sys_print ) )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:55:9: ( ( decl -> ^( Decl decl ) | main_method -> ^( Main_METHOD main_method ) | ifstmt -> ^( Ifstmt ifstmt ) | whilestmt -> ^( Whilestmt whilestmt ) | forloop -> ^( Forloop forloop ) | assigment -> ^( Assigment assigment ) | method -> ^( Method method ) | string_dec -> ^( String_Dec string_dec ) | initialize -> ^( Initialize initialize ) | initialize_1 -> ^( Initialize_1 initialize_1 ) | sys_print -> ^( Sys_print sys_print ) ) )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:55:13: ( decl -> ^( Decl decl ) | main_method -> ^( Main_METHOD main_method ) | ifstmt -> ^( Ifstmt ifstmt ) | whilestmt -> ^( Whilestmt whilestmt ) | forloop -> ^( Forloop forloop ) | assigment -> ^( Assigment assigment ) | method -> ^( Method method ) | string_dec -> ^( String_Dec string_dec ) | initialize -> ^( Initialize initialize ) | initialize_1 -> ^( Initialize_1 initialize_1 ) | sys_print -> ^( Sys_print sys_print ) )
             {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:55:13: ( decl -> ^( Decl decl ) | main_method -> ^( Main_METHOD main_method ) | ifstmt -> ^( Ifstmt ifstmt ) | whilestmt -> ^( Whilestmt whilestmt ) | forloop -> ^( Forloop forloop ) | assigment -> ^( Assigment assigment ) | method -> ^( Method method ) | string_dec -> ^( String_Dec string_dec ) | initialize -> ^( Initialize initialize ) | initialize_1 -> ^( Initialize_1 initialize_1 ) | sys_print -> ^( Sys_print sys_print ) )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:55:13: ( decl -> ^( Decl decl ) | main_method -> ^( Main_METHOD main_method ) | ifstmt -> ^( Ifstmt ifstmt ) | whilestmt -> ^( Whilestmt whilestmt ) | forloop -> ^( Forloop forloop ) | assigment -> ^( Assigment assigment ) | method -> ^( Method method ) | string_dec -> ^( String_Dec string_dec ) | initialize -> ^( Initialize initialize ) | initialize_1 -> ^( Initialize_1 initialize_1 ) | sys_print -> ^( Sys_print sys_print ) )
             int alt5=11;
             switch ( input.LA(1) ) {
             case Modifier:
@@ -526,17 +526,17 @@ public TreeAdaptor getTreeAdaptor() {
                     int LA5_12 = input.LA(3);
 
                     if ( (LA5_12==VAR) ) {
-                        int LA5_21 = input.LA(4);
+                        int LA5_22 = input.LA(4);
 
-                        if ( (LA5_21==SEMICOLON||LA5_21==63||LA5_21==69) ) {
+                        if ( (LA5_22==SEMICOLON||LA5_22==63||LA5_22==69) ) {
                             alt5=1;
                         }
-                        else if ( (LA5_21==VAR||LA5_21==57) ) {
+                        else if ( (LA5_22==VAR||LA5_22==57) ) {
                             alt5=7;
                         }
                         else {
                             NoViableAltException nvae =
-                                new NoViableAltException("", 5, 21, input);
+                                new NoViableAltException("", 5, 22, input);
 
                             throw nvae;
 
@@ -559,17 +559,17 @@ public TreeAdaptor getTreeAdaptor() {
                     int LA5_13 = input.LA(3);
 
                     if ( (LA5_13==VAR) ) {
-                        int LA5_22 = input.LA(4);
+                        int LA5_23 = input.LA(4);
 
-                        if ( (LA5_22==SEMICOLON||LA5_22==63||LA5_22==69) ) {
+                        if ( (LA5_23==SEMICOLON||LA5_23==63||LA5_23==69) ) {
                             alt5=1;
                         }
-                        else if ( (LA5_22==VAR||LA5_22==57) ) {
+                        else if ( (LA5_23==VAR||LA5_23==57) ) {
                             alt5=7;
                         }
                         else {
                             NoViableAltException nvae =
-                                new NoViableAltException("", 5, 22, input);
+                                new NoViableAltException("", 5, 23, input);
 
                             throw nvae;
 
@@ -592,17 +592,17 @@ public TreeAdaptor getTreeAdaptor() {
                     int LA5_14 = input.LA(3);
 
                     if ( (LA5_14==VAR) ) {
-                        int LA5_23 = input.LA(4);
+                        int LA5_24 = input.LA(4);
 
-                        if ( (LA5_23==SEMICOLON||LA5_23==69) ) {
+                        if ( (LA5_24==SEMICOLON||LA5_24==69) ) {
                             alt5=8;
                         }
-                        else if ( (LA5_23==VAR||LA5_23==57) ) {
+                        else if ( (LA5_24==VAR||LA5_24==57) ) {
                             alt5=7;
                         }
                         else {
                             NoViableAltException nvae =
-                                new NoViableAltException("", 5, 23, input);
+                                new NoViableAltException("", 5, 24, input);
 
                             throw nvae;
 
@@ -723,67 +723,125 @@ public TreeAdaptor getTreeAdaptor() {
                         switch ( input.LA(4) ) {
                         case Dot:
                             {
-                            int LA5_29 = input.LA(5);
+                            int LA5_30 = input.LA(5);
 
-                            if ( (LA5_29==VAR) ) {
-                                int LA5_30 = input.LA(6);
+                            if ( (LA5_30==VAR) ) {
+                                int LA5_32 = input.LA(6);
 
-                                if ( (LA5_30==57) ) {
+                                if ( (LA5_32==57) ) {
                                     switch ( input.LA(7) ) {
                                     case NUM:
                                     case VAR:
                                         {
-                                        int LA5_32 = input.LA(8);
+                                        switch ( input.LA(8) ) {
+                                        case DNUM:
+                                        case Fun:
+                                        case 55:
+                                        case 57:
+                                        case 60:
+                                        case 64:
+                                            {
+                                            alt5=6;
+                                            }
+                                            break;
+                                        case VAR:
+                                            {
+                                            int LA5_36 = input.LA(9);
 
-                                        if ( (LA5_32==58) ) {
-                                            switch ( input.LA(9) ) {
-                                            case 60:
-                                            case 64:
-                                                {
+                                            if ( (LA5_36==Dot||(LA5_36 >= 59 && LA5_36 <= 60)||LA5_36==64||LA5_36==67) ) {
                                                 alt5=6;
+                                            }
+                                            else if ( (LA5_36==58) ) {
+                                                int LA5_40 = input.LA(10);
+
+                                                if ( (LA5_40==SEMICOLON||LA5_40==60||LA5_40==64) ) {
+                                                    alt5=6;
                                                 }
-                                                break;
-                                            case SEMICOLON:
-                                                {
-                                                alt5=6;
+                                                else if ( (LA5_40==BOOLEAN||LA5_40==DOUBLE||LA5_40==INT||LA5_40==Modifier||LA5_40==STRING||LA5_40==System||LA5_40==VAR||(LA5_40 >= 74 && LA5_40 <= 78)||LA5_40==80) ) {
+                                                    alt5=10;
                                                 }
-                                                break;
-                                            case BOOLEAN:
-                                            case DOUBLE:
-                                            case INT:
-                                            case Modifier:
-                                            case STRING:
-                                            case System:
-                                            case VAR:
-                                            case 74:
-                                            case 75:
-                                            case 76:
-                                            case 77:
-                                            case 78:
-                                            case 80:
-                                                {
-                                                alt5=10;
+                                                else {
+                                                    NoViableAltException nvae =
+                                                        new NoViableAltException("", 5, 40, input);
+
+                                                    throw nvae;
+
                                                 }
-                                                break;
-                                            default:
+                                            }
+                                            else {
                                                 NoViableAltException nvae =
-                                                    new NoViableAltException("", 5, 33, input);
+                                                    new NoViableAltException("", 5, 36, input);
 
                                                 throw nvae;
 
                                             }
+                                            }
+                                            break;
+                                        case 58:
+                                            {
+                                            int LA5_37 = input.LA(9);
 
-                                        }
-                                        else if ( (LA5_32==NUM||LA5_32==VAR||LA5_32==63) ) {
+                                            if ( (LA5_37==SEMICOLON||LA5_37==60||LA5_37==64) ) {
+                                                alt5=6;
+                                            }
+                                            else if ( (LA5_37==BOOLEAN||LA5_37==DOUBLE||LA5_37==INT||LA5_37==Modifier||LA5_37==STRING||LA5_37==System||LA5_37==VAR||(LA5_37 >= 74 && LA5_37 <= 78)||LA5_37==80) ) {
+                                                alt5=10;
+                                            }
+                                            else {
+                                                NoViableAltException nvae =
+                                                    new NoViableAltException("", 5, 37, input);
+
+                                                throw nvae;
+
+                                            }
+                                            }
+                                            break;
+                                        case NUM:
+                                            {
+                                            int LA5_38 = input.LA(9);
+
+                                            if ( ((LA5_38 >= 59 && LA5_38 <= 60)||LA5_38==64||LA5_38==67) ) {
+                                                alt5=6;
+                                            }
+                                            else if ( (LA5_38==58) ) {
+                                                int LA5_40 = input.LA(10);
+
+                                                if ( (LA5_40==SEMICOLON||LA5_40==60||LA5_40==64) ) {
+                                                    alt5=6;
+                                                }
+                                                else if ( (LA5_40==BOOLEAN||LA5_40==DOUBLE||LA5_40==INT||LA5_40==Modifier||LA5_40==STRING||LA5_40==System||LA5_40==VAR||(LA5_40 >= 74 && LA5_40 <= 78)||LA5_40==80) ) {
+                                                    alt5=10;
+                                                }
+                                                else {
+                                                    NoViableAltException nvae =
+                                                        new NoViableAltException("", 5, 40, input);
+
+                                                    throw nvae;
+
+                                                }
+                                            }
+                                            else {
+                                                NoViableAltException nvae =
+                                                    new NoViableAltException("", 5, 38, input);
+
+                                                throw nvae;
+
+                                            }
+                                            }
+                                            break;
+                                        case 63:
+                                            {
                                             alt5=10;
-                                        }
-                                        else {
+                                            }
+                                            break;
+                                        default:
                                             NoViableAltException nvae =
-                                                new NoViableAltException("", 5, 32, input);
+                                                new NoViableAltException("", 5, 34, input);
 
                                             throw nvae;
 
                                         }
+
                                         }
                                         break;
                                     case 58:
@@ -819,7 +877,7 @@ public TreeAdaptor getTreeAdaptor() {
                                             break;
                                         default:
                                             NoViableAltException nvae =
-                                                new NoViableAltException("", 5, 33, input);
+                                                new NoViableAltException("", 5, 35, input);
 
                                             throw nvae;
 
@@ -834,7 +892,7 @@ public TreeAdaptor getTreeAdaptor() {
                                         break;
                                     default:
                                         NoViableAltException nvae =
-                                            new NoViableAltException("", 5, 31, input);
+                                            new NoViableAltException("", 5, 33, input);
 
                                         throw nvae;
 
@@ -843,7 +901,7 @@ public TreeAdaptor getTreeAdaptor() {
                                 }
                                 else {
                                     NoViableAltException nvae =
-                                        new NoViableAltException("", 5, 30, input);
+                                        new NoViableAltException("", 5, 32, input);
 
                                     throw nvae;
 
@@ -851,7 +909,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             else {
                                 NoViableAltException nvae =
-                                    new NoViableAltException("", 5, 29, input);
+                                    new NoViableAltException("", 5, 30, input);
 
                                 throw nvae;
 
@@ -860,10 +918,29 @@ public TreeAdaptor getTreeAdaptor() {
                             break;
                         case VAR:
                             {
-                            alt5=10;
+                            int LA5_31 = input.LA(5);
+
+                            if ( (LA5_31==57) ) {
+                                alt5=10;
+                            }
+                            else if ( (LA5_31==Dot||LA5_31==SEMICOLON||(LA5_31 >= 59 && LA5_31 <= 60)||LA5_31==64||LA5_31==67) ) {
+                                alt5=6;
+                            }
+                            else {
+                                NoViableAltException nvae =
+                                    new NoViableAltException("", 5, 31, input);
+
+                                throw nvae;
+
+                            }
                             }
                             break;
+                        case DNUM:
+                        case Fun:
+                        case NUM:
                         case SEMICOLON:
+                        case 55:
+                        case 57:
                         case 59:
                         case 60:
                         case 64:
@@ -874,12 +951,17 @@ public TreeAdaptor getTreeAdaptor() {
                             break;
                         default:
                             NoViableAltException nvae =
-                                new NoViableAltException("", 5, 26, input);
+                                new NoViableAltException("", 5, 27, input);
 
                             throw nvae;
 
                         }
 
+                        }
+                        break;
+                    case New:
+                        {
+                        alt5=10;
                         }
                         break;
                     case DNUM:
@@ -888,15 +970,11 @@ public TreeAdaptor getTreeAdaptor() {
                     case SEMICOLON:
                     case 55:
                     case 57:
+                    case 59:
                     case 60:
                     case 64:
                         {
                         alt5=6;
-                        }
-                        break;
-                    case New:
-                        {
-                        alt5=10;
                         }
                         break;
                     default:
@@ -918,6 +996,10 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case SEMICOLON:
+                    {
+                    alt5=6;
+                    }
+                    break;
                 case VAR:
                     {
                     alt5=9;
@@ -938,14 +1020,14 @@ public TreeAdaptor getTreeAdaptor() {
                 int LA5_8 = input.LA(2);
 
                 if ( (LA5_8==VAR) ) {
-                    int LA5_20 = input.LA(3);
+                    int LA5_21 = input.LA(3);
 
-                    if ( (LA5_20==SEMICOLON||LA5_20==69) ) {
+                    if ( (LA5_21==SEMICOLON||LA5_21==69) ) {
                         alt5=8;
                     }
                     else {
                         NoViableAltException nvae =
-                            new NoViableAltException("", 5, 20, input);
+                            new NoViableAltException("", 5, 21, input);
 
                         throw nvae;
 
@@ -984,7 +1066,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt5) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:56:2: decl
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:56:2: decl
                     {
                     pushFollow(FOLLOW_decl_in_stmt223);
                     decl8=decl();
@@ -1006,7 +1088,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 56:7: -> ^( Decl decl )
                     {
-                        // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:56:10: ^( Decl decl )
+                        // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:56:10: ^( Decl decl )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -1026,7 +1108,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:58:3: main_method
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:58:3: main_method
                     {
                     pushFollow(FOLLOW_main_method_in_stmt237);
                     main_method9=main_method();
@@ -1048,7 +1130,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 58:14: -> ^( Main_METHOD main_method )
                     {
-                        // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:58:16: ^( Main_METHOD main_method )
+                        // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:58:16: ^( Main_METHOD main_method )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -1068,7 +1150,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:59:3: ifstmt
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:59:3: ifstmt
                     {
                     pushFollow(FOLLOW_ifstmt_in_stmt247);
                     ifstmt10=ifstmt();
@@ -1090,7 +1172,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 59:10: -> ^( Ifstmt ifstmt )
                     {
-                        // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:59:13: ^( Ifstmt ifstmt )
+                        // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:59:13: ^( Ifstmt ifstmt )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -1110,7 +1192,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:60:3: whilestmt
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:60:3: whilestmt
                     {
                     pushFollow(FOLLOW_whilestmt_in_stmt259);
                     whilestmt11=whilestmt();
@@ -1132,7 +1214,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 60:13: -> ^( Whilestmt whilestmt )
                     {
-                        // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:60:16: ^( Whilestmt whilestmt )
+                        // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:60:16: ^( Whilestmt whilestmt )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -1152,7 +1234,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:61:3: forloop
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:61:3: forloop
                     {
                     pushFollow(FOLLOW_forloop_in_stmt271);
                     forloop12=forloop();
@@ -1174,7 +1256,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 61:11: -> ^( Forloop forloop )
                     {
-                        // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:61:14: ^( Forloop forloop )
+                        // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:61:14: ^( Forloop forloop )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -1194,7 +1276,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 6 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:62:3: assigment
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:62:3: assigment
                     {
                     pushFollow(FOLLOW_assigment_in_stmt283);
                     assigment13=assigment();
@@ -1216,7 +1298,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 62:13: -> ^( Assigment assigment )
                     {
-                        // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:62:16: ^( Assigment assigment )
+                        // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:62:16: ^( Assigment assigment )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -1236,7 +1318,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 7 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:63:3: method
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:63:3: method
                     {
                     pushFollow(FOLLOW_method_in_stmt295);
                     method14=method();
@@ -1258,7 +1340,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 63:10: -> ^( Method method )
                     {
-                        // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:63:13: ^( Method method )
+                        // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:63:13: ^( Method method )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -1278,7 +1360,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 8 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:64:3: string_dec
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:64:3: string_dec
                     {
                     pushFollow(FOLLOW_string_dec_in_stmt307);
                     string_dec15=string_dec();
@@ -1300,7 +1382,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 64:14: -> ^( String_Dec string_dec )
                     {
-                        // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:64:17: ^( String_Dec string_dec )
+                        // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:64:17: ^( String_Dec string_dec )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -1320,7 +1402,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 9 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:65:3: initialize
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:65:3: initialize
                     {
                     pushFollow(FOLLOW_initialize_in_stmt319);
                     initialize16=initialize();
@@ -1342,7 +1424,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 65:14: -> ^( Initialize initialize )
                     {
-                        // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:65:17: ^( Initialize initialize )
+                        // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:65:17: ^( Initialize initialize )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -1362,7 +1444,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 10 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:66:3: initialize_1
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:66:3: initialize_1
                     {
                     pushFollow(FOLLOW_initialize_1_in_stmt331);
                     initialize_117=initialize_1();
@@ -1384,7 +1466,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 66:16: -> ^( Initialize_1 initialize_1 )
                     {
-                        // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:66:19: ^( Initialize_1 initialize_1 )
+                        // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:66:19: ^( Initialize_1 initialize_1 )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -1404,7 +1486,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 11 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:67:3: sys_print
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:67:3: sys_print
                     {
                     pushFollow(FOLLOW_sys_print_in_stmt344);
                     sys_print18=sys_print();
@@ -1426,7 +1508,7 @@ public TreeAdaptor getTreeAdaptor() {
                     root_0 = (Object)adaptor.nil();
                     // 67:13: -> ^( Sys_print sys_print )
                     {
-                        // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:67:16: ^( Sys_print sys_print )
+                        // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:67:16: ^( Sys_print sys_print )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -1483,7 +1565,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "method"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:77:1: method : Modifier ( types )? ( VAR )* params '{' ( stmt )* 'return' return_type SEMICOLON '}' -> ^( Method Modifier ( types )? ( VAR )* params '{' ( stmt )* 'return' return_type SEMICOLON '}' ) ;
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:77:1: method : Modifier ( types )? ( VAR )* params '{' ( stmt )* 'return' return_type SEMICOLON '}' -> ^( Method Modifier ( types )? ( VAR )* params '{' ( stmt )* 'return' return_type SEMICOLON '}' ) ;
     public final ArithmeticExpressionsParser.method_return method() throws RecognitionException {
         ArithmeticExpressionsParser.method_return retval = new ArithmeticExpressionsParser.method_return();
         retval.start = input.LT(1);
@@ -1523,14 +1605,14 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_params=new RewriteRuleSubtreeStream(adaptor,"rule params");
         RewriteRuleSubtreeStream stream_stmt=new RewriteRuleSubtreeStream(adaptor,"rule stmt");
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:77:8: ( Modifier ( types )? ( VAR )* params '{' ( stmt )* 'return' return_type SEMICOLON '}' -> ^( Method Modifier ( types )? ( VAR )* params '{' ( stmt )* 'return' return_type SEMICOLON '}' ) )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:78:2: Modifier ( types )? ( VAR )* params '{' ( stmt )* 'return' return_type SEMICOLON '}'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:77:8: ( Modifier ( types )? ( VAR )* params '{' ( stmt )* 'return' return_type SEMICOLON '}' -> ^( Method Modifier ( types )? ( VAR )* params '{' ( stmt )* 'return' return_type SEMICOLON '}' ) )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:78:2: Modifier ( types )? ( VAR )* params '{' ( stmt )* 'return' return_type SEMICOLON '}'
             {
             Modifier19=(Token)match(input,Modifier,FOLLOW_Modifier_in_method394);  
             stream_Modifier.add(Modifier19);
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:78:11: ( types )?
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:78:11: ( types )?
             int alt6=2;
             int LA6_0 = input.LA(1);
 
@@ -1539,7 +1621,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt6) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:78:11: types
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:78:11: types
                     {
                     pushFollow(FOLLOW_types_in_method396);
                     types20=types();
@@ -1554,7 +1636,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:78:18: ( VAR )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:78:18: ( VAR )*
             loop7:
             do {
                 int alt7=2;
@@ -1567,7 +1649,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt7) {
             	case 1 :
-            	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:78:18: VAR
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:78:18: VAR
             	    {
             	    VAR21=(Token)match(input,VAR,FOLLOW_VAR_in_method399);  
             	    stream_VAR.add(VAR21);
@@ -1593,7 +1675,7 @@ public TreeAdaptor getTreeAdaptor() {
             stream_79.add(char_literal23);
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:78:34: ( stmt )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:78:34: ( stmt )*
             loop8:
             do {
                 int alt8=2;
@@ -1606,7 +1688,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt8) {
             	case 1 :
-            	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:78:34: stmt
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:78:34: stmt
             	    {
             	    pushFollow(FOLLOW_stmt_in_method406);
             	    stmt24=stmt();
@@ -1644,7 +1726,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: 77, VAR, 79, SEMICOLON, params, return_type, Modifier, 80, types, stmt
+            // elements: types, 80, VAR, params, SEMICOLON, 77, return_type, stmt, 79, Modifier
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -1656,7 +1738,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 79:3: -> ^( Method Modifier ( types )? ( VAR )* params '{' ( stmt )* 'return' return_type SEMICOLON '}' )
             {
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:79:6: ^( Method Modifier ( types )? ( VAR )* params '{' ( stmt )* 'return' return_type SEMICOLON '}' )
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:79:6: ^( Method Modifier ( types )? ( VAR )* params '{' ( stmt )* 'return' return_type SEMICOLON '}' )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -1667,14 +1749,14 @@ public TreeAdaptor getTreeAdaptor() {
                 stream_Modifier.nextNode()
                 );
 
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:79:24: ( types )?
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:79:24: ( types )?
                 if ( stream_types.hasNext() ) {
                     adaptor.addChild(root_1, stream_types.nextTree());
 
                 }
                 stream_types.reset();
 
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:79:31: ( VAR )*
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:79:31: ( VAR )*
                 while ( stream_VAR.hasNext() ) {
                     adaptor.addChild(root_1, 
                     stream_VAR.nextNode()
@@ -1689,7 +1771,7 @@ public TreeAdaptor getTreeAdaptor() {
                 stream_79.nextNode()
                 );
 
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:79:47: ( stmt )*
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:79:47: ( stmt )*
                 while ( stream_stmt.hasNext() ) {
                     adaptor.addChild(root_1, stream_stmt.nextTree());
 
@@ -1749,7 +1831,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "main_method"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:84:1: main_method : Modifier Static VOID Main '(' STRING '[' ']' 'a' ')' '{' ( print )* '}' -> ^( Main_METHOD Modifier Static VOID Main '(' STRING '[' ']' 'a' ')' '{' ( print )* '}' ) ;
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:84:1: main_method : Modifier Static VOID Main '(' STRING '[' ']' 'a' ')' '{' ( print )* '}' -> ^( Main_METHOD Modifier Static VOID Main '(' STRING '[' ']' 'a' ')' '{' ( print )* '}' ) ;
     public final ArithmeticExpressionsParser.main_method_return main_method() throws RecognitionException {
         ArithmeticExpressionsParser.main_method_return retval = new ArithmeticExpressionsParser.main_method_return();
         retval.start = input.LT(1);
@@ -1798,8 +1880,8 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleTokenStream stream_Main=new RewriteRuleTokenStream(adaptor,"token Main");
         RewriteRuleSubtreeStream stream_print=new RewriteRuleSubtreeStream(adaptor,"rule print");
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:86:2: ( Modifier Static VOID Main '(' STRING '[' ']' 'a' ')' '{' ( print )* '}' -> ^( Main_METHOD Modifier Static VOID Main '(' STRING '[' ']' 'a' ')' '{' ( print )* '}' ) )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:86:3: Modifier Static VOID Main '(' STRING '[' ']' 'a' ')' '{' ( print )* '}'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:86:2: ( Modifier Static VOID Main '(' STRING '[' ']' 'a' ')' '{' ( print )* '}' -> ^( Main_METHOD Modifier Static VOID Main '(' STRING '[' ']' 'a' ')' '{' ( print )* '}' ) )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:86:3: Modifier Static VOID Main '(' STRING '[' ']' 'a' ')' '{' ( print )* '}'
             {
             Modifier29=(Token)match(input,Modifier,FOLLOW_Modifier_in_main_method461);  
             stream_Modifier.add(Modifier29);
@@ -1845,7 +1927,7 @@ public TreeAdaptor getTreeAdaptor() {
             stream_79.add(char_literal39);
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:86:57: ( print )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:86:57: ( print )*
             loop9:
             do {
                 int alt9=2;
@@ -1858,7 +1940,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt9) {
             	case 1 :
-            	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:86:57: print
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:86:57: print
             	    {
             	    pushFollow(FOLLOW_print_in_main_method480);
             	    print40=print();
@@ -1881,7 +1963,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: STRING, 72, 73, 71, 58, VOID, Modifier, print, 57, 79, Static, 80, Main
+            // elements: 57, 72, 79, 80, 71, 58, STRING, print, Static, 73, Modifier, VOID, Main
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -1893,7 +1975,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 86:66: -> ^( Main_METHOD Modifier Static VOID Main '(' STRING '[' ']' 'a' ')' '{' ( print )* '}' )
             {
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:86:69: ^( Main_METHOD Modifier Static VOID Main '(' STRING '[' ']' 'a' ')' '{' ( print )* '}' )
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:86:69: ^( Main_METHOD Modifier Static VOID Main '(' STRING '[' ']' 'a' ')' '{' ( print )* '}' )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -1944,7 +2026,7 @@ public TreeAdaptor getTreeAdaptor() {
                 stream_79.nextNode()
                 );
 
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:86:138: ( print )*
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:86:138: ( print )*
                 while ( stream_print.hasNext() ) {
                     adaptor.addChild(root_1, stream_print.nextTree());
 
@@ -1994,7 +2076,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "print"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:87:1: print : System Dot Out Dot Println '(' New VAR '(' ')' Dot VAR '(' ( NUM )? ')' ')' SEMICOLON -> ^( Print System Dot Out Dot Println '(' New VAR '(' ')' Dot VAR '(' ( NUM )? ')' ')' SEMICOLON ) ;
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:87:1: print : System Dot Out Dot Println '(' New VAR '(' ')' Dot VAR '(' ( NUM )? ')' ')' SEMICOLON -> ^( Print System Dot Out Dot Println '(' New VAR '(' ')' Dot VAR '(' ( NUM )? ')' ')' SEMICOLON ) ;
     public final ArithmeticExpressionsParser.print_return print() throws RecognitionException {
         ArithmeticExpressionsParser.print_return retval = new ArithmeticExpressionsParser.print_return();
         retval.start = input.LT(1);
@@ -2049,8 +2131,8 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleTokenStream stream_Out=new RewriteRuleTokenStream(adaptor,"token Out");
 
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:87:7: ( System Dot Out Dot Println '(' New VAR '(' ')' Dot VAR '(' ( NUM )? ')' ')' SEMICOLON -> ^( Print System Dot Out Dot Println '(' New VAR '(' ')' Dot VAR '(' ( NUM )? ')' ')' SEMICOLON ) )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:87:8: System Dot Out Dot Println '(' New VAR '(' ')' Dot VAR '(' ( NUM )? ')' ')' SEMICOLON
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:87:7: ( System Dot Out Dot Println '(' New VAR '(' ')' Dot VAR '(' ( NUM )? ')' ')' SEMICOLON -> ^( Print System Dot Out Dot Println '(' New VAR '(' ')' Dot VAR '(' ( NUM )? ')' ')' SEMICOLON ) )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:87:8: System Dot Out Dot Println '(' New VAR '(' ')' Dot VAR '(' ( NUM )? ')' ')' SEMICOLON
             {
             System42=(Token)match(input,System,FOLLOW_System_in_print517);  
             stream_System.add(System42);
@@ -2104,7 +2186,7 @@ public TreeAdaptor getTreeAdaptor() {
             stream_57.add(char_literal54);
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:87:63: ( NUM )?
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:87:63: ( NUM )?
             int alt10=2;
             int LA10_0 = input.LA(1);
 
@@ -2113,7 +2195,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt10) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:87:63: NUM
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:87:63: NUM
                     {
                     NUM55=(Token)match(input,NUM,FOLLOW_NUM_in_print539);  
                     stream_NUM.add(NUM55);
@@ -2138,7 +2220,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: Dot, Dot, NUM, Out, VAR, New, 58, SEMICOLON, 58, Println, 57, 58, VAR, System, Dot, 57, 57
+            // elements: System, Dot, 57, VAR, 58, Dot, 57, Dot, Out, 57, NUM, 58, 58, New, Println, SEMICOLON, VAR
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -2150,7 +2232,7 @@ public TreeAdaptor getTreeAdaptor() {
             root_0 = (Object)adaptor.nil();
             // 87:84: -> ^( Print System Dot Out Dot Println '(' New VAR '(' ')' Dot VAR '(' ( NUM )? ')' ')' SEMICOLON )
             {
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:87:86: ^( Print System Dot Out Dot Println '(' New VAR '(' ')' Dot VAR '(' ( NUM )? ')' ')' SEMICOLON )
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:87:86: ^( Print System Dot Out Dot Println '(' New VAR '(' ')' Dot VAR '(' ( NUM )? ')' ')' SEMICOLON )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -2209,7 +2291,7 @@ public TreeAdaptor getTreeAdaptor() {
                 stream_57.nextNode()
                 );
 
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:87:149: ( NUM )?
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:87:149: ( NUM )?
                 if ( stream_NUM.hasNext() ) {
                     adaptor.addChild(root_1, 
                     stream_NUM.nextNode()
@@ -2269,7 +2351,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "return_type"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:89:1: return_type : ( VAR | NUM );
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:89:1: return_type : ( VAR | NUM );
     public final ArithmeticExpressionsParser.return_type_return return_type() throws RecognitionException {
         ArithmeticExpressionsParser.return_type_return retval = new ArithmeticExpressionsParser.return_type_return();
         retval.start = input.LT(1);
@@ -2282,8 +2364,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object set59_tree=null;
 
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:90:2: ( VAR | NUM )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:90:2: ( VAR | NUM )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:
             {
             root_0 = (Object)adaptor.nil();
 
@@ -2334,7 +2416,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "initialize"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:93:1: initialize : ( types ( '[' ']' )? VAR SEMICOLON | ( VAR )* SEMICOLON ) ;
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:93:1: initialize : ( types ( '[' ']' )? VAR SEMICOLON | ( VAR )* SEMICOLON ) ;
     public final ArithmeticExpressionsParser.initialize_return initialize() throws RecognitionException {
         ArithmeticExpressionsParser.initialize_return retval = new ArithmeticExpressionsParser.initialize_return();
         retval.start = input.LT(1);
@@ -2359,13 +2441,13 @@ public TreeAdaptor getTreeAdaptor() {
         Object SEMICOLON66_tree=null;
 
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:93:11: ( ( types ( '[' ']' )? VAR SEMICOLON | ( VAR )* SEMICOLON ) )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:93:13: ( types ( '[' ']' )? VAR SEMICOLON | ( VAR )* SEMICOLON )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:93:11: ( ( types ( '[' ']' )? VAR SEMICOLON | ( VAR )* SEMICOLON ) )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:93:13: ( types ( '[' ']' )? VAR SEMICOLON | ( VAR )* SEMICOLON )
             {
             root_0 = (Object)adaptor.nil();
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:93:13: ( types ( '[' ']' )? VAR SEMICOLON | ( VAR )* SEMICOLON )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:93:13: ( types ( '[' ']' )? VAR SEMICOLON | ( VAR )* SEMICOLON )
             int alt13=2;
             int LA13_0 = input.LA(1);
 
@@ -2384,7 +2466,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt13) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:93:14: types ( '[' ']' )? VAR SEMICOLON
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:93:14: types ( '[' ']' )? VAR SEMICOLON
                     {
                     pushFollow(FOLLOW_types_in_initialize601);
                     types60=types();
@@ -2393,7 +2475,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                     adaptor.addChild(root_0, types60.getTree());
 
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:93:19: ( '[' ']' )?
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:93:19: ( '[' ']' )?
                     int alt11=2;
                     int LA11_0 = input.LA(1);
 
@@ -2402,7 +2484,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt11) {
                         case 1 :
-                            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:93:20: '[' ']'
+                            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:93:20: '[' ']'
                             {
                             char_literal61=(Token)match(input,71,FOLLOW_71_in_initialize603); 
                             char_literal61_tree = 
@@ -2441,9 +2523,9 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:93:43: ( VAR )* SEMICOLON
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:93:43: ( VAR )* SEMICOLON
                     {
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:93:43: ( VAR )*
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:93:43: ( VAR )*
                     loop12:
                     do {
                         int alt12=2;
@@ -2456,7 +2538,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         switch (alt12) {
                     	case 1 :
-                    	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:93:43: VAR
+                    	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:93:43: VAR
                     	    {
                     	    VAR65=(Token)match(input,VAR,FOLLOW_VAR_in_initialize612); 
                     	    VAR65_tree = 
@@ -2518,7 +2600,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "initialize_1"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:95:1: initialize_1 : VAR '=' ( New | VAR ) ( Dot )? VAR '(' ( NUM | VAR )? ( ',' )? ( NUM | VAR )? ')' ;
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:95:1: initialize_1 : VAR '=' ( New | VAR ) ( Dot )? VAR '(' ( NUM | VAR )? ( ',' )? ( NUM | VAR )? ')' ;
     public final ArithmeticExpressionsParser.initialize_1_return initialize_1() throws RecognitionException {
         ArithmeticExpressionsParser.initialize_1_return retval = new ArithmeticExpressionsParser.initialize_1_return();
         retval.start = input.LT(1);
@@ -2549,8 +2631,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object char_literal76_tree=null;
 
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:96:2: ( VAR '=' ( New | VAR ) ( Dot )? VAR '(' ( NUM | VAR )? ( ',' )? ( NUM | VAR )? ')' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:96:4: VAR '=' ( New | VAR ) ( Dot )? VAR '(' ( NUM | VAR )? ( ',' )? ( NUM | VAR )? ')'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:96:2: ( VAR '=' ( New | VAR ) ( Dot )? VAR '(' ( NUM | VAR )? ( ',' )? ( NUM | VAR )? ')' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:96:4: VAR '=' ( New | VAR ) ( Dot )? VAR '(' ( NUM | VAR )? ( ',' )? ( NUM | VAR )? ')'
             {
             root_0 = (Object)adaptor.nil();
 
@@ -2584,7 +2666,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:96:22: ( Dot )?
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:96:22: ( Dot )?
             int alt14=2;
             int LA14_0 = input.LA(1);
 
@@ -2593,7 +2675,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt14) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:96:22: Dot
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:96:22: Dot
                     {
                     Dot70=(Token)match(input,Dot,FOLLOW_Dot_in_initialize_1635); 
                     Dot70_tree = 
@@ -2622,7 +2704,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal72_tree);
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:96:34: ( NUM | VAR )?
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:96:34: ( NUM | VAR )?
             int alt15=2;
             int LA15_0 = input.LA(1);
 
@@ -2631,7 +2713,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt15) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:
                     {
                     set73=(Token)input.LT(1);
 
@@ -2654,7 +2736,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:96:44: ( ',' )?
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:96:44: ( ',' )?
             int alt16=2;
             int LA16_0 = input.LA(1);
 
@@ -2663,7 +2745,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt16) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:96:44: ','
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:96:44: ','
                     {
                     char_literal74=(Token)match(input,63,FOLLOW_63_in_initialize_1647); 
                     char_literal74_tree = 
@@ -2678,7 +2760,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:96:48: ( NUM | VAR )?
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:96:48: ( NUM | VAR )?
             int alt17=2;
             int LA17_0 = input.LA(1);
 
@@ -2687,7 +2769,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt17) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:
                     {
                     set75=(Token)input.LT(1);
 
@@ -2748,7 +2830,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "sys_print"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:97:1: sys_print : System Dot Out Dot Println '(' ( NUM | VAR Dot VAR '(' ( NUM )? ')' ) ')' SEMICOLON ;
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:97:1: sys_print : System Dot Out Dot Println '(' ( NUM | VAR Dot VAR '(' ( NUM )? ')' ) ')' SEMICOLON ;
     public final ArithmeticExpressionsParser.sys_print_return sys_print() throws RecognitionException {
         ArithmeticExpressionsParser.sys_print_return retval = new ArithmeticExpressionsParser.sys_print_return();
         retval.start = input.LT(1);
@@ -2789,8 +2871,8 @@ public TreeAdaptor getTreeAdaptor() {
         Object SEMICOLON91_tree=null;
 
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:98:2: ( System Dot Out Dot Println '(' ( NUM | VAR Dot VAR '(' ( NUM )? ')' ) ')' SEMICOLON )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:98:4: System Dot Out Dot Println '(' ( NUM | VAR Dot VAR '(' ( NUM )? ')' ) ')' SEMICOLON
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:98:2: ( System Dot Out Dot Println '(' ( NUM | VAR Dot VAR '(' ( NUM )? ')' ) ')' SEMICOLON )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:98:4: System Dot Out Dot Println '(' ( NUM | VAR Dot VAR '(' ( NUM )? ')' ) ')' SEMICOLON
             {
             root_0 = (Object)adaptor.nil();
 
@@ -2837,7 +2919,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal82_tree);
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:98:34: ( NUM | VAR Dot VAR '(' ( NUM )? ')' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:98:34: ( NUM | VAR Dot VAR '(' ( NUM )? ')' )
             int alt19=2;
             int LA19_0 = input.LA(1);
 
@@ -2856,7 +2938,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt19) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:98:35: NUM
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:98:35: NUM
                     {
                     NUM83=(Token)match(input,NUM,FOLLOW_NUM_in_sys_print677); 
                     NUM83_tree = 
@@ -2868,7 +2950,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:98:39: VAR Dot VAR '(' ( NUM )? ')'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:98:39: VAR Dot VAR '(' ( NUM )? ')'
                     {
                     VAR84=(Token)match(input,VAR,FOLLOW_VAR_in_sys_print679); 
                     VAR84_tree = 
@@ -2898,7 +2980,7 @@ public TreeAdaptor getTreeAdaptor() {
                     adaptor.addChild(root_0, char_literal87_tree);
 
 
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:98:54: ( NUM )?
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:98:54: ( NUM )?
                     int alt18=2;
                     int LA18_0 = input.LA(1);
 
@@ -2907,7 +2989,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt18) {
                         case 1 :
-                            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:98:54: NUM
+                            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:98:54: NUM
                             {
                             NUM88=(Token)match(input,NUM,FOLLOW_NUM_in_sys_print686); 
                             NUM88_tree = 
@@ -2980,7 +3062,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "object"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:99:1: object : ( ( '!' )? VAR Dot VAR '(' ( NUM | VAR )? ')' | ( VAR )? );
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:99:1: object : ( ob_cho | ( VAR )? | NUM );
     public final ArithmeticExpressionsParser.object_return object() throws RecognitionException {
         ArithmeticExpressionsParser.object_return retval = new ArithmeticExpressionsParser.object_return();
         retval.start = input.LT(1);
@@ -2988,46 +3070,36 @@ public TreeAdaptor getTreeAdaptor() {
 
         Object root_0 = null;
 
-        Token char_literal92=null;
         Token VAR93=null;
-        Token Dot94=null;
-        Token VAR95=null;
-        Token char_literal96=null;
-        Token set97=null;
-        Token char_literal98=null;
-        Token VAR99=null;
+        Token NUM94=null;
+        ArithmeticExpressionsParser.ob_cho_return ob_cho92 =null;
 
-        Object char_literal92_tree=null;
+
         Object VAR93_tree=null;
-        Object Dot94_tree=null;
-        Object VAR95_tree=null;
-        Object char_literal96_tree=null;
-        Object set97_tree=null;
-        Object char_literal98_tree=null;
-        Object VAR99_tree=null;
+        Object NUM94_tree=null;
 
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:99:8: ( ( '!' )? VAR Dot VAR '(' ( NUM | VAR )? ')' | ( VAR )? )
-            int alt23=2;
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:99:8: ( ob_cho | ( VAR )? | NUM )
+            int alt21=3;
             switch ( input.LA(1) ) {
             case 55:
                 {
-                alt23=1;
+                alt21=1;
                 }
                 break;
             case VAR:
                 {
-                int LA23_2 = input.LA(2);
+                int LA21_2 = input.LA(2);
 
-                if ( (LA23_2==Dot) ) {
-                    alt23=1;
+                if ( (LA21_2==Dot) ) {
+                    alt21=1;
                 }
-                else if ( (LA23_2==AndOr||(LA23_2 >= RelationalOperators && LA23_2 <= SEMICOLON)||LA23_2==56||LA23_2==58||LA23_2==60||LA23_2==64||LA23_2==68||LA23_2==70) ) {
-                    alt23=2;
+                else if ( (LA21_2==AndOr||(LA21_2 >= RelationalOperators && LA21_2 <= SEMICOLON)||LA21_2==56||LA21_2==58||LA21_2==60||LA21_2==64||LA21_2==68||LA21_2==70) ) {
+                    alt21=2;
                 }
                 else {
                     NoViableAltException nvae =
-                        new NoViableAltException("", 23, 2, input);
+                        new NoViableAltException("", 21, 2, input);
 
                     throw nvae;
 
@@ -3044,145 +3116,81 @@ public TreeAdaptor getTreeAdaptor() {
             case 68:
             case 70:
                 {
-                alt23=2;
+                alt21=2;
+                }
+                break;
+            case NUM:
+                {
+                alt21=3;
                 }
                 break;
             default:
                 NoViableAltException nvae =
-                    new NoViableAltException("", 23, 0, input);
+                    new NoViableAltException("", 21, 0, input);
 
                 throw nvae;
 
             }
 
-            switch (alt23) {
+            switch (alt21) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:99:10: ( '!' )? VAR Dot VAR '(' ( NUM | VAR )? ')'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:99:10: ob_cho
                     {
                     root_0 = (Object)adaptor.nil();
 
 
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:99:10: ( '!' )?
-                    int alt20=2;
-                    int LA20_0 = input.LA(1);
+                    pushFollow(FOLLOW_ob_cho_in_object701);
+                    ob_cho92=ob_cho();
 
-                    if ( (LA20_0==55) ) {
-                        alt20=1;
-                    }
-                    switch (alt20) {
-                        case 1 :
-                            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:99:11: '!'
-                            {
-                            char_literal92=(Token)match(input,55,FOLLOW_55_in_object702); 
-                            char_literal92_tree = 
-                            (Object)adaptor.create(char_literal92)
-                            ;
-                            adaptor.addChild(root_0, char_literal92_tree);
+                    state._fsp--;
 
-
-                            }
-                            break;
-
-                    }
-
-
-                    VAR93=(Token)match(input,VAR,FOLLOW_VAR_in_object706); 
-                    VAR93_tree = 
-                    (Object)adaptor.create(VAR93)
-                    ;
-                    adaptor.addChild(root_0, VAR93_tree);
-
-
-                    Dot94=(Token)match(input,Dot,FOLLOW_Dot_in_object708); 
-                    Dot94_tree = 
-                    (Object)adaptor.create(Dot94)
-                    ;
-                    adaptor.addChild(root_0, Dot94_tree);
-
-
-                    VAR95=(Token)match(input,VAR,FOLLOW_VAR_in_object710); 
-                    VAR95_tree = 
-                    (Object)adaptor.create(VAR95)
-                    ;
-                    adaptor.addChild(root_0, VAR95_tree);
-
-
-                    char_literal96=(Token)match(input,57,FOLLOW_57_in_object712); 
-                    char_literal96_tree = 
-                    (Object)adaptor.create(char_literal96)
-                    ;
-                    adaptor.addChild(root_0, char_literal96_tree);
-
-
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:99:33: ( NUM | VAR )?
-                    int alt21=2;
-                    int LA21_0 = input.LA(1);
-
-                    if ( (LA21_0==NUM||LA21_0==VAR) ) {
-                        alt21=1;
-                    }
-                    switch (alt21) {
-                        case 1 :
-                            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:
-                            {
-                            set97=(Token)input.LT(1);
-
-                            if ( input.LA(1)==NUM||input.LA(1)==VAR ) {
-                                input.consume();
-                                adaptor.addChild(root_0, 
-                                (Object)adaptor.create(set97)
-                                );
-                                state.errorRecovery=false;
-                            }
-                            else {
-                                MismatchedSetException mse = new MismatchedSetException(null,input);
-                                throw mse;
-                            }
-
-
-                            }
-                            break;
-
-                    }
-
-
-                    char_literal98=(Token)match(input,58,FOLLOW_58_in_object721); 
-                    char_literal98_tree = 
-                    (Object)adaptor.create(char_literal98)
-                    ;
-                    adaptor.addChild(root_0, char_literal98_tree);
-
+                    adaptor.addChild(root_0, ob_cho92.getTree());
 
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:99:50: ( VAR )?
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:99:19: ( VAR )?
                     {
                     root_0 = (Object)adaptor.nil();
 
 
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:99:50: ( VAR )?
-                    int alt22=2;
-                    int LA22_0 = input.LA(1);
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:99:19: ( VAR )?
+                    int alt20=2;
+                    int LA20_0 = input.LA(1);
 
-                    if ( (LA22_0==VAR) ) {
-                        alt22=1;
+                    if ( (LA20_0==VAR) ) {
+                        alt20=1;
                     }
-                    switch (alt22) {
+                    switch (alt20) {
                         case 1 :
-                            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:99:50: VAR
+                            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:99:19: VAR
                             {
-                            VAR99=(Token)match(input,VAR,FOLLOW_VAR_in_object725); 
-                            VAR99_tree = 
-                            (Object)adaptor.create(VAR99)
+                            VAR93=(Token)match(input,VAR,FOLLOW_VAR_in_object705); 
+                            VAR93_tree = 
+                            (Object)adaptor.create(VAR93)
                             ;
-                            adaptor.addChild(root_0, VAR99_tree);
+                            adaptor.addChild(root_0, VAR93_tree);
 
 
                             }
                             break;
 
                     }
+
+
+                    }
+                    break;
+                case 3 :
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:99:26: NUM
+                    {
+                    root_0 = (Object)adaptor.nil();
+
+
+                    NUM94=(Token)match(input,NUM,FOLLOW_NUM_in_object710); 
+                    NUM94_tree = 
+                    (Object)adaptor.create(NUM94)
+                    ;
+                    adaptor.addChild(root_0, NUM94_tree);
 
 
                     }
@@ -3211,6 +3219,480 @@ public TreeAdaptor getTreeAdaptor() {
     // $ANTLR end "object"
 
 
+    public static class ob_body_return extends ParserRuleReturnScope {
+        Object tree;
+        public Object getTree() { return tree; }
+    };
+
+
+    // $ANTLR start "ob_body"
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:101:1: ob_body : ( '!' )? VAR Dot VAR '(' ( NUM | VAR ) ( generalArithExpr ) ')' ;
+    public final ArithmeticExpressionsParser.ob_body_return ob_body() throws RecognitionException {
+        ArithmeticExpressionsParser.ob_body_return retval = new ArithmeticExpressionsParser.ob_body_return();
+        retval.start = input.LT(1);
+
+
+        Object root_0 = null;
+
+        Token char_literal95=null;
+        Token VAR96=null;
+        Token Dot97=null;
+        Token VAR98=null;
+        Token char_literal99=null;
+        Token set100=null;
+        Token char_literal102=null;
+        ArithmeticExpressionsParser.generalArithExpr_return generalArithExpr101 =null;
+
+
+        Object char_literal95_tree=null;
+        Object VAR96_tree=null;
+        Object Dot97_tree=null;
+        Object VAR98_tree=null;
+        Object char_literal99_tree=null;
+        Object set100_tree=null;
+        Object char_literal102_tree=null;
+
+        try {
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:101:9: ( ( '!' )? VAR Dot VAR '(' ( NUM | VAR ) ( generalArithExpr ) ')' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:101:11: ( '!' )? VAR Dot VAR '(' ( NUM | VAR ) ( generalArithExpr ) ')'
+            {
+            root_0 = (Object)adaptor.nil();
+
+
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:101:11: ( '!' )?
+            int alt22=2;
+            int LA22_0 = input.LA(1);
+
+            if ( (LA22_0==55) ) {
+                alt22=1;
+            }
+            switch (alt22) {
+                case 1 :
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:101:12: '!'
+                    {
+                    char_literal95=(Token)match(input,55,FOLLOW_55_in_ob_body719); 
+                    char_literal95_tree = 
+                    (Object)adaptor.create(char_literal95)
+                    ;
+                    adaptor.addChild(root_0, char_literal95_tree);
+
+
+                    }
+                    break;
+
+            }
+
+
+            VAR96=(Token)match(input,VAR,FOLLOW_VAR_in_ob_body723); 
+            VAR96_tree = 
+            (Object)adaptor.create(VAR96)
+            ;
+            adaptor.addChild(root_0, VAR96_tree);
+
+
+            Dot97=(Token)match(input,Dot,FOLLOW_Dot_in_ob_body725); 
+            Dot97_tree = 
+            (Object)adaptor.create(Dot97)
+            ;
+            adaptor.addChild(root_0, Dot97_tree);
+
+
+            VAR98=(Token)match(input,VAR,FOLLOW_VAR_in_ob_body727); 
+            VAR98_tree = 
+            (Object)adaptor.create(VAR98)
+            ;
+            adaptor.addChild(root_0, VAR98_tree);
+
+
+            char_literal99=(Token)match(input,57,FOLLOW_57_in_ob_body729); 
+            char_literal99_tree = 
+            (Object)adaptor.create(char_literal99)
+            ;
+            adaptor.addChild(root_0, char_literal99_tree);
+
+
+            set100=(Token)input.LT(1);
+
+            if ( input.LA(1)==NUM||input.LA(1)==VAR ) {
+                input.consume();
+                adaptor.addChild(root_0, 
+                (Object)adaptor.create(set100)
+                );
+                state.errorRecovery=false;
+            }
+            else {
+                MismatchedSetException mse = new MismatchedSetException(null,input);
+                throw mse;
+            }
+
+
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:101:45: ( generalArithExpr )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:101:46: generalArithExpr
+            {
+            pushFollow(FOLLOW_generalArithExpr_in_ob_body739);
+            generalArithExpr101=generalArithExpr();
+
+            state._fsp--;
+
+            adaptor.addChild(root_0, generalArithExpr101.getTree());
+
+            }
+
+
+            char_literal102=(Token)match(input,58,FOLLOW_58_in_ob_body742); 
+            char_literal102_tree = 
+            (Object)adaptor.create(char_literal102)
+            ;
+            adaptor.addChild(root_0, char_literal102_tree);
+
+
+            }
+
+            retval.stop = input.LT(-1);
+
+
+            retval.tree = (Object)adaptor.rulePostProcessing(root_0);
+            adaptor.setTokenBoundaries(retval.tree, retval.start, retval.stop);
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+    	retval.tree = (Object)adaptor.errorNode(input, retval.start, input.LT(-1), re);
+
+        }
+
+        finally {
+        	// do for sure before leaving
+        }
+        return retval;
+    }
+    // $ANTLR end "ob_body"
+
+
+    public static class ob_cho_return extends ParserRuleReturnScope {
+        Object tree;
+        public Object getTree() { return tree; }
+    };
+
+
+    // $ANTLR start "ob_cho"
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:102:1: ob_cho : ( ( '!' )? VAR Dot VAR '(' ( NUM | VAR )? ')' | ob_body );
+    public final ArithmeticExpressionsParser.ob_cho_return ob_cho() throws RecognitionException {
+        ArithmeticExpressionsParser.ob_cho_return retval = new ArithmeticExpressionsParser.ob_cho_return();
+        retval.start = input.LT(1);
+
+
+        Object root_0 = null;
+
+        Token char_literal103=null;
+        Token VAR104=null;
+        Token Dot105=null;
+        Token VAR106=null;
+        Token char_literal107=null;
+        Token set108=null;
+        Token char_literal109=null;
+        ArithmeticExpressionsParser.ob_body_return ob_body110 =null;
+
+
+        Object char_literal103_tree=null;
+        Object VAR104_tree=null;
+        Object Dot105_tree=null;
+        Object VAR106_tree=null;
+        Object char_literal107_tree=null;
+        Object set108_tree=null;
+        Object char_literal109_tree=null;
+
+        try {
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:102:8: ( ( '!' )? VAR Dot VAR '(' ( NUM | VAR )? ')' | ob_body )
+            int alt25=2;
+            int LA25_0 = input.LA(1);
+
+            if ( (LA25_0==55) ) {
+                int LA25_1 = input.LA(2);
+
+                if ( (LA25_1==VAR) ) {
+                    int LA25_2 = input.LA(3);
+
+                    if ( (LA25_2==Dot) ) {
+                        int LA25_3 = input.LA(4);
+
+                        if ( (LA25_3==VAR) ) {
+                            int LA25_4 = input.LA(5);
+
+                            if ( (LA25_4==57) ) {
+                                int LA25_5 = input.LA(6);
+
+                                if ( (LA25_5==NUM||LA25_5==VAR) ) {
+                                    int LA25_6 = input.LA(7);
+
+                                    if ( (LA25_6==DNUM||LA25_6==Fun||LA25_6==NUM||LA25_6==VAR||LA25_6==55||LA25_6==57||LA25_6==60||LA25_6==64) ) {
+                                        alt25=2;
+                                    }
+                                    else if ( (LA25_6==58) ) {
+                                        alt25=1;
+                                    }
+                                    else {
+                                        NoViableAltException nvae =
+                                            new NoViableAltException("", 25, 6, input);
+
+                                        throw nvae;
+
+                                    }
+                                }
+                                else if ( (LA25_5==58) ) {
+                                    alt25=1;
+                                }
+                                else {
+                                    NoViableAltException nvae =
+                                        new NoViableAltException("", 25, 5, input);
+
+                                    throw nvae;
+
+                                }
+                            }
+                            else {
+                                NoViableAltException nvae =
+                                    new NoViableAltException("", 25, 4, input);
+
+                                throw nvae;
+
+                            }
+                        }
+                        else {
+                            NoViableAltException nvae =
+                                new NoViableAltException("", 25, 3, input);
+
+                            throw nvae;
+
+                        }
+                    }
+                    else {
+                        NoViableAltException nvae =
+                            new NoViableAltException("", 25, 2, input);
+
+                        throw nvae;
+
+                    }
+                }
+                else {
+                    NoViableAltException nvae =
+                        new NoViableAltException("", 25, 1, input);
+
+                    throw nvae;
+
+                }
+            }
+            else if ( (LA25_0==VAR) ) {
+                int LA25_2 = input.LA(2);
+
+                if ( (LA25_2==Dot) ) {
+                    int LA25_3 = input.LA(3);
+
+                    if ( (LA25_3==VAR) ) {
+                        int LA25_4 = input.LA(4);
+
+                        if ( (LA25_4==57) ) {
+                            int LA25_5 = input.LA(5);
+
+                            if ( (LA25_5==NUM||LA25_5==VAR) ) {
+                                int LA25_6 = input.LA(6);
+
+                                if ( (LA25_6==DNUM||LA25_6==Fun||LA25_6==NUM||LA25_6==VAR||LA25_6==55||LA25_6==57||LA25_6==60||LA25_6==64) ) {
+                                    alt25=2;
+                                }
+                                else if ( (LA25_6==58) ) {
+                                    alt25=1;
+                                }
+                                else {
+                                    NoViableAltException nvae =
+                                        new NoViableAltException("", 25, 6, input);
+
+                                    throw nvae;
+
+                                }
+                            }
+                            else if ( (LA25_5==58) ) {
+                                alt25=1;
+                            }
+                            else {
+                                NoViableAltException nvae =
+                                    new NoViableAltException("", 25, 5, input);
+
+                                throw nvae;
+
+                            }
+                        }
+                        else {
+                            NoViableAltException nvae =
+                                new NoViableAltException("", 25, 4, input);
+
+                            throw nvae;
+
+                        }
+                    }
+                    else {
+                        NoViableAltException nvae =
+                            new NoViableAltException("", 25, 3, input);
+
+                        throw nvae;
+
+                    }
+                }
+                else {
+                    NoViableAltException nvae =
+                        new NoViableAltException("", 25, 2, input);
+
+                    throw nvae;
+
+                }
+            }
+            else {
+                NoViableAltException nvae =
+                    new NoViableAltException("", 25, 0, input);
+
+                throw nvae;
+
+            }
+            switch (alt25) {
+                case 1 :
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:102:9: ( '!' )? VAR Dot VAR '(' ( NUM | VAR )? ')'
+                    {
+                    root_0 = (Object)adaptor.nil();
+
+
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:102:9: ( '!' )?
+                    int alt23=2;
+                    int LA23_0 = input.LA(1);
+
+                    if ( (LA23_0==55) ) {
+                        alt23=1;
+                    }
+                    switch (alt23) {
+                        case 1 :
+                            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:102:10: '!'
+                            {
+                            char_literal103=(Token)match(input,55,FOLLOW_55_in_ob_cho749); 
+                            char_literal103_tree = 
+                            (Object)adaptor.create(char_literal103)
+                            ;
+                            adaptor.addChild(root_0, char_literal103_tree);
+
+
+                            }
+                            break;
+
+                    }
+
+
+                    VAR104=(Token)match(input,VAR,FOLLOW_VAR_in_ob_cho753); 
+                    VAR104_tree = 
+                    (Object)adaptor.create(VAR104)
+                    ;
+                    adaptor.addChild(root_0, VAR104_tree);
+
+
+                    Dot105=(Token)match(input,Dot,FOLLOW_Dot_in_ob_cho755); 
+                    Dot105_tree = 
+                    (Object)adaptor.create(Dot105)
+                    ;
+                    adaptor.addChild(root_0, Dot105_tree);
+
+
+                    VAR106=(Token)match(input,VAR,FOLLOW_VAR_in_ob_cho757); 
+                    VAR106_tree = 
+                    (Object)adaptor.create(VAR106)
+                    ;
+                    adaptor.addChild(root_0, VAR106_tree);
+
+
+                    char_literal107=(Token)match(input,57,FOLLOW_57_in_ob_cho759); 
+                    char_literal107_tree = 
+                    (Object)adaptor.create(char_literal107)
+                    ;
+                    adaptor.addChild(root_0, char_literal107_tree);
+
+
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:102:32: ( NUM | VAR )?
+                    int alt24=2;
+                    int LA24_0 = input.LA(1);
+
+                    if ( (LA24_0==NUM||LA24_0==VAR) ) {
+                        alt24=1;
+                    }
+                    switch (alt24) {
+                        case 1 :
+                            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:
+                            {
+                            set108=(Token)input.LT(1);
+
+                            if ( input.LA(1)==NUM||input.LA(1)==VAR ) {
+                                input.consume();
+                                adaptor.addChild(root_0, 
+                                (Object)adaptor.create(set108)
+                                );
+                                state.errorRecovery=false;
+                            }
+                            else {
+                                MismatchedSetException mse = new MismatchedSetException(null,input);
+                                throw mse;
+                            }
+
+
+                            }
+                            break;
+
+                    }
+
+
+                    char_literal109=(Token)match(input,58,FOLLOW_58_in_ob_cho769); 
+                    char_literal109_tree = 
+                    (Object)adaptor.create(char_literal109)
+                    ;
+                    adaptor.addChild(root_0, char_literal109_tree);
+
+
+                    }
+                    break;
+                case 2 :
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:102:50: ob_body
+                    {
+                    root_0 = (Object)adaptor.nil();
+
+
+                    pushFollow(FOLLOW_ob_body_in_ob_cho773);
+                    ob_body110=ob_body();
+
+                    state._fsp--;
+
+                    adaptor.addChild(root_0, ob_body110.getTree());
+
+                    }
+                    break;
+
+            }
+            retval.stop = input.LT(-1);
+
+
+            retval.tree = (Object)adaptor.rulePostProcessing(root_0);
+            adaptor.setTokenBoundaries(retval.tree, retval.start, retval.stop);
+
+        }
+        catch (RecognitionException re) {
+            reportError(re);
+            recover(input,re);
+    	retval.tree = (Object)adaptor.errorNode(input, retval.start, input.LT(-1), re);
+
+        }
+
+        finally {
+        	// do for sure before leaving
+        }
+        return retval;
+    }
+    // $ANTLR end "ob_cho"
+
+
     public static class params_return extends ParserRuleReturnScope {
         Object tree;
         public Object getTree() { return tree; }
@@ -3218,7 +3700,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "params"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:102:1: params : '(' ( ( types VAR | VAR VAR ) ( ',' types VAR )* )? ')' ;
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:103:1: params : '(' ( ( types VAR | VAR VAR ) ( ',' types VAR )* )? ')' ;
     public final ArithmeticExpressionsParser.params_return params() throws RecognitionException {
         ArithmeticExpressionsParser.params_return retval = new ArithmeticExpressionsParser.params_return();
         retval.start = input.LT(1);
@@ -3226,103 +3708,103 @@ public TreeAdaptor getTreeAdaptor() {
 
         Object root_0 = null;
 
-        Token char_literal100=null;
-        Token VAR102=null;
-        Token VAR103=null;
-        Token VAR104=null;
-        Token char_literal105=null;
-        Token VAR107=null;
-        Token char_literal108=null;
-        ArithmeticExpressionsParser.types_return types101 =null;
+        Token char_literal111=null;
+        Token VAR113=null;
+        Token VAR114=null;
+        Token VAR115=null;
+        Token char_literal116=null;
+        Token VAR118=null;
+        Token char_literal119=null;
+        ArithmeticExpressionsParser.types_return types112 =null;
 
-        ArithmeticExpressionsParser.types_return types106 =null;
+        ArithmeticExpressionsParser.types_return types117 =null;
 
 
-        Object char_literal100_tree=null;
-        Object VAR102_tree=null;
-        Object VAR103_tree=null;
-        Object VAR104_tree=null;
-        Object char_literal105_tree=null;
-        Object VAR107_tree=null;
-        Object char_literal108_tree=null;
+        Object char_literal111_tree=null;
+        Object VAR113_tree=null;
+        Object VAR114_tree=null;
+        Object VAR115_tree=null;
+        Object char_literal116_tree=null;
+        Object VAR118_tree=null;
+        Object char_literal119_tree=null;
 
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:102:8: ( '(' ( ( types VAR | VAR VAR ) ( ',' types VAR )* )? ')' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:102:10: '(' ( ( types VAR | VAR VAR ) ( ',' types VAR )* )? ')'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:103:8: ( '(' ( ( types VAR | VAR VAR ) ( ',' types VAR )* )? ')' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:103:10: '(' ( ( types VAR | VAR VAR ) ( ',' types VAR )* )? ')'
             {
             root_0 = (Object)adaptor.nil();
 
 
-            char_literal100=(Token)match(input,57,FOLLOW_57_in_params735); 
-            char_literal100_tree = 
-            (Object)adaptor.create(char_literal100)
+            char_literal111=(Token)match(input,57,FOLLOW_57_in_params781); 
+            char_literal111_tree = 
+            (Object)adaptor.create(char_literal111)
             ;
-            adaptor.addChild(root_0, char_literal100_tree);
+            adaptor.addChild(root_0, char_literal111_tree);
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:102:13: ( ( types VAR | VAR VAR ) ( ',' types VAR )* )?
-            int alt26=2;
-            int LA26_0 = input.LA(1);
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:103:13: ( ( types VAR | VAR VAR ) ( ',' types VAR )* )?
+            int alt28=2;
+            int LA28_0 = input.LA(1);
 
-            if ( (LA26_0==BOOLEAN||LA26_0==DOUBLE||LA26_0==INT||LA26_0==STRING||LA26_0==VAR) ) {
-                alt26=1;
+            if ( (LA28_0==BOOLEAN||LA28_0==DOUBLE||LA28_0==INT||LA28_0==STRING||LA28_0==VAR) ) {
+                alt28=1;
             }
-            switch (alt26) {
+            switch (alt28) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:102:14: ( types VAR | VAR VAR ) ( ',' types VAR )*
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:103:14: ( types VAR | VAR VAR ) ( ',' types VAR )*
                     {
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:102:14: ( types VAR | VAR VAR )
-                    int alt24=2;
-                    int LA24_0 = input.LA(1);
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:103:14: ( types VAR | VAR VAR )
+                    int alt26=2;
+                    int LA26_0 = input.LA(1);
 
-                    if ( (LA24_0==BOOLEAN||LA24_0==DOUBLE||LA24_0==INT||LA24_0==STRING) ) {
-                        alt24=1;
+                    if ( (LA26_0==BOOLEAN||LA26_0==DOUBLE||LA26_0==INT||LA26_0==STRING) ) {
+                        alt26=1;
                     }
-                    else if ( (LA24_0==VAR) ) {
-                        alt24=2;
+                    else if ( (LA26_0==VAR) ) {
+                        alt26=2;
                     }
                     else {
                         NoViableAltException nvae =
-                            new NoViableAltException("", 24, 0, input);
+                            new NoViableAltException("", 26, 0, input);
 
                         throw nvae;
 
                     }
-                    switch (alt24) {
+                    switch (alt26) {
                         case 1 :
-                            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:102:15: types VAR
+                            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:103:15: types VAR
                             {
-                            pushFollow(FOLLOW_types_in_params738);
-                            types101=types();
+                            pushFollow(FOLLOW_types_in_params784);
+                            types112=types();
 
                             state._fsp--;
 
-                            adaptor.addChild(root_0, types101.getTree());
+                            adaptor.addChild(root_0, types112.getTree());
 
-                            VAR102=(Token)match(input,VAR,FOLLOW_VAR_in_params740); 
-                            VAR102_tree = 
-                            (Object)adaptor.create(VAR102)
+                            VAR113=(Token)match(input,VAR,FOLLOW_VAR_in_params786); 
+                            VAR113_tree = 
+                            (Object)adaptor.create(VAR113)
                             ;
-                            adaptor.addChild(root_0, VAR102_tree);
+                            adaptor.addChild(root_0, VAR113_tree);
 
 
                             }
                             break;
                         case 2 :
-                            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:102:25: VAR VAR
+                            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:103:25: VAR VAR
                             {
-                            VAR103=(Token)match(input,VAR,FOLLOW_VAR_in_params742); 
-                            VAR103_tree = 
-                            (Object)adaptor.create(VAR103)
+                            VAR114=(Token)match(input,VAR,FOLLOW_VAR_in_params788); 
+                            VAR114_tree = 
+                            (Object)adaptor.create(VAR114)
                             ;
-                            adaptor.addChild(root_0, VAR103_tree);
+                            adaptor.addChild(root_0, VAR114_tree);
 
 
-                            VAR104=(Token)match(input,VAR,FOLLOW_VAR_in_params744); 
-                            VAR104_tree = 
-                            (Object)adaptor.create(VAR104)
+                            VAR115=(Token)match(input,VAR,FOLLOW_VAR_in_params790); 
+                            VAR115_tree = 
+                            (Object)adaptor.create(VAR115)
                             ;
-                            adaptor.addChild(root_0, VAR104_tree);
+                            adaptor.addChild(root_0, VAR115_tree);
 
 
                             }
@@ -3331,47 +3813,47 @@ public TreeAdaptor getTreeAdaptor() {
                     }
 
 
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:102:34: ( ',' types VAR )*
-                    loop25:
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:103:34: ( ',' types VAR )*
+                    loop27:
                     do {
-                        int alt25=2;
-                        int LA25_0 = input.LA(1);
+                        int alt27=2;
+                        int LA27_0 = input.LA(1);
 
-                        if ( (LA25_0==63) ) {
-                            alt25=1;
+                        if ( (LA27_0==63) ) {
+                            alt27=1;
                         }
 
 
-                        switch (alt25) {
+                        switch (alt27) {
                     	case 1 :
-                    	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:102:35: ',' types VAR
+                    	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:103:35: ',' types VAR
                     	    {
-                    	    char_literal105=(Token)match(input,63,FOLLOW_63_in_params748); 
-                    	    char_literal105_tree = 
-                    	    (Object)adaptor.create(char_literal105)
+                    	    char_literal116=(Token)match(input,63,FOLLOW_63_in_params794); 
+                    	    char_literal116_tree = 
+                    	    (Object)adaptor.create(char_literal116)
                     	    ;
-                    	    adaptor.addChild(root_0, char_literal105_tree);
+                    	    adaptor.addChild(root_0, char_literal116_tree);
 
 
-                    	    pushFollow(FOLLOW_types_in_params750);
-                    	    types106=types();
+                    	    pushFollow(FOLLOW_types_in_params796);
+                    	    types117=types();
 
                     	    state._fsp--;
 
-                    	    adaptor.addChild(root_0, types106.getTree());
+                    	    adaptor.addChild(root_0, types117.getTree());
 
-                    	    VAR107=(Token)match(input,VAR,FOLLOW_VAR_in_params752); 
-                    	    VAR107_tree = 
-                    	    (Object)adaptor.create(VAR107)
+                    	    VAR118=(Token)match(input,VAR,FOLLOW_VAR_in_params798); 
+                    	    VAR118_tree = 
+                    	    (Object)adaptor.create(VAR118)
                     	    ;
-                    	    adaptor.addChild(root_0, VAR107_tree);
+                    	    adaptor.addChild(root_0, VAR118_tree);
 
 
                     	    }
                     	    break;
 
                     	default :
-                    	    break loop25;
+                    	    break loop27;
                         }
                     } while (true);
 
@@ -3382,11 +3864,11 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            char_literal108=(Token)match(input,58,FOLLOW_58_in_params758); 
-            char_literal108_tree = 
-            (Object)adaptor.create(char_literal108)
+            char_literal119=(Token)match(input,58,FOLLOW_58_in_params804); 
+            char_literal119_tree = 
+            (Object)adaptor.create(char_literal119)
             ;
-            adaptor.addChild(root_0, char_literal108_tree);
+            adaptor.addChild(root_0, char_literal119_tree);
 
 
             }
@@ -3420,7 +3902,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "decl"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:103:1: decl : ( int_dec -> ^( Int_dec int_dec ) | double_dec -> ^( Double_dec double_dec ) );
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:104:1: decl : ( int_dec -> ^( Int_dec int_dec ) | double_dec -> ^( Double_dec double_dec ) );
     public final ArithmeticExpressionsParser.decl_return decl() throws RecognitionException {
         ArithmeticExpressionsParser.decl_return retval = new ArithmeticExpressionsParser.decl_return();
         retval.start = input.LT(1);
@@ -3428,30 +3910,30 @@ public TreeAdaptor getTreeAdaptor() {
 
         Object root_0 = null;
 
-        ArithmeticExpressionsParser.int_dec_return int_dec109 =null;
+        ArithmeticExpressionsParser.int_dec_return int_dec120 =null;
 
-        ArithmeticExpressionsParser.double_dec_return double_dec110 =null;
+        ArithmeticExpressionsParser.double_dec_return double_dec121 =null;
 
 
         RewriteRuleSubtreeStream stream_int_dec=new RewriteRuleSubtreeStream(adaptor,"rule int_dec");
         RewriteRuleSubtreeStream stream_double_dec=new RewriteRuleSubtreeStream(adaptor,"rule double_dec");
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:103:9: ( int_dec -> ^( Int_dec int_dec ) | double_dec -> ^( Double_dec double_dec ) )
-            int alt27=2;
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:104:9: ( int_dec -> ^( Int_dec int_dec ) | double_dec -> ^( Double_dec double_dec ) )
+            int alt29=2;
             switch ( input.LA(1) ) {
             case Modifier:
                 {
-                int LA27_1 = input.LA(2);
+                int LA29_1 = input.LA(2);
 
-                if ( (LA27_1==INT) ) {
-                    alt27=1;
+                if ( (LA29_1==INT) ) {
+                    alt29=1;
                 }
-                else if ( (LA27_1==DOUBLE) ) {
-                    alt27=2;
+                else if ( (LA29_1==DOUBLE) ) {
+                    alt29=2;
                 }
                 else {
                     NoViableAltException nvae =
-                        new NoViableAltException("", 27, 1, input);
+                        new NoViableAltException("", 29, 1, input);
 
                     throw nvae;
 
@@ -3460,32 +3942,32 @@ public TreeAdaptor getTreeAdaptor() {
                 break;
             case INT:
                 {
-                alt27=1;
+                alt29=1;
                 }
                 break;
             case DOUBLE:
                 {
-                alt27=2;
+                alt29=2;
                 }
                 break;
             default:
                 NoViableAltException nvae =
-                    new NoViableAltException("", 27, 0, input);
+                    new NoViableAltException("", 29, 0, input);
 
                 throw nvae;
 
             }
 
-            switch (alt27) {
+            switch (alt29) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:104:2: int_dec
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:105:2: int_dec
                     {
-                    pushFollow(FOLLOW_int_dec_in_decl772);
-                    int_dec109=int_dec();
+                    pushFollow(FOLLOW_int_dec_in_decl818);
+                    int_dec120=int_dec();
 
                     state._fsp--;
 
-                    stream_int_dec.add(int_dec109.getTree());
+                    stream_int_dec.add(int_dec120.getTree());
 
                     // AST REWRITE
                     // elements: int_dec
@@ -3498,9 +3980,9 @@ public TreeAdaptor getTreeAdaptor() {
                     RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.tree:null);
 
                     root_0 = (Object)adaptor.nil();
-                    // 104:10: -> ^( Int_dec int_dec )
+                    // 105:10: -> ^( Int_dec int_dec )
                     {
-                        // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:104:13: ^( Int_dec int_dec )
+                        // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:105:13: ^( Int_dec int_dec )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -3520,14 +4002,14 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:105:3: double_dec
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:106:3: double_dec
                     {
-                    pushFollow(FOLLOW_double_dec_in_decl784);
-                    double_dec110=double_dec();
+                    pushFollow(FOLLOW_double_dec_in_decl830);
+                    double_dec121=double_dec();
 
                     state._fsp--;
 
-                    stream_double_dec.add(double_dec110.getTree());
+                    stream_double_dec.add(double_dec121.getTree());
 
                     // AST REWRITE
                     // elements: double_dec
@@ -3540,9 +4022,9 @@ public TreeAdaptor getTreeAdaptor() {
                     RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.tree:null);
 
                     root_0 = (Object)adaptor.nil();
-                    // 105:14: -> ^( Double_dec double_dec )
+                    // 106:14: -> ^( Double_dec double_dec )
                     {
-                        // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:105:17: ^( Double_dec double_dec )
+                        // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:106:17: ^( Double_dec double_dec )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -3592,7 +4074,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "while_condition"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:107:2: while_condition : ( '(' condition ')' | object );
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:108:2: while_condition : ( '(' condition ')' | object );
     public final ArithmeticExpressionsParser.while_condition_return while_condition() throws RecognitionException {
         ArithmeticExpressionsParser.while_condition_return retval = new ArithmeticExpressionsParser.while_condition_return();
         retval.start = input.LT(1);
@@ -3600,76 +4082,76 @@ public TreeAdaptor getTreeAdaptor() {
 
         Object root_0 = null;
 
-        Token char_literal111=null;
-        Token char_literal113=null;
-        ArithmeticExpressionsParser.condition_return condition112 =null;
+        Token char_literal122=null;
+        Token char_literal124=null;
+        ArithmeticExpressionsParser.condition_return condition123 =null;
 
-        ArithmeticExpressionsParser.object_return object114 =null;
+        ArithmeticExpressionsParser.object_return object125 =null;
 
 
-        Object char_literal111_tree=null;
-        Object char_literal113_tree=null;
+        Object char_literal122_tree=null;
+        Object char_literal124_tree=null;
 
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:108:4: ( '(' condition ')' | object )
-            int alt28=2;
-            int LA28_0 = input.LA(1);
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:109:4: ( '(' condition ')' | object )
+            int alt30=2;
+            int LA30_0 = input.LA(1);
 
-            if ( (LA28_0==57) ) {
-                alt28=1;
+            if ( (LA30_0==57) ) {
+                alt30=1;
             }
-            else if ( (LA28_0==AndOr||(LA28_0 >= RelationalOperators && LA28_0 <= SEMICOLON)||LA28_0==VAR||(LA28_0 >= 55 && LA28_0 <= 56)||LA28_0==58||LA28_0==60||LA28_0==64||LA28_0==68||LA28_0==70) ) {
-                alt28=2;
+            else if ( (LA30_0==AndOr||LA30_0==NUM||(LA30_0 >= RelationalOperators && LA30_0 <= SEMICOLON)||LA30_0==VAR||(LA30_0 >= 55 && LA30_0 <= 56)||LA30_0==58||LA30_0==60||LA30_0==64||LA30_0==68||LA30_0==70) ) {
+                alt30=2;
             }
             else {
                 NoViableAltException nvae =
-                    new NoViableAltException("", 28, 0, input);
+                    new NoViableAltException("", 30, 0, input);
 
                 throw nvae;
 
             }
-            switch (alt28) {
+            switch (alt30) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:108:6: '(' condition ')'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:109:6: '(' condition ')'
                     {
                     root_0 = (Object)adaptor.nil();
 
 
-                    char_literal111=(Token)match(input,57,FOLLOW_57_in_while_condition805); 
-                    char_literal111_tree = 
-                    (Object)adaptor.create(char_literal111)
+                    char_literal122=(Token)match(input,57,FOLLOW_57_in_while_condition851); 
+                    char_literal122_tree = 
+                    (Object)adaptor.create(char_literal122)
                     ;
-                    adaptor.addChild(root_0, char_literal111_tree);
+                    adaptor.addChild(root_0, char_literal122_tree);
 
 
-                    pushFollow(FOLLOW_condition_in_while_condition807);
-                    condition112=condition();
+                    pushFollow(FOLLOW_condition_in_while_condition853);
+                    condition123=condition();
 
                     state._fsp--;
 
-                    adaptor.addChild(root_0, condition112.getTree());
+                    adaptor.addChild(root_0, condition123.getTree());
 
-                    char_literal113=(Token)match(input,58,FOLLOW_58_in_while_condition809); 
-                    char_literal113_tree = 
-                    (Object)adaptor.create(char_literal113)
+                    char_literal124=(Token)match(input,58,FOLLOW_58_in_while_condition855); 
+                    char_literal124_tree = 
+                    (Object)adaptor.create(char_literal124)
                     ;
-                    adaptor.addChild(root_0, char_literal113_tree);
+                    adaptor.addChild(root_0, char_literal124_tree);
 
 
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:108:24: object
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:109:24: object
                     {
                     root_0 = (Object)adaptor.nil();
 
 
-                    pushFollow(FOLLOW_object_in_while_condition811);
-                    object114=object();
+                    pushFollow(FOLLOW_object_in_while_condition857);
+                    object125=object();
 
                     state._fsp--;
 
-                    adaptor.addChild(root_0, object114.getTree());
+                    adaptor.addChild(root_0, object125.getTree());
 
                     }
                     break;
@@ -3704,7 +4186,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "whilestmt"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:109:1: whilestmt : 'while' '(' while_condition ')' '{' ( stmt )* '}' -> ^( Whilestmt 'while' '(' while_condition ')' '{' ( stmt )* '}' ) ;
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:110:1: whilestmt : 'while' '(' while_condition ')' '{' ( stmt )* '}' -> ^( Whilestmt 'while' '(' while_condition ')' '{' ( stmt )* '}' ) ;
     public final ArithmeticExpressionsParser.whilestmt_return whilestmt() throws RecognitionException {
         ArithmeticExpressionsParser.whilestmt_return retval = new ArithmeticExpressionsParser.whilestmt_return();
         retval.start = input.LT(1);
@@ -3712,21 +4194,21 @@ public TreeAdaptor getTreeAdaptor() {
 
         Object root_0 = null;
 
-        Token string_literal115=null;
-        Token char_literal116=null;
-        Token char_literal118=null;
-        Token char_literal119=null;
-        Token char_literal121=null;
-        ArithmeticExpressionsParser.while_condition_return while_condition117 =null;
+        Token string_literal126=null;
+        Token char_literal127=null;
+        Token char_literal129=null;
+        Token char_literal130=null;
+        Token char_literal132=null;
+        ArithmeticExpressionsParser.while_condition_return while_condition128 =null;
 
-        ArithmeticExpressionsParser.stmt_return stmt120 =null;
+        ArithmeticExpressionsParser.stmt_return stmt131 =null;
 
 
-        Object string_literal115_tree=null;
-        Object char_literal116_tree=null;
-        Object char_literal118_tree=null;
-        Object char_literal119_tree=null;
-        Object char_literal121_tree=null;
+        Object string_literal126_tree=null;
+        Object char_literal127_tree=null;
+        Object char_literal129_tree=null;
+        Object char_literal130_tree=null;
+        Object char_literal132_tree=null;
         RewriteRuleTokenStream stream_78=new RewriteRuleTokenStream(adaptor,"token 78");
         RewriteRuleTokenStream stream_79=new RewriteRuleTokenStream(adaptor,"token 79");
         RewriteRuleTokenStream stream_57=new RewriteRuleTokenStream(adaptor,"token 57");
@@ -3735,69 +4217,69 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleSubtreeStream stream_while_condition=new RewriteRuleSubtreeStream(adaptor,"rule while_condition");
         RewriteRuleSubtreeStream stream_stmt=new RewriteRuleSubtreeStream(adaptor,"rule stmt");
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:109:11: ( 'while' '(' while_condition ')' '{' ( stmt )* '}' -> ^( Whilestmt 'while' '(' while_condition ')' '{' ( stmt )* '}' ) )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:110:2: 'while' '(' while_condition ')' '{' ( stmt )* '}'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:110:11: ( 'while' '(' while_condition ')' '{' ( stmt )* '}' -> ^( Whilestmt 'while' '(' while_condition ')' '{' ( stmt )* '}' ) )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:111:2: 'while' '(' while_condition ')' '{' ( stmt )* '}'
             {
-            string_literal115=(Token)match(input,78,FOLLOW_78_in_whilestmt820);  
-            stream_78.add(string_literal115);
+            string_literal126=(Token)match(input,78,FOLLOW_78_in_whilestmt866);  
+            stream_78.add(string_literal126);
 
 
-            char_literal116=(Token)match(input,57,FOLLOW_57_in_whilestmt822);  
-            stream_57.add(char_literal116);
+            char_literal127=(Token)match(input,57,FOLLOW_57_in_whilestmt868);  
+            stream_57.add(char_literal127);
 
 
-            pushFollow(FOLLOW_while_condition_in_whilestmt824);
-            while_condition117=while_condition();
+            pushFollow(FOLLOW_while_condition_in_whilestmt870);
+            while_condition128=while_condition();
 
             state._fsp--;
 
-            stream_while_condition.add(while_condition117.getTree());
+            stream_while_condition.add(while_condition128.getTree());
 
-            char_literal118=(Token)match(input,58,FOLLOW_58_in_whilestmt826);  
-            stream_58.add(char_literal118);
-
-
-            char_literal119=(Token)match(input,79,FOLLOW_79_in_whilestmt828);  
-            stream_79.add(char_literal119);
+            char_literal129=(Token)match(input,58,FOLLOW_58_in_whilestmt872);  
+            stream_58.add(char_literal129);
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:110:38: ( stmt )*
-            loop29:
+            char_literal130=(Token)match(input,79,FOLLOW_79_in_whilestmt874);  
+            stream_79.add(char_literal130);
+
+
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:111:38: ( stmt )*
+            loop31:
             do {
-                int alt29=2;
-                int LA29_0 = input.LA(1);
+                int alt31=2;
+                int LA31_0 = input.LA(1);
 
-                if ( (LA29_0==BOOLEAN||LA29_0==DOUBLE||LA29_0==INT||LA29_0==Modifier||LA29_0==SEMICOLON||LA29_0==STRING||LA29_0==System||LA29_0==VAR||(LA29_0 >= 75 && LA29_0 <= 76)||LA29_0==78) ) {
-                    alt29=1;
+                if ( (LA31_0==BOOLEAN||LA31_0==DOUBLE||LA31_0==INT||LA31_0==Modifier||LA31_0==SEMICOLON||LA31_0==STRING||LA31_0==System||LA31_0==VAR||(LA31_0 >= 75 && LA31_0 <= 76)||LA31_0==78) ) {
+                    alt31=1;
                 }
 
 
-                switch (alt29) {
+                switch (alt31) {
             	case 1 :
-            	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:110:38: stmt
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:111:38: stmt
             	    {
-            	    pushFollow(FOLLOW_stmt_in_whilestmt830);
-            	    stmt120=stmt();
+            	    pushFollow(FOLLOW_stmt_in_whilestmt876);
+            	    stmt131=stmt();
 
             	    state._fsp--;
 
-            	    stream_stmt.add(stmt120.getTree());
+            	    stream_stmt.add(stmt131.getTree());
 
             	    }
             	    break;
 
             	default :
-            	    break loop29;
+            	    break loop31;
                 }
             } while (true);
 
 
-            char_literal121=(Token)match(input,80,FOLLOW_80_in_whilestmt833);  
-            stream_80.add(char_literal121);
+            char_literal132=(Token)match(input,80,FOLLOW_80_in_whilestmt879);  
+            stream_80.add(char_literal132);
 
 
             // AST REWRITE
-            // elements: 78, while_condition, stmt, 80, 79, 57, 58
+            // elements: stmt, 58, 80, while_condition, 79, 78, 57
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -3807,9 +4289,9 @@ public TreeAdaptor getTreeAdaptor() {
             RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.tree:null);
 
             root_0 = (Object)adaptor.nil();
-            // 111:3: -> ^( Whilestmt 'while' '(' while_condition ')' '{' ( stmt )* '}' )
+            // 112:3: -> ^( Whilestmt 'while' '(' while_condition ')' '{' ( stmt )* '}' )
             {
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:111:6: ^( Whilestmt 'while' '(' while_condition ')' '{' ( stmt )* '}' )
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:112:6: ^( Whilestmt 'while' '(' while_condition ')' '{' ( stmt )* '}' )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -3834,7 +4316,7 @@ public TreeAdaptor getTreeAdaptor() {
                 stream_79.nextNode()
                 );
 
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:111:54: ( stmt )*
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:112:54: ( stmt )*
                 while ( stream_stmt.hasNext() ) {
                     adaptor.addChild(root_1, stream_stmt.nextTree());
 
@@ -3884,7 +4366,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "ifstmt"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:116:1: ifstmt : 'if' '(' ( '!' )? ( '(' )? if_cond ( ')' )? ')' ( '{' )? ( stmt )* ( '}' )? ( 'else' ( '{' )? ( stmt )* ( '}' )? )? ( 'else' ( '{' )? ( stmt )* ( '}' )? )? ;
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:117:1: ifstmt : 'if' '(' ( '!' )? ( '(' )? if_cond ( ')' )? ')' ( '{' )? ( stmt )* ( '}' )? ( 'else' ( '{' )? ( stmt )* ( '}' )? )? ( 'else' ( '{' )? ( stmt )* ( '}' )? )? ;
     public final ArithmeticExpressionsParser.ifstmt_return ifstmt() throws RecognitionException {
         ArithmeticExpressionsParser.ifstmt_return retval = new ArithmeticExpressionsParser.ifstmt_return();
         retval.start = input.LT(1);
@@ -3892,140 +4374,81 @@ public TreeAdaptor getTreeAdaptor() {
 
         Object root_0 = null;
 
-        Token string_literal122=null;
-        Token char_literal123=null;
-        Token char_literal124=null;
-        Token char_literal125=null;
-        Token char_literal127=null;
-        Token char_literal128=null;
-        Token char_literal129=null;
-        Token char_literal131=null;
-        Token string_literal132=null;
-        Token char_literal133=null;
+        Token string_literal133=null;
+        Token char_literal134=null;
         Token char_literal135=null;
-        Token string_literal136=null;
-        Token char_literal137=null;
+        Token char_literal136=null;
+        Token char_literal138=null;
         Token char_literal139=null;
-        ArithmeticExpressionsParser.if_cond_return if_cond126 =null;
+        Token char_literal140=null;
+        Token char_literal142=null;
+        Token string_literal143=null;
+        Token char_literal144=null;
+        Token char_literal146=null;
+        Token string_literal147=null;
+        Token char_literal148=null;
+        Token char_literal150=null;
+        ArithmeticExpressionsParser.if_cond_return if_cond137 =null;
 
-        ArithmeticExpressionsParser.stmt_return stmt130 =null;
+        ArithmeticExpressionsParser.stmt_return stmt141 =null;
 
-        ArithmeticExpressionsParser.stmt_return stmt134 =null;
+        ArithmeticExpressionsParser.stmt_return stmt145 =null;
 
-        ArithmeticExpressionsParser.stmt_return stmt138 =null;
+        ArithmeticExpressionsParser.stmt_return stmt149 =null;
 
 
-        Object string_literal122_tree=null;
-        Object char_literal123_tree=null;
-        Object char_literal124_tree=null;
-        Object char_literal125_tree=null;
-        Object char_literal127_tree=null;
-        Object char_literal128_tree=null;
-        Object char_literal129_tree=null;
-        Object char_literal131_tree=null;
-        Object string_literal132_tree=null;
-        Object char_literal133_tree=null;
+        Object string_literal133_tree=null;
+        Object char_literal134_tree=null;
         Object char_literal135_tree=null;
-        Object string_literal136_tree=null;
-        Object char_literal137_tree=null;
+        Object char_literal136_tree=null;
+        Object char_literal138_tree=null;
         Object char_literal139_tree=null;
+        Object char_literal140_tree=null;
+        Object char_literal142_tree=null;
+        Object string_literal143_tree=null;
+        Object char_literal144_tree=null;
+        Object char_literal146_tree=null;
+        Object string_literal147_tree=null;
+        Object char_literal148_tree=null;
+        Object char_literal150_tree=null;
 
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:116:9: ( 'if' '(' ( '!' )? ( '(' )? if_cond ( ')' )? ')' ( '{' )? ( stmt )* ( '}' )? ( 'else' ( '{' )? ( stmt )* ( '}' )? )? ( 'else' ( '{' )? ( stmt )* ( '}' )? )? )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:2: 'if' '(' ( '!' )? ( '(' )? if_cond ( ')' )? ')' ( '{' )? ( stmt )* ( '}' )? ( 'else' ( '{' )? ( stmt )* ( '}' )? )? ( 'else' ( '{' )? ( stmt )* ( '}' )? )?
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:117:9: ( 'if' '(' ( '!' )? ( '(' )? if_cond ( ')' )? ')' ( '{' )? ( stmt )* ( '}' )? ( 'else' ( '{' )? ( stmt )* ( '}' )? )? ( 'else' ( '{' )? ( stmt )* ( '}' )? )? )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:2: 'if' '(' ( '!' )? ( '(' )? if_cond ( ')' )? ')' ( '{' )? ( stmt )* ( '}' )? ( 'else' ( '{' )? ( stmt )* ( '}' )? )? ( 'else' ( '{' )? ( stmt )* ( '}' )? )?
             {
             root_0 = (Object)adaptor.nil();
 
 
-            string_literal122=(Token)match(input,76,FOLLOW_76_in_ifstmt878); 
-            string_literal122_tree = 
-            (Object)adaptor.create(string_literal122)
+            string_literal133=(Token)match(input,76,FOLLOW_76_in_ifstmt924); 
+            string_literal133_tree = 
+            (Object)adaptor.create(string_literal133)
             ;
-            adaptor.addChild(root_0, string_literal122_tree);
+            adaptor.addChild(root_0, string_literal133_tree);
 
 
-            char_literal123=(Token)match(input,57,FOLLOW_57_in_ifstmt880); 
-            char_literal123_tree = 
-            (Object)adaptor.create(char_literal123)
+            char_literal134=(Token)match(input,57,FOLLOW_57_in_ifstmt926); 
+            char_literal134_tree = 
+            (Object)adaptor.create(char_literal134)
             ;
-            adaptor.addChild(root_0, char_literal123_tree);
+            adaptor.addChild(root_0, char_literal134_tree);
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:11: ( '!' )?
-            int alt30=2;
-            int LA30_0 = input.LA(1);
-
-            if ( (LA30_0==55) ) {
-                alt30=1;
-            }
-            switch (alt30) {
-                case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:12: '!'
-                    {
-                    char_literal124=(Token)match(input,55,FOLLOW_55_in_ifstmt883); 
-                    char_literal124_tree = 
-                    (Object)adaptor.create(char_literal124)
-                    ;
-                    adaptor.addChild(root_0, char_literal124_tree);
-
-
-                    }
-                    break;
-
-            }
-
-
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:19: ( '(' )?
-            int alt31=2;
-            int LA31_0 = input.LA(1);
-
-            if ( (LA31_0==57) ) {
-                alt31=1;
-            }
-            switch (alt31) {
-                case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:20: '('
-                    {
-                    char_literal125=(Token)match(input,57,FOLLOW_57_in_ifstmt889); 
-                    char_literal125_tree = 
-                    (Object)adaptor.create(char_literal125)
-                    ;
-                    adaptor.addChild(root_0, char_literal125_tree);
-
-
-                    }
-                    break;
-
-            }
-
-
-            pushFollow(FOLLOW_if_cond_in_ifstmt893);
-            if_cond126=if_cond();
-
-            state._fsp--;
-
-            adaptor.addChild(root_0, if_cond126.getTree());
-
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:34: ( ')' )?
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:11: ( '!' )?
             int alt32=2;
             int LA32_0 = input.LA(1);
 
-            if ( (LA32_0==58) ) {
-                int LA32_1 = input.LA(2);
-
-                if ( (LA32_1==58) ) {
-                    alt32=1;
-                }
+            if ( (LA32_0==55) ) {
+                alt32=1;
             }
             switch (alt32) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:35: ')'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:12: '!'
                     {
-                    char_literal127=(Token)match(input,58,FOLLOW_58_in_ifstmt896); 
-                    char_literal127_tree = 
-                    (Object)adaptor.create(char_literal127)
+                    char_literal135=(Token)match(input,55,FOLLOW_55_in_ifstmt929); 
+                    char_literal135_tree = 
+                    (Object)adaptor.create(char_literal135)
                     ;
-                    adaptor.addChild(root_0, char_literal127_tree);
+                    adaptor.addChild(root_0, char_literal135_tree);
 
 
                     }
@@ -4034,29 +4457,22 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            char_literal128=(Token)match(input,58,FOLLOW_58_in_ifstmt900); 
-            char_literal128_tree = 
-            (Object)adaptor.create(char_literal128)
-            ;
-            adaptor.addChild(root_0, char_literal128_tree);
-
-
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:45: ( '{' )?
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:19: ( '(' )?
             int alt33=2;
             int LA33_0 = input.LA(1);
 
-            if ( (LA33_0==79) ) {
+            if ( (LA33_0==57) ) {
                 alt33=1;
             }
             switch (alt33) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:46: '{'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:20: '('
                     {
-                    char_literal129=(Token)match(input,79,FOLLOW_79_in_ifstmt903); 
-                    char_literal129_tree = 
-                    (Object)adaptor.create(char_literal129)
+                    char_literal136=(Token)match(input,57,FOLLOW_57_in_ifstmt935); 
+                    char_literal136_tree = 
+                    (Object)adaptor.create(char_literal136)
                     ;
-                    adaptor.addChild(root_0, char_literal129_tree);
+                    adaptor.addChild(root_0, char_literal136_tree);
 
 
                     }
@@ -4065,105 +4481,171 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:52: ( stmt )*
-            loop34:
+            pushFollow(FOLLOW_if_cond_in_ifstmt939);
+            if_cond137=if_cond();
+
+            state._fsp--;
+
+            adaptor.addChild(root_0, if_cond137.getTree());
+
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:34: ( ')' )?
+            int alt34=2;
+            int LA34_0 = input.LA(1);
+
+            if ( (LA34_0==58) ) {
+                int LA34_1 = input.LA(2);
+
+                if ( (LA34_1==58) ) {
+                    alt34=1;
+                }
+            }
+            switch (alt34) {
+                case 1 :
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:35: ')'
+                    {
+                    char_literal138=(Token)match(input,58,FOLLOW_58_in_ifstmt942); 
+                    char_literal138_tree = 
+                    (Object)adaptor.create(char_literal138)
+                    ;
+                    adaptor.addChild(root_0, char_literal138_tree);
+
+
+                    }
+                    break;
+
+            }
+
+
+            char_literal139=(Token)match(input,58,FOLLOW_58_in_ifstmt946); 
+            char_literal139_tree = 
+            (Object)adaptor.create(char_literal139)
+            ;
+            adaptor.addChild(root_0, char_literal139_tree);
+
+
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:45: ( '{' )?
+            int alt35=2;
+            int LA35_0 = input.LA(1);
+
+            if ( (LA35_0==79) ) {
+                alt35=1;
+            }
+            switch (alt35) {
+                case 1 :
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:46: '{'
+                    {
+                    char_literal140=(Token)match(input,79,FOLLOW_79_in_ifstmt949); 
+                    char_literal140_tree = 
+                    (Object)adaptor.create(char_literal140)
+                    ;
+                    adaptor.addChild(root_0, char_literal140_tree);
+
+
+                    }
+                    break;
+
+            }
+
+
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:52: ( stmt )*
+            loop36:
             do {
-                int alt34=2;
+                int alt36=2;
                 switch ( input.LA(1) ) {
                 case Modifier:
                     {
-                    alt34=1;
+                    alt36=1;
                     }
                     break;
                 case INT:
                     {
-                    alt34=1;
+                    alt36=1;
                     }
                     break;
                 case DOUBLE:
                     {
-                    alt34=1;
+                    alt36=1;
                     }
                     break;
                 case 76:
                     {
-                    alt34=1;
+                    alt36=1;
                     }
                     break;
                 case 78:
                     {
-                    alt34=1;
+                    alt36=1;
                     }
                     break;
                 case 75:
                     {
-                    alt34=1;
+                    alt36=1;
                     }
                     break;
                 case VAR:
                     {
-                    alt34=1;
+                    alt36=1;
                     }
                     break;
                 case STRING:
                     {
-                    alt34=1;
+                    alt36=1;
                     }
                     break;
                 case BOOLEAN:
                     {
-                    alt34=1;
+                    alt36=1;
                     }
                     break;
                 case SEMICOLON:
                     {
-                    alt34=1;
+                    alt36=1;
                     }
                     break;
                 case System:
                     {
-                    alt34=1;
+                    alt36=1;
                     }
                     break;
 
                 }
 
-                switch (alt34) {
+                switch (alt36) {
             	case 1 :
-            	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:52: stmt
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:52: stmt
             	    {
-            	    pushFollow(FOLLOW_stmt_in_ifstmt907);
-            	    stmt130=stmt();
+            	    pushFollow(FOLLOW_stmt_in_ifstmt953);
+            	    stmt141=stmt();
 
             	    state._fsp--;
 
-            	    adaptor.addChild(root_0, stmt130.getTree());
+            	    adaptor.addChild(root_0, stmt141.getTree());
 
             	    }
             	    break;
 
             	default :
-            	    break loop34;
+            	    break loop36;
                 }
             } while (true);
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:58: ( '}' )?
-            int alt35=2;
-            int LA35_0 = input.LA(1);
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:58: ( '}' )?
+            int alt37=2;
+            int LA37_0 = input.LA(1);
 
-            if ( (LA35_0==80) ) {
-                alt35=1;
+            if ( (LA37_0==80) ) {
+                alt37=1;
             }
-            switch (alt35) {
+            switch (alt37) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:59: '}'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:59: '}'
                     {
-                    char_literal131=(Token)match(input,80,FOLLOW_80_in_ifstmt911); 
-                    char_literal131_tree = 
-                    (Object)adaptor.create(char_literal131)
+                    char_literal142=(Token)match(input,80,FOLLOW_80_in_ifstmt957); 
+                    char_literal142_tree = 
+                    (Object)adaptor.create(char_literal142)
                     ;
-                    adaptor.addChild(root_0, char_literal131_tree);
+                    adaptor.addChild(root_0, char_literal142_tree);
 
 
                     }
@@ -4172,147 +4654,147 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:65: ( 'else' ( '{' )? ( stmt )* ( '}' )? )?
-            int alt39=2;
-            int LA39_0 = input.LA(1);
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:65: ( 'else' ( '{' )? ( stmt )* ( '}' )? )?
+            int alt41=2;
+            int LA41_0 = input.LA(1);
 
-            if ( (LA39_0==74) ) {
-                alt39=1;
+            if ( (LA41_0==74) ) {
+                alt41=1;
             }
-            switch (alt39) {
+            switch (alt41) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:66: 'else' ( '{' )? ( stmt )* ( '}' )?
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:66: 'else' ( '{' )? ( stmt )* ( '}' )?
                     {
-                    string_literal132=(Token)match(input,74,FOLLOW_74_in_ifstmt916); 
-                    string_literal132_tree = 
-                    (Object)adaptor.create(string_literal132)
+                    string_literal143=(Token)match(input,74,FOLLOW_74_in_ifstmt962); 
+                    string_literal143_tree = 
+                    (Object)adaptor.create(string_literal143)
                     ;
-                    adaptor.addChild(root_0, string_literal132_tree);
+                    adaptor.addChild(root_0, string_literal143_tree);
 
 
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:73: ( '{' )?
-                    int alt36=2;
-                    int LA36_0 = input.LA(1);
-
-                    if ( (LA36_0==79) ) {
-                        alt36=1;
-                    }
-                    switch (alt36) {
-                        case 1 :
-                            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:74: '{'
-                            {
-                            char_literal133=(Token)match(input,79,FOLLOW_79_in_ifstmt919); 
-                            char_literal133_tree = 
-                            (Object)adaptor.create(char_literal133)
-                            ;
-                            adaptor.addChild(root_0, char_literal133_tree);
-
-
-                            }
-                            break;
-
-                    }
-
-
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:80: ( stmt )*
-                    loop37:
-                    do {
-                        int alt37=2;
-                        switch ( input.LA(1) ) {
-                        case Modifier:
-                            {
-                            alt37=1;
-                            }
-                            break;
-                        case INT:
-                            {
-                            alt37=1;
-                            }
-                            break;
-                        case DOUBLE:
-                            {
-                            alt37=1;
-                            }
-                            break;
-                        case 76:
-                            {
-                            alt37=1;
-                            }
-                            break;
-                        case 78:
-                            {
-                            alt37=1;
-                            }
-                            break;
-                        case 75:
-                            {
-                            alt37=1;
-                            }
-                            break;
-                        case VAR:
-                            {
-                            alt37=1;
-                            }
-                            break;
-                        case STRING:
-                            {
-                            alt37=1;
-                            }
-                            break;
-                        case BOOLEAN:
-                            {
-                            alt37=1;
-                            }
-                            break;
-                        case SEMICOLON:
-                            {
-                            alt37=1;
-                            }
-                            break;
-                        case System:
-                            {
-                            alt37=1;
-                            }
-                            break;
-
-                        }
-
-                        switch (alt37) {
-                    	case 1 :
-                    	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:80: stmt
-                    	    {
-                    	    pushFollow(FOLLOW_stmt_in_ifstmt923);
-                    	    stmt134=stmt();
-
-                    	    state._fsp--;
-
-                    	    adaptor.addChild(root_0, stmt134.getTree());
-
-                    	    }
-                    	    break;
-
-                    	default :
-                    	    break loop37;
-                        }
-                    } while (true);
-
-
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:86: ( '}' )?
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:73: ( '{' )?
                     int alt38=2;
                     int LA38_0 = input.LA(1);
 
-                    if ( (LA38_0==80) ) {
+                    if ( (LA38_0==79) ) {
                         alt38=1;
                     }
                     switch (alt38) {
                         case 1 :
-                            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:87: '}'
+                            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:74: '{'
                             {
-                            char_literal135=(Token)match(input,80,FOLLOW_80_in_ifstmt927); 
-                            char_literal135_tree = 
-                            (Object)adaptor.create(char_literal135)
+                            char_literal144=(Token)match(input,79,FOLLOW_79_in_ifstmt965); 
+                            char_literal144_tree = 
+                            (Object)adaptor.create(char_literal144)
                             ;
-                            adaptor.addChild(root_0, char_literal135_tree);
+                            adaptor.addChild(root_0, char_literal144_tree);
+
+
+                            }
+                            break;
+
+                    }
+
+
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:80: ( stmt )*
+                    loop39:
+                    do {
+                        int alt39=2;
+                        switch ( input.LA(1) ) {
+                        case Modifier:
+                            {
+                            alt39=1;
+                            }
+                            break;
+                        case INT:
+                            {
+                            alt39=1;
+                            }
+                            break;
+                        case DOUBLE:
+                            {
+                            alt39=1;
+                            }
+                            break;
+                        case 76:
+                            {
+                            alt39=1;
+                            }
+                            break;
+                        case 78:
+                            {
+                            alt39=1;
+                            }
+                            break;
+                        case 75:
+                            {
+                            alt39=1;
+                            }
+                            break;
+                        case VAR:
+                            {
+                            alt39=1;
+                            }
+                            break;
+                        case STRING:
+                            {
+                            alt39=1;
+                            }
+                            break;
+                        case BOOLEAN:
+                            {
+                            alt39=1;
+                            }
+                            break;
+                        case SEMICOLON:
+                            {
+                            alt39=1;
+                            }
+                            break;
+                        case System:
+                            {
+                            alt39=1;
+                            }
+                            break;
+
+                        }
+
+                        switch (alt39) {
+                    	case 1 :
+                    	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:80: stmt
+                    	    {
+                    	    pushFollow(FOLLOW_stmt_in_ifstmt969);
+                    	    stmt145=stmt();
+
+                    	    state._fsp--;
+
+                    	    adaptor.addChild(root_0, stmt145.getTree());
+
+                    	    }
+                    	    break;
+
+                    	default :
+                    	    break loop39;
+                        }
+                    } while (true);
+
+
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:86: ( '}' )?
+                    int alt40=2;
+                    int LA40_0 = input.LA(1);
+
+                    if ( (LA40_0==80) ) {
+                        alt40=1;
+                    }
+                    switch (alt40) {
+                        case 1 :
+                            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:87: '}'
+                            {
+                            char_literal146=(Token)match(input,80,FOLLOW_80_in_ifstmt973); 
+                            char_literal146_tree = 
+                            (Object)adaptor.create(char_literal146)
+                            ;
+                            adaptor.addChild(root_0, char_literal146_tree);
 
 
                             }
@@ -4327,40 +4809,40 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:95: ( 'else' ( '{' )? ( stmt )* ( '}' )? )?
-            int alt43=2;
-            int LA43_0 = input.LA(1);
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:95: ( 'else' ( '{' )? ( stmt )* ( '}' )? )?
+            int alt45=2;
+            int LA45_0 = input.LA(1);
 
-            if ( (LA43_0==74) ) {
-                alt43=1;
+            if ( (LA45_0==74) ) {
+                alt45=1;
             }
-            switch (alt43) {
+            switch (alt45) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:96: 'else' ( '{' )? ( stmt )* ( '}' )?
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:96: 'else' ( '{' )? ( stmt )* ( '}' )?
                     {
-                    string_literal136=(Token)match(input,74,FOLLOW_74_in_ifstmt934); 
-                    string_literal136_tree = 
-                    (Object)adaptor.create(string_literal136)
+                    string_literal147=(Token)match(input,74,FOLLOW_74_in_ifstmt980); 
+                    string_literal147_tree = 
+                    (Object)adaptor.create(string_literal147)
                     ;
-                    adaptor.addChild(root_0, string_literal136_tree);
+                    adaptor.addChild(root_0, string_literal147_tree);
 
 
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:103: ( '{' )?
-                    int alt40=2;
-                    int LA40_0 = input.LA(1);
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:103: ( '{' )?
+                    int alt42=2;
+                    int LA42_0 = input.LA(1);
 
-                    if ( (LA40_0==79) ) {
-                        alt40=1;
+                    if ( (LA42_0==79) ) {
+                        alt42=1;
                     }
-                    switch (alt40) {
+                    switch (alt42) {
                         case 1 :
-                            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:104: '{'
+                            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:104: '{'
                             {
-                            char_literal137=(Token)match(input,79,FOLLOW_79_in_ifstmt937); 
-                            char_literal137_tree = 
-                            (Object)adaptor.create(char_literal137)
+                            char_literal148=(Token)match(input,79,FOLLOW_79_in_ifstmt983); 
+                            char_literal148_tree = 
+                            (Object)adaptor.create(char_literal148)
                             ;
-                            adaptor.addChild(root_0, char_literal137_tree);
+                            adaptor.addChild(root_0, char_literal148_tree);
 
 
                             }
@@ -4369,105 +4851,105 @@ public TreeAdaptor getTreeAdaptor() {
                     }
 
 
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:110: ( stmt )*
-                    loop41:
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:110: ( stmt )*
+                    loop43:
                     do {
-                        int alt41=2;
+                        int alt43=2;
                         switch ( input.LA(1) ) {
                         case Modifier:
                             {
-                            alt41=1;
+                            alt43=1;
                             }
                             break;
                         case INT:
                             {
-                            alt41=1;
+                            alt43=1;
                             }
                             break;
                         case DOUBLE:
                             {
-                            alt41=1;
+                            alt43=1;
                             }
                             break;
                         case 76:
                             {
-                            alt41=1;
+                            alt43=1;
                             }
                             break;
                         case 78:
                             {
-                            alt41=1;
+                            alt43=1;
                             }
                             break;
                         case 75:
                             {
-                            alt41=1;
+                            alt43=1;
                             }
                             break;
                         case VAR:
                             {
-                            alt41=1;
+                            alt43=1;
                             }
                             break;
                         case STRING:
                             {
-                            alt41=1;
+                            alt43=1;
                             }
                             break;
                         case BOOLEAN:
                             {
-                            alt41=1;
+                            alt43=1;
                             }
                             break;
                         case SEMICOLON:
                             {
-                            alt41=1;
+                            alt43=1;
                             }
                             break;
                         case System:
                             {
-                            alt41=1;
+                            alt43=1;
                             }
                             break;
 
                         }
 
-                        switch (alt41) {
+                        switch (alt43) {
                     	case 1 :
-                    	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:110: stmt
+                    	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:110: stmt
                     	    {
-                    	    pushFollow(FOLLOW_stmt_in_ifstmt941);
-                    	    stmt138=stmt();
+                    	    pushFollow(FOLLOW_stmt_in_ifstmt987);
+                    	    stmt149=stmt();
 
                     	    state._fsp--;
 
-                    	    adaptor.addChild(root_0, stmt138.getTree());
+                    	    adaptor.addChild(root_0, stmt149.getTree());
 
                     	    }
                     	    break;
 
                     	default :
-                    	    break loop41;
+                    	    break loop43;
                         }
                     } while (true);
 
 
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:116: ( '}' )?
-                    int alt42=2;
-                    int LA42_0 = input.LA(1);
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:116: ( '}' )?
+                    int alt44=2;
+                    int LA44_0 = input.LA(1);
 
-                    if ( (LA42_0==80) ) {
-                        alt42=1;
+                    if ( (LA44_0==80) ) {
+                        alt44=1;
                     }
-                    switch (alt42) {
+                    switch (alt44) {
                         case 1 :
-                            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:117:117: '}'
+                            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:118:117: '}'
                             {
-                            char_literal139=(Token)match(input,80,FOLLOW_80_in_ifstmt945); 
-                            char_literal139_tree = 
-                            (Object)adaptor.create(char_literal139)
+                            char_literal150=(Token)match(input,80,FOLLOW_80_in_ifstmt991); 
+                            char_literal150_tree = 
+                            (Object)adaptor.create(char_literal150)
                             ;
-                            adaptor.addChild(root_0, char_literal139_tree);
+                            adaptor.addChild(root_0, char_literal150_tree);
 
 
                             }
@@ -4513,7 +4995,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "if_cond"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:120:2: if_cond : if_nor ;
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:121:2: if_cond : if_nor ;
     public final ArithmeticExpressionsParser.if_cond_return if_cond() throws RecognitionException {
         ArithmeticExpressionsParser.if_cond_return retval = new ArithmeticExpressionsParser.if_cond_return();
         retval.start = input.LT(1);
@@ -4521,23 +5003,23 @@ public TreeAdaptor getTreeAdaptor() {
 
         Object root_0 = null;
 
-        ArithmeticExpressionsParser.if_nor_return if_nor140 =null;
+        ArithmeticExpressionsParser.if_nor_return if_nor151 =null;
 
 
 
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:120:10: ( if_nor )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:120:13: if_nor
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:121:10: ( if_nor )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:121:13: if_nor
             {
             root_0 = (Object)adaptor.nil();
 
 
-            pushFollow(FOLLOW_if_nor_in_if_cond963);
-            if_nor140=if_nor();
+            pushFollow(FOLLOW_if_nor_in_if_cond1009);
+            if_nor151=if_nor();
 
             state._fsp--;
 
-            adaptor.addChild(root_0, if_nor140.getTree());
+            adaptor.addChild(root_0, if_nor151.getTree());
 
             }
 
@@ -4570,7 +5052,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "if_nor"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:121:2: if_nor : object ( ( '>' | '<' | '&&' ) ^ object )* ;
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:122:2: if_nor : object ( ( '>' | '<' | '&&' ) ^ object )* ;
     public final ArithmeticExpressionsParser.if_nor_return if_nor() throws RecognitionException {
         ArithmeticExpressionsParser.if_nor_return retval = new ArithmeticExpressionsParser.if_nor_return();
         retval.start = input.LT(1);
@@ -4578,51 +5060,51 @@ public TreeAdaptor getTreeAdaptor() {
 
         Object root_0 = null;
 
-        Token set142=null;
-        ArithmeticExpressionsParser.object_return object141 =null;
+        Token set153=null;
+        ArithmeticExpressionsParser.object_return object152 =null;
 
-        ArithmeticExpressionsParser.object_return object143 =null;
+        ArithmeticExpressionsParser.object_return object154 =null;
 
 
-        Object set142_tree=null;
+        Object set153_tree=null;
 
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:121:9: ( object ( ( '>' | '<' | '&&' ) ^ object )* )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:121:12: object ( ( '>' | '<' | '&&' ) ^ object )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:122:9: ( object ( ( '>' | '<' | '&&' ) ^ object )* )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:122:12: object ( ( '>' | '<' | '&&' ) ^ object )*
             {
             root_0 = (Object)adaptor.nil();
 
 
-            pushFollow(FOLLOW_object_in_if_nor975);
-            object141=object();
+            pushFollow(FOLLOW_object_in_if_nor1021);
+            object152=object();
 
             state._fsp--;
 
-            adaptor.addChild(root_0, object141.getTree());
+            adaptor.addChild(root_0, object152.getTree());
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:121:19: ( ( '>' | '<' | '&&' ) ^ object )*
-            loop44:
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:122:19: ( ( '>' | '<' | '&&' ) ^ object )*
+            loop46:
             do {
-                int alt44=2;
-                int LA44_0 = input.LA(1);
+                int alt46=2;
+                int LA46_0 = input.LA(1);
 
-                if ( (LA44_0==56||LA44_0==68||LA44_0==70) ) {
-                    alt44=1;
+                if ( (LA46_0==56||LA46_0==68||LA46_0==70) ) {
+                    alt46=1;
                 }
 
 
-                switch (alt44) {
+                switch (alt46) {
             	case 1 :
-            	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:121:20: ( '>' | '<' | '&&' ) ^ object
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:122:20: ( '>' | '<' | '&&' ) ^ object
             	    {
-            	    set142=(Token)input.LT(1);
+            	    set153=(Token)input.LT(1);
 
-            	    set142=(Token)input.LT(1);
+            	    set153=(Token)input.LT(1);
 
             	    if ( input.LA(1)==56||input.LA(1)==68||input.LA(1)==70 ) {
             	        input.consume();
             	        root_0 = (Object)adaptor.becomeRoot(
-            	        (Object)adaptor.create(set142)
+            	        (Object)adaptor.create(set153)
             	        , root_0);
             	        state.errorRecovery=false;
             	    }
@@ -4632,18 +5114,18 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
 
 
-            	    pushFollow(FOLLOW_object_in_if_nor993);
-            	    object143=object();
+            	    pushFollow(FOLLOW_object_in_if_nor1039);
+            	    object154=object();
 
             	    state._fsp--;
 
-            	    adaptor.addChild(root_0, object143.getTree());
+            	    adaptor.addChild(root_0, object154.getTree());
 
             	    }
             	    break;
 
             	default :
-            	    break loop44;
+            	    break loop46;
                 }
             } while (true);
 
@@ -4679,7 +5161,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "forloop"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:122:1: forloop : 'for' '(' ( decl ) ( condition ) SEMICOLON ( VAR change ) ')' '{' ( stmt )* '}' ;
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:123:1: forloop : 'for' '(' ( decl ) ( condition ) SEMICOLON ( VAR change ) ')' '{' ( stmt )* '}' ;
     public final ArithmeticExpressionsParser.forloop_return forloop() throws RecognitionException {
         ArithmeticExpressionsParser.forloop_return retval = new ArithmeticExpressionsParser.forloop_return();
         retval.start = input.LT(1);
@@ -4687,154 +5169,154 @@ public TreeAdaptor getTreeAdaptor() {
 
         Object root_0 = null;
 
-        Token string_literal144=null;
-        Token char_literal145=null;
-        Token SEMICOLON148=null;
-        Token VAR149=null;
-        Token char_literal151=null;
-        Token char_literal152=null;
-        Token char_literal154=null;
-        ArithmeticExpressionsParser.decl_return decl146 =null;
+        Token string_literal155=null;
+        Token char_literal156=null;
+        Token SEMICOLON159=null;
+        Token VAR160=null;
+        Token char_literal162=null;
+        Token char_literal163=null;
+        Token char_literal165=null;
+        ArithmeticExpressionsParser.decl_return decl157 =null;
 
-        ArithmeticExpressionsParser.condition_return condition147 =null;
+        ArithmeticExpressionsParser.condition_return condition158 =null;
 
-        ArithmeticExpressionsParser.change_return change150 =null;
+        ArithmeticExpressionsParser.change_return change161 =null;
 
-        ArithmeticExpressionsParser.stmt_return stmt153 =null;
+        ArithmeticExpressionsParser.stmt_return stmt164 =null;
 
 
-        Object string_literal144_tree=null;
-        Object char_literal145_tree=null;
-        Object SEMICOLON148_tree=null;
-        Object VAR149_tree=null;
-        Object char_literal151_tree=null;
-        Object char_literal152_tree=null;
-        Object char_literal154_tree=null;
+        Object string_literal155_tree=null;
+        Object char_literal156_tree=null;
+        Object SEMICOLON159_tree=null;
+        Object VAR160_tree=null;
+        Object char_literal162_tree=null;
+        Object char_literal163_tree=null;
+        Object char_literal165_tree=null;
 
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:122:9: ( 'for' '(' ( decl ) ( condition ) SEMICOLON ( VAR change ) ')' '{' ( stmt )* '}' )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:123:2: 'for' '(' ( decl ) ( condition ) SEMICOLON ( VAR change ) ')' '{' ( stmt )* '}'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:123:9: ( 'for' '(' ( decl ) ( condition ) SEMICOLON ( VAR change ) ')' '{' ( stmt )* '}' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:124:2: 'for' '(' ( decl ) ( condition ) SEMICOLON ( VAR change ) ')' '{' ( stmt )* '}'
             {
             root_0 = (Object)adaptor.nil();
 
 
-            string_literal144=(Token)match(input,75,FOLLOW_75_in_forloop1007); 
-            string_literal144_tree = 
-            (Object)adaptor.create(string_literal144)
+            string_literal155=(Token)match(input,75,FOLLOW_75_in_forloop1054); 
+            string_literal155_tree = 
+            (Object)adaptor.create(string_literal155)
             ;
-            adaptor.addChild(root_0, string_literal144_tree);
+            adaptor.addChild(root_0, string_literal155_tree);
 
 
-            char_literal145=(Token)match(input,57,FOLLOW_57_in_forloop1009); 
-            char_literal145_tree = 
-            (Object)adaptor.create(char_literal145)
+            char_literal156=(Token)match(input,57,FOLLOW_57_in_forloop1056); 
+            char_literal156_tree = 
+            (Object)adaptor.create(char_literal156)
             ;
-            adaptor.addChild(root_0, char_literal145_tree);
+            adaptor.addChild(root_0, char_literal156_tree);
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:123:12: ( decl )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:123:13: decl
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:124:12: ( decl )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:124:13: decl
             {
-            pushFollow(FOLLOW_decl_in_forloop1012);
-            decl146=decl();
+            pushFollow(FOLLOW_decl_in_forloop1059);
+            decl157=decl();
 
             state._fsp--;
 
-            adaptor.addChild(root_0, decl146.getTree());
+            adaptor.addChild(root_0, decl157.getTree());
 
             }
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:123:19: ( condition )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:123:20: condition
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:124:19: ( condition )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:124:20: condition
             {
-            pushFollow(FOLLOW_condition_in_forloop1016);
-            condition147=condition();
+            pushFollow(FOLLOW_condition_in_forloop1063);
+            condition158=condition();
 
             state._fsp--;
 
-            adaptor.addChild(root_0, condition147.getTree());
+            adaptor.addChild(root_0, condition158.getTree());
 
             }
 
 
-            SEMICOLON148=(Token)match(input,SEMICOLON,FOLLOW_SEMICOLON_in_forloop1019); 
-            SEMICOLON148_tree = 
-            (Object)adaptor.create(SEMICOLON148)
+            SEMICOLON159=(Token)match(input,SEMICOLON,FOLLOW_SEMICOLON_in_forloop1066); 
+            SEMICOLON159_tree = 
+            (Object)adaptor.create(SEMICOLON159)
             ;
-            adaptor.addChild(root_0, SEMICOLON148_tree);
+            adaptor.addChild(root_0, SEMICOLON159_tree);
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:123:41: ( VAR change )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:123:42: VAR change
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:124:41: ( VAR change )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:124:42: VAR change
             {
-            VAR149=(Token)match(input,VAR,FOLLOW_VAR_in_forloop1022); 
-            VAR149_tree = 
-            (Object)adaptor.create(VAR149)
+            VAR160=(Token)match(input,VAR,FOLLOW_VAR_in_forloop1069); 
+            VAR160_tree = 
+            (Object)adaptor.create(VAR160)
             ;
-            adaptor.addChild(root_0, VAR149_tree);
+            adaptor.addChild(root_0, VAR160_tree);
 
 
-            pushFollow(FOLLOW_change_in_forloop1024);
-            change150=change();
+            pushFollow(FOLLOW_change_in_forloop1071);
+            change161=change();
 
             state._fsp--;
 
-            adaptor.addChild(root_0, change150.getTree());
+            adaptor.addChild(root_0, change161.getTree());
 
             }
 
 
-            char_literal151=(Token)match(input,58,FOLLOW_58_in_forloop1027); 
-            char_literal151_tree = 
-            (Object)adaptor.create(char_literal151)
+            char_literal162=(Token)match(input,58,FOLLOW_58_in_forloop1074); 
+            char_literal162_tree = 
+            (Object)adaptor.create(char_literal162)
             ;
-            adaptor.addChild(root_0, char_literal151_tree);
+            adaptor.addChild(root_0, char_literal162_tree);
 
 
-            char_literal152=(Token)match(input,79,FOLLOW_79_in_forloop1029); 
-            char_literal152_tree = 
-            (Object)adaptor.create(char_literal152)
+            char_literal163=(Token)match(input,79,FOLLOW_79_in_forloop1076); 
+            char_literal163_tree = 
+            (Object)adaptor.create(char_literal163)
             ;
-            adaptor.addChild(root_0, char_literal152_tree);
+            adaptor.addChild(root_0, char_literal163_tree);
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:123:62: ( stmt )*
-            loop45:
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:124:62: ( stmt )*
+            loop47:
             do {
-                int alt45=2;
-                int LA45_0 = input.LA(1);
+                int alt47=2;
+                int LA47_0 = input.LA(1);
 
-                if ( (LA45_0==BOOLEAN||LA45_0==DOUBLE||LA45_0==INT||LA45_0==Modifier||LA45_0==SEMICOLON||LA45_0==STRING||LA45_0==System||LA45_0==VAR||(LA45_0 >= 75 && LA45_0 <= 76)||LA45_0==78) ) {
-                    alt45=1;
+                if ( (LA47_0==BOOLEAN||LA47_0==DOUBLE||LA47_0==INT||LA47_0==Modifier||LA47_0==SEMICOLON||LA47_0==STRING||LA47_0==System||LA47_0==VAR||(LA47_0 >= 75 && LA47_0 <= 76)||LA47_0==78) ) {
+                    alt47=1;
                 }
 
 
-                switch (alt45) {
+                switch (alt47) {
             	case 1 :
-            	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:123:62: stmt
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:124:62: stmt
             	    {
-            	    pushFollow(FOLLOW_stmt_in_forloop1031);
-            	    stmt153=stmt();
+            	    pushFollow(FOLLOW_stmt_in_forloop1078);
+            	    stmt164=stmt();
 
             	    state._fsp--;
 
-            	    adaptor.addChild(root_0, stmt153.getTree());
+            	    adaptor.addChild(root_0, stmt164.getTree());
 
             	    }
             	    break;
 
             	default :
-            	    break loop45;
+            	    break loop47;
                 }
             } while (true);
 
 
-            char_literal154=(Token)match(input,80,FOLLOW_80_in_forloop1034); 
-            char_literal154_tree = 
-            (Object)adaptor.create(char_literal154)
+            char_literal165=(Token)match(input,80,FOLLOW_80_in_forloop1081); 
+            char_literal165_tree = 
+            (Object)adaptor.create(char_literal165)
             ;
-            adaptor.addChild(root_0, char_literal154_tree);
+            adaptor.addChild(root_0, char_literal165_tree);
 
 
             }
@@ -4868,7 +5350,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "assigment"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:125:1: assigment : assign -> ^( Assigment assign ) ;
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:126:1: assigment : assign -> ^( Assigment assign ) ;
     public final ArithmeticExpressionsParser.assigment_return assigment() throws RecognitionException {
         ArithmeticExpressionsParser.assigment_return retval = new ArithmeticExpressionsParser.assigment_return();
         retval.start = input.LT(1);
@@ -4876,20 +5358,20 @@ public TreeAdaptor getTreeAdaptor() {
 
         Object root_0 = null;
 
-        ArithmeticExpressionsParser.assign_return assign155 =null;
+        ArithmeticExpressionsParser.assign_return assign166 =null;
 
 
         RewriteRuleSubtreeStream stream_assign=new RewriteRuleSubtreeStream(adaptor,"rule assign");
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:125:10: ( assign -> ^( Assigment assign ) )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:126:2: assign
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:126:10: ( assign -> ^( Assigment assign ) )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:127:2: assign
             {
-            pushFollow(FOLLOW_assign_in_assigment1046);
-            assign155=assign();
+            pushFollow(FOLLOW_assign_in_assigment1093);
+            assign166=assign();
 
             state._fsp--;
 
-            stream_assign.add(assign155.getTree());
+            stream_assign.add(assign166.getTree());
 
             // AST REWRITE
             // elements: assign
@@ -4902,9 +5384,9 @@ public TreeAdaptor getTreeAdaptor() {
             RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.tree:null);
 
             root_0 = (Object)adaptor.nil();
-            // 127:2: -> ^( Assigment assign )
+            // 128:2: -> ^( Assigment assign )
             {
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:127:5: ^( Assigment assign )
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:128:5: ^( Assigment assign )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -4955,7 +5437,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "assign"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:134:1: assign : VAR ( change | '=' generalArithExpr ) SEMICOLON ;
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:138:1: assign : VAR ( ( change )? | '=' ( ( VAR )? ( '*' )? generalArithExpr ) ) SEMICOLON ;
     public final ArithmeticExpressionsParser.assign_return assign() throws RecognitionException {
         ArithmeticExpressionsParser.assign_return retval = new ArithmeticExpressionsParser.assign_return();
         retval.start = input.LT(1);
@@ -4963,78 +5445,153 @@ public TreeAdaptor getTreeAdaptor() {
 
         Object root_0 = null;
 
-        Token VAR156=null;
-        Token char_literal158=null;
-        Token SEMICOLON160=null;
-        ArithmeticExpressionsParser.change_return change157 =null;
+        Token VAR167=null;
+        Token char_literal169=null;
+        Token VAR170=null;
+        Token char_literal171=null;
+        Token SEMICOLON173=null;
+        ArithmeticExpressionsParser.change_return change168 =null;
 
-        ArithmeticExpressionsParser.generalArithExpr_return generalArithExpr159 =null;
+        ArithmeticExpressionsParser.generalArithExpr_return generalArithExpr172 =null;
 
 
-        Object VAR156_tree=null;
-        Object char_literal158_tree=null;
-        Object SEMICOLON160_tree=null;
+        Object VAR167_tree=null;
+        Object char_literal169_tree=null;
+        Object VAR170_tree=null;
+        Object char_literal171_tree=null;
+        Object SEMICOLON173_tree=null;
 
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:134:8: ( VAR ( change | '=' generalArithExpr ) SEMICOLON )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:135:2: VAR ( change | '=' generalArithExpr ) SEMICOLON
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:138:8: ( VAR ( ( change )? | '=' ( ( VAR )? ( '*' )? generalArithExpr ) ) SEMICOLON )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:139:3: VAR ( ( change )? | '=' ( ( VAR )? ( '*' )? generalArithExpr ) ) SEMICOLON
             {
             root_0 = (Object)adaptor.nil();
 
 
-            VAR156=(Token)match(input,VAR,FOLLOW_VAR_in_assign1090); 
-            VAR156_tree = 
-            (Object)adaptor.create(VAR156)
+            VAR167=(Token)match(input,VAR,FOLLOW_VAR_in_assign1141); 
+            VAR167_tree = 
+            (Object)adaptor.create(VAR167)
             ;
-            adaptor.addChild(root_0, VAR156_tree);
+            adaptor.addChild(root_0, VAR167_tree);
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:135:6: ( change | '=' generalArithExpr )
-            int alt46=2;
-            int LA46_0 = input.LA(1);
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:139:7: ( ( change )? | '=' ( ( VAR )? ( '*' )? generalArithExpr ) )
+            int alt51=2;
+            int LA51_0 = input.LA(1);
 
-            if ( ((LA46_0 >= 61 && LA46_0 <= 62)||(LA46_0 >= 65 && LA46_0 <= 66)) ) {
-                alt46=1;
+            if ( (LA51_0==SEMICOLON||(LA51_0 >= 61 && LA51_0 <= 62)||(LA51_0 >= 65 && LA51_0 <= 66)) ) {
+                alt51=1;
             }
-            else if ( (LA46_0==69) ) {
-                alt46=2;
+            else if ( (LA51_0==69) ) {
+                alt51=2;
             }
             else {
                 NoViableAltException nvae =
-                    new NoViableAltException("", 46, 0, input);
+                    new NoViableAltException("", 51, 0, input);
 
                 throw nvae;
 
             }
-            switch (alt46) {
+            switch (alt51) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:135:7: change
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:139:8: ( change )?
                     {
-                    pushFollow(FOLLOW_change_in_assign1093);
-                    change157=change();
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:139:8: ( change )?
+                    int alt48=2;
+                    int LA48_0 = input.LA(1);
 
-                    state._fsp--;
+                    if ( ((LA48_0 >= 61 && LA48_0 <= 62)||(LA48_0 >= 65 && LA48_0 <= 66)) ) {
+                        alt48=1;
+                    }
+                    switch (alt48) {
+                        case 1 :
+                            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:139:8: change
+                            {
+                            pushFollow(FOLLOW_change_in_assign1144);
+                            change168=change();
 
-                    adaptor.addChild(root_0, change157.getTree());
+                            state._fsp--;
+
+                            adaptor.addChild(root_0, change168.getTree());
+
+                            }
+                            break;
+
+                    }
+
 
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:135:14: '=' generalArithExpr
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:139:16: '=' ( ( VAR )? ( '*' )? generalArithExpr )
                     {
-                    char_literal158=(Token)match(input,69,FOLLOW_69_in_assign1095); 
-                    char_literal158_tree = 
-                    (Object)adaptor.create(char_literal158)
+                    char_literal169=(Token)match(input,69,FOLLOW_69_in_assign1147); 
+                    char_literal169_tree = 
+                    (Object)adaptor.create(char_literal169)
                     ;
-                    adaptor.addChild(root_0, char_literal158_tree);
+                    adaptor.addChild(root_0, char_literal169_tree);
 
 
-                    pushFollow(FOLLOW_generalArithExpr_in_assign1097);
-                    generalArithExpr159=generalArithExpr();
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:139:20: ( ( VAR )? ( '*' )? generalArithExpr )
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:139:21: ( VAR )? ( '*' )? generalArithExpr
+                    {
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:139:21: ( VAR )?
+                    int alt49=2;
+                    int LA49_0 = input.LA(1);
+
+                    if ( (LA49_0==VAR) ) {
+                        alt49=1;
+                    }
+                    switch (alt49) {
+                        case 1 :
+                            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:139:22: VAR
+                            {
+                            VAR170=(Token)match(input,VAR,FOLLOW_VAR_in_assign1151); 
+                            VAR170_tree = 
+                            (Object)adaptor.create(VAR170)
+                            ;
+                            adaptor.addChild(root_0, VAR170_tree);
+
+
+                            }
+                            break;
+
+                    }
+
+
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:139:28: ( '*' )?
+                    int alt50=2;
+                    int LA50_0 = input.LA(1);
+
+                    if ( (LA50_0==59) ) {
+                        alt50=1;
+                    }
+                    switch (alt50) {
+                        case 1 :
+                            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:139:29: '*'
+                            {
+                            char_literal171=(Token)match(input,59,FOLLOW_59_in_assign1156); 
+                            char_literal171_tree = 
+                            (Object)adaptor.create(char_literal171)
+                            ;
+                            adaptor.addChild(root_0, char_literal171_tree);
+
+
+                            }
+                            break;
+
+                    }
+
+
+                    pushFollow(FOLLOW_generalArithExpr_in_assign1161);
+                    generalArithExpr172=generalArithExpr();
 
                     state._fsp--;
 
-                    adaptor.addChild(root_0, generalArithExpr159.getTree());
+                    adaptor.addChild(root_0, generalArithExpr172.getTree());
+
+                    }
+
 
                     }
                     break;
@@ -5042,11 +5599,11 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            SEMICOLON160=(Token)match(input,SEMICOLON,FOLLOW_SEMICOLON_in_assign1100); 
-            SEMICOLON160_tree = 
-            (Object)adaptor.create(SEMICOLON160)
+            SEMICOLON173=(Token)match(input,SEMICOLON,FOLLOW_SEMICOLON_in_assign1166); 
+            SEMICOLON173_tree = 
+            (Object)adaptor.create(SEMICOLON173)
             ;
-            adaptor.addChild(root_0, SEMICOLON160_tree);
+            adaptor.addChild(root_0, SEMICOLON173_tree);
 
 
             }
@@ -5080,7 +5637,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "change"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:137:1: change : ( '++' | '--' | ( '+=' | '-=' ) generalArithExpr ) ;
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:141:1: change : ( '++' | '--' | ( '+=' | '-=' ) generalArithExpr ) ;
     public final ArithmeticExpressionsParser.change_return change() throws RecognitionException {
         ArithmeticExpressionsParser.change_return retval = new ArithmeticExpressionsParser.change_return();
         retval.start = input.LT(1);
@@ -5088,84 +5645,84 @@ public TreeAdaptor getTreeAdaptor() {
 
         Object root_0 = null;
 
-        Token string_literal161=null;
-        Token string_literal162=null;
-        Token set163=null;
-        ArithmeticExpressionsParser.generalArithExpr_return generalArithExpr164 =null;
+        Token string_literal174=null;
+        Token string_literal175=null;
+        Token set176=null;
+        ArithmeticExpressionsParser.generalArithExpr_return generalArithExpr177 =null;
 
 
-        Object string_literal161_tree=null;
-        Object string_literal162_tree=null;
-        Object set163_tree=null;
+        Object string_literal174_tree=null;
+        Object string_literal175_tree=null;
+        Object set176_tree=null;
 
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:137:8: ( ( '++' | '--' | ( '+=' | '-=' ) generalArithExpr ) )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:138:2: ( '++' | '--' | ( '+=' | '-=' ) generalArithExpr )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:141:8: ( ( '++' | '--' | ( '+=' | '-=' ) generalArithExpr ) )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:142:2: ( '++' | '--' | ( '+=' | '-=' ) generalArithExpr )
             {
             root_0 = (Object)adaptor.nil();
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:138:2: ( '++' | '--' | ( '+=' | '-=' ) generalArithExpr )
-            int alt47=3;
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:142:2: ( '++' | '--' | ( '+=' | '-=' ) generalArithExpr )
+            int alt52=3;
             switch ( input.LA(1) ) {
             case 61:
                 {
-                alt47=1;
+                alt52=1;
                 }
                 break;
             case 65:
                 {
-                alt47=2;
+                alt52=2;
                 }
                 break;
             case 62:
             case 66:
                 {
-                alt47=3;
+                alt52=3;
                 }
                 break;
             default:
                 NoViableAltException nvae =
-                    new NoViableAltException("", 47, 0, input);
+                    new NoViableAltException("", 52, 0, input);
 
                 throw nvae;
 
             }
 
-            switch (alt47) {
+            switch (alt52) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:138:3: '++'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:142:3: '++'
                     {
-                    string_literal161=(Token)match(input,61,FOLLOW_61_in_change1111); 
-                    string_literal161_tree = 
-                    (Object)adaptor.create(string_literal161)
+                    string_literal174=(Token)match(input,61,FOLLOW_61_in_change1178); 
+                    string_literal174_tree = 
+                    (Object)adaptor.create(string_literal174)
                     ;
-                    adaptor.addChild(root_0, string_literal161_tree);
+                    adaptor.addChild(root_0, string_literal174_tree);
 
 
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:138:8: '--'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:142:8: '--'
                     {
-                    string_literal162=(Token)match(input,65,FOLLOW_65_in_change1113); 
-                    string_literal162_tree = 
-                    (Object)adaptor.create(string_literal162)
+                    string_literal175=(Token)match(input,65,FOLLOW_65_in_change1180); 
+                    string_literal175_tree = 
+                    (Object)adaptor.create(string_literal175)
                     ;
-                    adaptor.addChild(root_0, string_literal162_tree);
+                    adaptor.addChild(root_0, string_literal175_tree);
 
 
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:138:13: ( '+=' | '-=' ) generalArithExpr
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:142:13: ( '+=' | '-=' ) generalArithExpr
                     {
-                    set163=(Token)input.LT(1);
+                    set176=(Token)input.LT(1);
 
                     if ( input.LA(1)==62||input.LA(1)==66 ) {
                         input.consume();
                         adaptor.addChild(root_0, 
-                        (Object)adaptor.create(set163)
+                        (Object)adaptor.create(set176)
                         );
                         state.errorRecovery=false;
                     }
@@ -5175,12 +5732,12 @@ public TreeAdaptor getTreeAdaptor() {
                     }
 
 
-                    pushFollow(FOLLOW_generalArithExpr_in_change1120);
-                    generalArithExpr164=generalArithExpr();
+                    pushFollow(FOLLOW_generalArithExpr_in_change1187);
+                    generalArithExpr177=generalArithExpr();
 
                     state._fsp--;
 
-                    adaptor.addChild(root_0, generalArithExpr164.getTree());
+                    adaptor.addChild(root_0, generalArithExpr177.getTree());
 
                     }
                     break;
@@ -5219,7 +5776,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "condition"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:141:1: condition : generalArithExpr RelationalOperators generalArithExpr ( AndOr condition )? -> ^( Condition generalArithExpr RelationalOperators generalArithExpr ( AndOr condition )? ) ;
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:145:1: condition : generalArithExpr RelationalOperators generalArithExpr ( AndOr condition )? -> ^( Condition generalArithExpr RelationalOperators generalArithExpr ( AndOr condition )? ) ;
     public final ArithmeticExpressionsParser.condition_return condition() throws RecognitionException {
         ArithmeticExpressionsParser.condition_return retval = new ArithmeticExpressionsParser.condition_return();
         retval.start = input.LT(1);
@@ -5227,64 +5784,64 @@ public TreeAdaptor getTreeAdaptor() {
 
         Object root_0 = null;
 
-        Token RelationalOperators166=null;
-        Token AndOr168=null;
-        ArithmeticExpressionsParser.generalArithExpr_return generalArithExpr165 =null;
+        Token RelationalOperators179=null;
+        Token AndOr181=null;
+        ArithmeticExpressionsParser.generalArithExpr_return generalArithExpr178 =null;
 
-        ArithmeticExpressionsParser.generalArithExpr_return generalArithExpr167 =null;
+        ArithmeticExpressionsParser.generalArithExpr_return generalArithExpr180 =null;
 
-        ArithmeticExpressionsParser.condition_return condition169 =null;
+        ArithmeticExpressionsParser.condition_return condition182 =null;
 
 
-        Object RelationalOperators166_tree=null;
-        Object AndOr168_tree=null;
+        Object RelationalOperators179_tree=null;
+        Object AndOr181_tree=null;
         RewriteRuleTokenStream stream_RelationalOperators=new RewriteRuleTokenStream(adaptor,"token RelationalOperators");
         RewriteRuleTokenStream stream_AndOr=new RewriteRuleTokenStream(adaptor,"token AndOr");
         RewriteRuleSubtreeStream stream_condition=new RewriteRuleSubtreeStream(adaptor,"rule condition");
         RewriteRuleSubtreeStream stream_generalArithExpr=new RewriteRuleSubtreeStream(adaptor,"rule generalArithExpr");
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:141:10: ( generalArithExpr RelationalOperators generalArithExpr ( AndOr condition )? -> ^( Condition generalArithExpr RelationalOperators generalArithExpr ( AndOr condition )? ) )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:142:2: generalArithExpr RelationalOperators generalArithExpr ( AndOr condition )?
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:145:10: ( generalArithExpr RelationalOperators generalArithExpr ( AndOr condition )? -> ^( Condition generalArithExpr RelationalOperators generalArithExpr ( AndOr condition )? ) )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:146:2: generalArithExpr RelationalOperators generalArithExpr ( AndOr condition )?
             {
-            pushFollow(FOLLOW_generalArithExpr_in_condition1133);
-            generalArithExpr165=generalArithExpr();
+            pushFollow(FOLLOW_generalArithExpr_in_condition1200);
+            generalArithExpr178=generalArithExpr();
 
             state._fsp--;
 
-            stream_generalArithExpr.add(generalArithExpr165.getTree());
+            stream_generalArithExpr.add(generalArithExpr178.getTree());
 
-            RelationalOperators166=(Token)match(input,RelationalOperators,FOLLOW_RelationalOperators_in_condition1135);  
-            stream_RelationalOperators.add(RelationalOperators166);
+            RelationalOperators179=(Token)match(input,RelationalOperators,FOLLOW_RelationalOperators_in_condition1202);  
+            stream_RelationalOperators.add(RelationalOperators179);
 
 
-            pushFollow(FOLLOW_generalArithExpr_in_condition1137);
-            generalArithExpr167=generalArithExpr();
+            pushFollow(FOLLOW_generalArithExpr_in_condition1204);
+            generalArithExpr180=generalArithExpr();
 
             state._fsp--;
 
-            stream_generalArithExpr.add(generalArithExpr167.getTree());
+            stream_generalArithExpr.add(generalArithExpr180.getTree());
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:142:56: ( AndOr condition )?
-            int alt48=2;
-            int LA48_0 = input.LA(1);
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:146:56: ( AndOr condition )?
+            int alt53=2;
+            int LA53_0 = input.LA(1);
 
-            if ( (LA48_0==AndOr) ) {
-                alt48=1;
+            if ( (LA53_0==AndOr) ) {
+                alt53=1;
             }
-            switch (alt48) {
+            switch (alt53) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:142:57: AndOr condition
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:146:57: AndOr condition
                     {
-                    AndOr168=(Token)match(input,AndOr,FOLLOW_AndOr_in_condition1140);  
-                    stream_AndOr.add(AndOr168);
+                    AndOr181=(Token)match(input,AndOr,FOLLOW_AndOr_in_condition1207);  
+                    stream_AndOr.add(AndOr181);
 
 
-                    pushFollow(FOLLOW_condition_in_condition1142);
-                    condition169=condition();
+                    pushFollow(FOLLOW_condition_in_condition1209);
+                    condition182=condition();
 
                     state._fsp--;
 
-                    stream_condition.add(condition169.getTree());
+                    stream_condition.add(condition182.getTree());
 
                     }
                     break;
@@ -5293,7 +5850,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
             // AST REWRITE
-            // elements: AndOr, RelationalOperators, condition, generalArithExpr, generalArithExpr
+            // elements: generalArithExpr, AndOr, generalArithExpr, RelationalOperators, condition
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -5303,9 +5860,9 @@ public TreeAdaptor getTreeAdaptor() {
             RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.tree:null);
 
             root_0 = (Object)adaptor.nil();
-            // 143:2: -> ^( Condition generalArithExpr RelationalOperators generalArithExpr ( AndOr condition )? )
+            // 147:2: -> ^( Condition generalArithExpr RelationalOperators generalArithExpr ( AndOr condition )? )
             {
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:143:4: ^( Condition generalArithExpr RelationalOperators generalArithExpr ( AndOr condition )? )
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:147:4: ^( Condition generalArithExpr RelationalOperators generalArithExpr ( AndOr condition )? )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
@@ -5320,7 +5877,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 adaptor.addChild(root_1, stream_generalArithExpr.nextTree());
 
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:143:70: ( AndOr condition )?
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:147:70: ( AndOr condition )?
                 if ( stream_AndOr.hasNext()||stream_condition.hasNext() ) {
                     adaptor.addChild(root_1, 
                     stream_AndOr.nextNode()
@@ -5374,7 +5931,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "int_dec"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:150:1: int_dec : ( Modifier )? INT VAR ( ( '=' generalArithExpr )? | ( ',' VAR )* ) SEMICOLON ;
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:154:1: int_dec : ( Modifier )? INT VAR ( ( '=' generalArithExpr )? | ( ',' VAR )* ) SEMICOLON ;
     public final ArithmeticExpressionsParser.int_dec_return int_dec() throws RecognitionException {
         ArithmeticExpressionsParser.int_dec_return retval = new ArithmeticExpressionsParser.int_dec_return();
         retval.start = input.LT(1);
@@ -5382,47 +5939,47 @@ public TreeAdaptor getTreeAdaptor() {
 
         Object root_0 = null;
 
-        Token Modifier170=null;
-        Token INT171=null;
-        Token VAR172=null;
-        Token char_literal173=null;
-        Token char_literal175=null;
-        Token VAR176=null;
-        Token SEMICOLON177=null;
-        ArithmeticExpressionsParser.generalArithExpr_return generalArithExpr174 =null;
+        Token Modifier183=null;
+        Token INT184=null;
+        Token VAR185=null;
+        Token char_literal186=null;
+        Token char_literal188=null;
+        Token VAR189=null;
+        Token SEMICOLON190=null;
+        ArithmeticExpressionsParser.generalArithExpr_return generalArithExpr187 =null;
 
 
-        Object Modifier170_tree=null;
-        Object INT171_tree=null;
-        Object VAR172_tree=null;
-        Object char_literal173_tree=null;
-        Object char_literal175_tree=null;
-        Object VAR176_tree=null;
-        Object SEMICOLON177_tree=null;
+        Object Modifier183_tree=null;
+        Object INT184_tree=null;
+        Object VAR185_tree=null;
+        Object char_literal186_tree=null;
+        Object char_literal188_tree=null;
+        Object VAR189_tree=null;
+        Object SEMICOLON190_tree=null;
 
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:150:9: ( ( Modifier )? INT VAR ( ( '=' generalArithExpr )? | ( ',' VAR )* ) SEMICOLON )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:152:2: ( Modifier )? INT VAR ( ( '=' generalArithExpr )? | ( ',' VAR )* ) SEMICOLON
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:154:9: ( ( Modifier )? INT VAR ( ( '=' generalArithExpr )? | ( ',' VAR )* ) SEMICOLON )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:156:2: ( Modifier )? INT VAR ( ( '=' generalArithExpr )? | ( ',' VAR )* ) SEMICOLON
             {
             root_0 = (Object)adaptor.nil();
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:152:2: ( Modifier )?
-            int alt49=2;
-            int LA49_0 = input.LA(1);
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:156:2: ( Modifier )?
+            int alt54=2;
+            int LA54_0 = input.LA(1);
 
-            if ( (LA49_0==Modifier) ) {
-                alt49=1;
+            if ( (LA54_0==Modifier) ) {
+                alt54=1;
             }
-            switch (alt49) {
+            switch (alt54) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:152:2: Modifier
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:156:2: Modifier
                     {
-                    Modifier170=(Token)match(input,Modifier,FOLLOW_Modifier_in_int_dec1201); 
-                    Modifier170_tree = 
-                    (Object)adaptor.create(Modifier170)
+                    Modifier183=(Token)match(input,Modifier,FOLLOW_Modifier_in_int_dec1268); 
+                    Modifier183_tree = 
+                    (Object)adaptor.create(Modifier183)
                     ;
-                    adaptor.addChild(root_0, Modifier170_tree);
+                    adaptor.addChild(root_0, Modifier183_tree);
 
 
                     }
@@ -5431,74 +5988,74 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            INT171=(Token)match(input,INT,FOLLOW_INT_in_int_dec1204); 
-            INT171_tree = 
-            (Object)adaptor.create(INT171)
+            INT184=(Token)match(input,INT,FOLLOW_INT_in_int_dec1271); 
+            INT184_tree = 
+            (Object)adaptor.create(INT184)
             ;
-            adaptor.addChild(root_0, INT171_tree);
+            adaptor.addChild(root_0, INT184_tree);
 
 
-            VAR172=(Token)match(input,VAR,FOLLOW_VAR_in_int_dec1206); 
-            VAR172_tree = 
-            (Object)adaptor.create(VAR172)
+            VAR185=(Token)match(input,VAR,FOLLOW_VAR_in_int_dec1273); 
+            VAR185_tree = 
+            (Object)adaptor.create(VAR185)
             ;
-            adaptor.addChild(root_0, VAR172_tree);
+            adaptor.addChild(root_0, VAR185_tree);
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:152:20: ( ( '=' generalArithExpr )? | ( ',' VAR )* )
-            int alt52=2;
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:156:20: ( ( '=' generalArithExpr )? | ( ',' VAR )* )
+            int alt57=2;
             switch ( input.LA(1) ) {
             case 69:
                 {
-                alt52=1;
+                alt57=1;
                 }
                 break;
             case SEMICOLON:
                 {
-                alt52=1;
+                alt57=1;
                 }
                 break;
             case 63:
                 {
-                alt52=2;
+                alt57=2;
                 }
                 break;
             default:
                 NoViableAltException nvae =
-                    new NoViableAltException("", 52, 0, input);
+                    new NoViableAltException("", 57, 0, input);
 
                 throw nvae;
 
             }
 
-            switch (alt52) {
+            switch (alt57) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:152:21: ( '=' generalArithExpr )?
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:156:21: ( '=' generalArithExpr )?
                     {
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:152:21: ( '=' generalArithExpr )?
-                    int alt50=2;
-                    int LA50_0 = input.LA(1);
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:156:21: ( '=' generalArithExpr )?
+                    int alt55=2;
+                    int LA55_0 = input.LA(1);
 
-                    if ( (LA50_0==69) ) {
-                        alt50=1;
+                    if ( (LA55_0==69) ) {
+                        alt55=1;
                     }
-                    switch (alt50) {
+                    switch (alt55) {
                         case 1 :
-                            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:152:22: '=' generalArithExpr
+                            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:156:22: '=' generalArithExpr
                             {
-                            char_literal173=(Token)match(input,69,FOLLOW_69_in_int_dec1210); 
-                            char_literal173_tree = 
-                            (Object)adaptor.create(char_literal173)
+                            char_literal186=(Token)match(input,69,FOLLOW_69_in_int_dec1277); 
+                            char_literal186_tree = 
+                            (Object)adaptor.create(char_literal186)
                             ;
-                            adaptor.addChild(root_0, char_literal173_tree);
+                            adaptor.addChild(root_0, char_literal186_tree);
 
 
-                            pushFollow(FOLLOW_generalArithExpr_in_int_dec1212);
-                            generalArithExpr174=generalArithExpr();
+                            pushFollow(FOLLOW_generalArithExpr_in_int_dec1279);
+                            generalArithExpr187=generalArithExpr();
 
                             state._fsp--;
 
-                            adaptor.addChild(root_0, generalArithExpr174.getTree());
+                            adaptor.addChild(root_0, generalArithExpr187.getTree());
 
                             }
                             break;
@@ -5509,42 +6066,42 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:152:45: ( ',' VAR )*
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:156:45: ( ',' VAR )*
                     {
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:152:45: ( ',' VAR )*
-                    loop51:
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:156:45: ( ',' VAR )*
+                    loop56:
                     do {
-                        int alt51=2;
-                        int LA51_0 = input.LA(1);
+                        int alt56=2;
+                        int LA56_0 = input.LA(1);
 
-                        if ( (LA51_0==63) ) {
-                            alt51=1;
+                        if ( (LA56_0==63) ) {
+                            alt56=1;
                         }
 
 
-                        switch (alt51) {
+                        switch (alt56) {
                     	case 1 :
-                    	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:152:46: ',' VAR
+                    	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:156:46: ',' VAR
                     	    {
-                    	    char_literal175=(Token)match(input,63,FOLLOW_63_in_int_dec1217); 
-                    	    char_literal175_tree = 
-                    	    (Object)adaptor.create(char_literal175)
+                    	    char_literal188=(Token)match(input,63,FOLLOW_63_in_int_dec1284); 
+                    	    char_literal188_tree = 
+                    	    (Object)adaptor.create(char_literal188)
                     	    ;
-                    	    adaptor.addChild(root_0, char_literal175_tree);
+                    	    adaptor.addChild(root_0, char_literal188_tree);
 
 
-                    	    VAR176=(Token)match(input,VAR,FOLLOW_VAR_in_int_dec1219); 
-                    	    VAR176_tree = 
-                    	    (Object)adaptor.create(VAR176)
+                    	    VAR189=(Token)match(input,VAR,FOLLOW_VAR_in_int_dec1286); 
+                    	    VAR189_tree = 
+                    	    (Object)adaptor.create(VAR189)
                     	    ;
-                    	    adaptor.addChild(root_0, VAR176_tree);
+                    	    adaptor.addChild(root_0, VAR189_tree);
 
 
                     	    }
                     	    break;
 
                     	default :
-                    	    break loop51;
+                    	    break loop56;
                         }
                     } while (true);
 
@@ -5555,11 +6112,11 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            SEMICOLON177=(Token)match(input,SEMICOLON,FOLLOW_SEMICOLON_in_int_dec1224); 
-            SEMICOLON177_tree = 
-            (Object)adaptor.create(SEMICOLON177)
+            SEMICOLON190=(Token)match(input,SEMICOLON,FOLLOW_SEMICOLON_in_int_dec1291); 
+            SEMICOLON190_tree = 
+            (Object)adaptor.create(SEMICOLON190)
             ;
-            adaptor.addChild(root_0, SEMICOLON177_tree);
+            adaptor.addChild(root_0, SEMICOLON190_tree);
 
 
             }
@@ -5593,7 +6150,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "double_dec"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:155:1: double_dec : ( Modifier )? DOUBLE VAR ( ( '=' generalArithExpr )? | ( ',' VAR )* ) SEMICOLON ;
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:159:1: double_dec : ( Modifier )? DOUBLE VAR ( ( '=' generalArithExpr )? | ( ',' VAR )* ) SEMICOLON ;
     public final ArithmeticExpressionsParser.double_dec_return double_dec() throws RecognitionException {
         ArithmeticExpressionsParser.double_dec_return retval = new ArithmeticExpressionsParser.double_dec_return();
         retval.start = input.LT(1);
@@ -5601,47 +6158,47 @@ public TreeAdaptor getTreeAdaptor() {
 
         Object root_0 = null;
 
-        Token Modifier178=null;
-        Token DOUBLE179=null;
-        Token VAR180=null;
-        Token char_literal181=null;
-        Token char_literal183=null;
-        Token VAR184=null;
-        Token SEMICOLON185=null;
-        ArithmeticExpressionsParser.generalArithExpr_return generalArithExpr182 =null;
+        Token Modifier191=null;
+        Token DOUBLE192=null;
+        Token VAR193=null;
+        Token char_literal194=null;
+        Token char_literal196=null;
+        Token VAR197=null;
+        Token SEMICOLON198=null;
+        ArithmeticExpressionsParser.generalArithExpr_return generalArithExpr195 =null;
 
 
-        Object Modifier178_tree=null;
-        Object DOUBLE179_tree=null;
-        Object VAR180_tree=null;
-        Object char_literal181_tree=null;
-        Object char_literal183_tree=null;
-        Object VAR184_tree=null;
-        Object SEMICOLON185_tree=null;
+        Object Modifier191_tree=null;
+        Object DOUBLE192_tree=null;
+        Object VAR193_tree=null;
+        Object char_literal194_tree=null;
+        Object char_literal196_tree=null;
+        Object VAR197_tree=null;
+        Object SEMICOLON198_tree=null;
 
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:155:11: ( ( Modifier )? DOUBLE VAR ( ( '=' generalArithExpr )? | ( ',' VAR )* ) SEMICOLON )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:157:2: ( Modifier )? DOUBLE VAR ( ( '=' generalArithExpr )? | ( ',' VAR )* ) SEMICOLON
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:159:11: ( ( Modifier )? DOUBLE VAR ( ( '=' generalArithExpr )? | ( ',' VAR )* ) SEMICOLON )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:161:2: ( Modifier )? DOUBLE VAR ( ( '=' generalArithExpr )? | ( ',' VAR )* ) SEMICOLON
             {
             root_0 = (Object)adaptor.nil();
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:157:2: ( Modifier )?
-            int alt53=2;
-            int LA53_0 = input.LA(1);
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:161:2: ( Modifier )?
+            int alt58=2;
+            int LA58_0 = input.LA(1);
 
-            if ( (LA53_0==Modifier) ) {
-                alt53=1;
+            if ( (LA58_0==Modifier) ) {
+                alt58=1;
             }
-            switch (alt53) {
+            switch (alt58) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:157:2: Modifier
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:161:2: Modifier
                     {
-                    Modifier178=(Token)match(input,Modifier,FOLLOW_Modifier_in_double_dec1239); 
-                    Modifier178_tree = 
-                    (Object)adaptor.create(Modifier178)
+                    Modifier191=(Token)match(input,Modifier,FOLLOW_Modifier_in_double_dec1306); 
+                    Modifier191_tree = 
+                    (Object)adaptor.create(Modifier191)
                     ;
-                    adaptor.addChild(root_0, Modifier178_tree);
+                    adaptor.addChild(root_0, Modifier191_tree);
 
 
                     }
@@ -5650,74 +6207,74 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            DOUBLE179=(Token)match(input,DOUBLE,FOLLOW_DOUBLE_in_double_dec1242); 
-            DOUBLE179_tree = 
-            (Object)adaptor.create(DOUBLE179)
+            DOUBLE192=(Token)match(input,DOUBLE,FOLLOW_DOUBLE_in_double_dec1309); 
+            DOUBLE192_tree = 
+            (Object)adaptor.create(DOUBLE192)
             ;
-            adaptor.addChild(root_0, DOUBLE179_tree);
+            adaptor.addChild(root_0, DOUBLE192_tree);
 
 
-            VAR180=(Token)match(input,VAR,FOLLOW_VAR_in_double_dec1244); 
-            VAR180_tree = 
-            (Object)adaptor.create(VAR180)
+            VAR193=(Token)match(input,VAR,FOLLOW_VAR_in_double_dec1311); 
+            VAR193_tree = 
+            (Object)adaptor.create(VAR193)
             ;
-            adaptor.addChild(root_0, VAR180_tree);
+            adaptor.addChild(root_0, VAR193_tree);
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:157:23: ( ( '=' generalArithExpr )? | ( ',' VAR )* )
-            int alt56=2;
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:161:23: ( ( '=' generalArithExpr )? | ( ',' VAR )* )
+            int alt61=2;
             switch ( input.LA(1) ) {
             case 69:
                 {
-                alt56=1;
+                alt61=1;
                 }
                 break;
             case SEMICOLON:
                 {
-                alt56=1;
+                alt61=1;
                 }
                 break;
             case 63:
                 {
-                alt56=2;
+                alt61=2;
                 }
                 break;
             default:
                 NoViableAltException nvae =
-                    new NoViableAltException("", 56, 0, input);
+                    new NoViableAltException("", 61, 0, input);
 
                 throw nvae;
 
             }
 
-            switch (alt56) {
+            switch (alt61) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:157:24: ( '=' generalArithExpr )?
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:161:24: ( '=' generalArithExpr )?
                     {
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:157:24: ( '=' generalArithExpr )?
-                    int alt54=2;
-                    int LA54_0 = input.LA(1);
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:161:24: ( '=' generalArithExpr )?
+                    int alt59=2;
+                    int LA59_0 = input.LA(1);
 
-                    if ( (LA54_0==69) ) {
-                        alt54=1;
+                    if ( (LA59_0==69) ) {
+                        alt59=1;
                     }
-                    switch (alt54) {
+                    switch (alt59) {
                         case 1 :
-                            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:157:25: '=' generalArithExpr
+                            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:161:25: '=' generalArithExpr
                             {
-                            char_literal181=(Token)match(input,69,FOLLOW_69_in_double_dec1248); 
-                            char_literal181_tree = 
-                            (Object)adaptor.create(char_literal181)
+                            char_literal194=(Token)match(input,69,FOLLOW_69_in_double_dec1315); 
+                            char_literal194_tree = 
+                            (Object)adaptor.create(char_literal194)
                             ;
-                            adaptor.addChild(root_0, char_literal181_tree);
+                            adaptor.addChild(root_0, char_literal194_tree);
 
 
-                            pushFollow(FOLLOW_generalArithExpr_in_double_dec1250);
-                            generalArithExpr182=generalArithExpr();
+                            pushFollow(FOLLOW_generalArithExpr_in_double_dec1317);
+                            generalArithExpr195=generalArithExpr();
 
                             state._fsp--;
 
-                            adaptor.addChild(root_0, generalArithExpr182.getTree());
+                            adaptor.addChild(root_0, generalArithExpr195.getTree());
 
                             }
                             break;
@@ -5728,42 +6285,42 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:157:48: ( ',' VAR )*
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:161:48: ( ',' VAR )*
                     {
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:157:48: ( ',' VAR )*
-                    loop55:
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:161:48: ( ',' VAR )*
+                    loop60:
                     do {
-                        int alt55=2;
-                        int LA55_0 = input.LA(1);
+                        int alt60=2;
+                        int LA60_0 = input.LA(1);
 
-                        if ( (LA55_0==63) ) {
-                            alt55=1;
+                        if ( (LA60_0==63) ) {
+                            alt60=1;
                         }
 
 
-                        switch (alt55) {
+                        switch (alt60) {
                     	case 1 :
-                    	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:157:49: ',' VAR
+                    	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:161:49: ',' VAR
                     	    {
-                    	    char_literal183=(Token)match(input,63,FOLLOW_63_in_double_dec1255); 
-                    	    char_literal183_tree = 
-                    	    (Object)adaptor.create(char_literal183)
+                    	    char_literal196=(Token)match(input,63,FOLLOW_63_in_double_dec1322); 
+                    	    char_literal196_tree = 
+                    	    (Object)adaptor.create(char_literal196)
                     	    ;
-                    	    adaptor.addChild(root_0, char_literal183_tree);
+                    	    adaptor.addChild(root_0, char_literal196_tree);
 
 
-                    	    VAR184=(Token)match(input,VAR,FOLLOW_VAR_in_double_dec1257); 
-                    	    VAR184_tree = 
-                    	    (Object)adaptor.create(VAR184)
+                    	    VAR197=(Token)match(input,VAR,FOLLOW_VAR_in_double_dec1324); 
+                    	    VAR197_tree = 
+                    	    (Object)adaptor.create(VAR197)
                     	    ;
-                    	    adaptor.addChild(root_0, VAR184_tree);
+                    	    adaptor.addChild(root_0, VAR197_tree);
 
 
                     	    }
                     	    break;
 
                     	default :
-                    	    break loop55;
+                    	    break loop60;
                         }
                     } while (true);
 
@@ -5774,11 +6331,11 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            SEMICOLON185=(Token)match(input,SEMICOLON,FOLLOW_SEMICOLON_in_double_dec1262); 
-            SEMICOLON185_tree = 
-            (Object)adaptor.create(SEMICOLON185)
+            SEMICOLON198=(Token)match(input,SEMICOLON,FOLLOW_SEMICOLON_in_double_dec1329); 
+            SEMICOLON198_tree = 
+            (Object)adaptor.create(SEMICOLON198)
             ;
-            adaptor.addChild(root_0, SEMICOLON185_tree);
+            adaptor.addChild(root_0, SEMICOLON198_tree);
 
 
             }
@@ -5812,7 +6369,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "string_dec"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:160:1: string_dec : ( Modifier )? STRING VAR ( '=' Strings )? SEMICOLON -> ^( String_Dec ( Modifier )? STRING VAR ( '=' Strings )? SEMICOLON ) ;
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:164:1: string_dec : ( Modifier )? STRING VAR ( '=' Strings )? SEMICOLON -> ^( String_Dec ( Modifier )? STRING VAR ( '=' Strings )? SEMICOLON ) ;
     public final ArithmeticExpressionsParser.string_dec_return string_dec() throws RecognitionException {
         ArithmeticExpressionsParser.string_dec_return retval = new ArithmeticExpressionsParser.string_dec_return();
         retval.start = input.LT(1);
@@ -5820,19 +6377,19 @@ public TreeAdaptor getTreeAdaptor() {
 
         Object root_0 = null;
 
-        Token Modifier186=null;
-        Token STRING187=null;
-        Token VAR188=null;
-        Token char_literal189=null;
-        Token Strings190=null;
-        Token SEMICOLON191=null;
+        Token Modifier199=null;
+        Token STRING200=null;
+        Token VAR201=null;
+        Token char_literal202=null;
+        Token Strings203=null;
+        Token SEMICOLON204=null;
 
-        Object Modifier186_tree=null;
-        Object STRING187_tree=null;
-        Object VAR188_tree=null;
-        Object char_literal189_tree=null;
-        Object Strings190_tree=null;
-        Object SEMICOLON191_tree=null;
+        Object Modifier199_tree=null;
+        Object STRING200_tree=null;
+        Object VAR201_tree=null;
+        Object char_literal202_tree=null;
+        Object Strings203_tree=null;
+        Object SEMICOLON204_tree=null;
         RewriteRuleTokenStream stream_69=new RewriteRuleTokenStream(adaptor,"token 69");
         RewriteRuleTokenStream stream_VAR=new RewriteRuleTokenStream(adaptor,"token VAR");
         RewriteRuleTokenStream stream_SEMICOLON=new RewriteRuleTokenStream(adaptor,"token SEMICOLON");
@@ -5841,22 +6398,22 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleTokenStream stream_Strings=new RewriteRuleTokenStream(adaptor,"token Strings");
 
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:160:11: ( ( Modifier )? STRING VAR ( '=' Strings )? SEMICOLON -> ^( String_Dec ( Modifier )? STRING VAR ( '=' Strings )? SEMICOLON ) )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:162:2: ( Modifier )? STRING VAR ( '=' Strings )? SEMICOLON
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:164:11: ( ( Modifier )? STRING VAR ( '=' Strings )? SEMICOLON -> ^( String_Dec ( Modifier )? STRING VAR ( '=' Strings )? SEMICOLON ) )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:166:2: ( Modifier )? STRING VAR ( '=' Strings )? SEMICOLON
             {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:162:2: ( Modifier )?
-            int alt57=2;
-            int LA57_0 = input.LA(1);
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:166:2: ( Modifier )?
+            int alt62=2;
+            int LA62_0 = input.LA(1);
 
-            if ( (LA57_0==Modifier) ) {
-                alt57=1;
+            if ( (LA62_0==Modifier) ) {
+                alt62=1;
             }
-            switch (alt57) {
+            switch (alt62) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:162:2: Modifier
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:166:2: Modifier
                     {
-                    Modifier186=(Token)match(input,Modifier,FOLLOW_Modifier_in_string_dec1275);  
-                    stream_Modifier.add(Modifier186);
+                    Modifier199=(Token)match(input,Modifier,FOLLOW_Modifier_in_string_dec1342);  
+                    stream_Modifier.add(Modifier199);
 
 
                     }
@@ -5865,31 +6422,31 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            STRING187=(Token)match(input,STRING,FOLLOW_STRING_in_string_dec1278);  
-            stream_STRING.add(STRING187);
+            STRING200=(Token)match(input,STRING,FOLLOW_STRING_in_string_dec1345);  
+            stream_STRING.add(STRING200);
 
 
-            VAR188=(Token)match(input,VAR,FOLLOW_VAR_in_string_dec1280);  
-            stream_VAR.add(VAR188);
+            VAR201=(Token)match(input,VAR,FOLLOW_VAR_in_string_dec1347);  
+            stream_VAR.add(VAR201);
 
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:162:23: ( '=' Strings )?
-            int alt58=2;
-            int LA58_0 = input.LA(1);
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:166:23: ( '=' Strings )?
+            int alt63=2;
+            int LA63_0 = input.LA(1);
 
-            if ( (LA58_0==69) ) {
-                alt58=1;
+            if ( (LA63_0==69) ) {
+                alt63=1;
             }
-            switch (alt58) {
+            switch (alt63) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:162:24: '=' Strings
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:166:24: '=' Strings
                     {
-                    char_literal189=(Token)match(input,69,FOLLOW_69_in_string_dec1283);  
-                    stream_69.add(char_literal189);
+                    char_literal202=(Token)match(input,69,FOLLOW_69_in_string_dec1350);  
+                    stream_69.add(char_literal202);
 
 
-                    Strings190=(Token)match(input,Strings,FOLLOW_Strings_in_string_dec1285);  
-                    stream_Strings.add(Strings190);
+                    Strings203=(Token)match(input,Strings,FOLLOW_Strings_in_string_dec1352);  
+                    stream_Strings.add(Strings203);
 
 
                     }
@@ -5898,12 +6455,12 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            SEMICOLON191=(Token)match(input,SEMICOLON,FOLLOW_SEMICOLON_in_string_dec1289);  
-            stream_SEMICOLON.add(SEMICOLON191);
+            SEMICOLON204=(Token)match(input,SEMICOLON,FOLLOW_SEMICOLON_in_string_dec1356);  
+            stream_SEMICOLON.add(SEMICOLON204);
 
 
             // AST REWRITE
-            // elements: STRING, 69, Strings, Modifier, VAR, SEMICOLON
+            // elements: STRING, Modifier, VAR, SEMICOLON, 69, Strings
             // token labels: 
             // rule labels: retval
             // token list labels: 
@@ -5913,16 +6470,16 @@ public TreeAdaptor getTreeAdaptor() {
             RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.tree:null);
 
             root_0 = (Object)adaptor.nil();
-            // 163:3: -> ^( String_Dec ( Modifier )? STRING VAR ( '=' Strings )? SEMICOLON )
+            // 167:3: -> ^( String_Dec ( Modifier )? STRING VAR ( '=' Strings )? SEMICOLON )
             {
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:163:6: ^( String_Dec ( Modifier )? STRING VAR ( '=' Strings )? SEMICOLON )
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:167:6: ^( String_Dec ( Modifier )? STRING VAR ( '=' Strings )? SEMICOLON )
                 {
                 Object root_1 = (Object)adaptor.nil();
                 root_1 = (Object)adaptor.becomeRoot(
                 (Object)adaptor.create(String_Dec, "String_Dec")
                 , root_1);
 
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:163:19: ( Modifier )?
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:167:19: ( Modifier )?
                 if ( stream_Modifier.hasNext() ) {
                     adaptor.addChild(root_1, 
                     stream_Modifier.nextNode()
@@ -5939,7 +6496,7 @@ public TreeAdaptor getTreeAdaptor() {
                 stream_VAR.nextNode()
                 );
 
-                // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:163:40: ( '=' Strings )?
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:167:40: ( '=' Strings )?
                 if ( stream_69.hasNext()||stream_Strings.hasNext() ) {
                     adaptor.addChild(root_1, 
                     stream_69.nextNode()
@@ -5996,7 +6553,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "generalArithExpr"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:165:1: generalArithExpr : term ( ( '+' | '-' ) ^ term )* ;
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:169:1: generalArithExpr : term ( ( '+' | '-' ) ^ term )* ;
     public final ArithmeticExpressionsParser.generalArithExpr_return generalArithExpr() throws RecognitionException {
         ArithmeticExpressionsParser.generalArithExpr_return retval = new ArithmeticExpressionsParser.generalArithExpr_return();
         retval.start = input.LT(1);
@@ -6004,51 +6561,51 @@ public TreeAdaptor getTreeAdaptor() {
 
         Object root_0 = null;
 
-        Token set193=null;
-        ArithmeticExpressionsParser.term_return term192 =null;
+        Token set206=null;
+        ArithmeticExpressionsParser.term_return term205 =null;
 
-        ArithmeticExpressionsParser.term_return term194 =null;
+        ArithmeticExpressionsParser.term_return term207 =null;
 
 
-        Object set193_tree=null;
+        Object set206_tree=null;
 
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:165:17: ( term ( ( '+' | '-' ) ^ term )* )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:165:19: term ( ( '+' | '-' ) ^ term )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:169:17: ( term ( ( '+' | '-' ) ^ term )* )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:169:19: term ( ( '+' | '-' ) ^ term )*
             {
             root_0 = (Object)adaptor.nil();
 
 
-            pushFollow(FOLLOW_term_in_generalArithExpr1321);
-            term192=term();
+            pushFollow(FOLLOW_term_in_generalArithExpr1388);
+            term205=term();
 
             state._fsp--;
 
-            adaptor.addChild(root_0, term192.getTree());
+            adaptor.addChild(root_0, term205.getTree());
 
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:165:24: ( ( '+' | '-' ) ^ term )*
-            loop59:
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:169:24: ( ( '+' | '-' ) ^ term )*
+            loop64:
             do {
-                int alt59=2;
-                int LA59_0 = input.LA(1);
+                int alt64=2;
+                int LA64_0 = input.LA(1);
 
-                if ( (LA59_0==60||LA59_0==64) ) {
-                    alt59=1;
+                if ( (LA64_0==60||LA64_0==64) ) {
+                    alt64=1;
                 }
 
 
-                switch (alt59) {
+                switch (alt64) {
             	case 1 :
-            	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:165:25: ( '+' | '-' ) ^ term
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:169:25: ( '+' | '-' ) ^ term
             	    {
-            	    set193=(Token)input.LT(1);
+            	    set206=(Token)input.LT(1);
 
-            	    set193=(Token)input.LT(1);
+            	    set206=(Token)input.LT(1);
 
             	    if ( input.LA(1)==60||input.LA(1)==64 ) {
             	        input.consume();
             	        root_0 = (Object)adaptor.becomeRoot(
-            	        (Object)adaptor.create(set193)
+            	        (Object)adaptor.create(set206)
             	        , root_0);
             	        state.errorRecovery=false;
             	    }
@@ -6058,18 +6615,18 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
 
 
-            	    pushFollow(FOLLOW_term_in_generalArithExpr1336);
-            	    term194=term();
+            	    pushFollow(FOLLOW_term_in_generalArithExpr1403);
+            	    term207=term();
 
             	    state._fsp--;
 
-            	    adaptor.addChild(root_0, term194.getTree());
+            	    adaptor.addChild(root_0, term207.getTree());
 
             	    }
             	    break;
 
             	default :
-            	    break loop59;
+            	    break loop64;
                 }
             } while (true);
 
@@ -6108,7 +6665,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "term"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:173:1: term : ( object | factor ( ( '*' | '/' ) ^ factor )* );
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:177:1: term : ( object | factor ( ( '*' | '/' ) ^ factor )* );
     public final ArithmeticExpressionsParser.term_return term() throws RecognitionException {
         ArithmeticExpressionsParser.term_return retval = new ArithmeticExpressionsParser.term_return();
         retval.start = input.LT(1);
@@ -6116,23 +6673,23 @@ public TreeAdaptor getTreeAdaptor() {
 
         Object root_0 = null;
 
-        Token set197=null;
-        ArithmeticExpressionsParser.object_return object195 =null;
+        Token set210=null;
+        ArithmeticExpressionsParser.object_return object208 =null;
 
-        ArithmeticExpressionsParser.factor_return factor196 =null;
+        ArithmeticExpressionsParser.factor_return factor209 =null;
 
-        ArithmeticExpressionsParser.factor_return factor198 =null;
+        ArithmeticExpressionsParser.factor_return factor211 =null;
 
 
-        Object set197_tree=null;
+        Object set210_tree=null;
 
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:173:6: ( object | factor ( ( '*' | '/' ) ^ factor )* )
-            int alt61=2;
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:177:6: ( object | factor ( ( '*' | '/' ) ^ factor )* )
+            int alt66=2;
             switch ( input.LA(1) ) {
             case 55:
                 {
-                alt61=1;
+                alt66=1;
                 }
                 break;
             case AndOr:
@@ -6140,9 +6697,8 @@ public TreeAdaptor getTreeAdaptor() {
             case SEMICOLON:
             case VAR:
             case 58:
-            case 60:
                 {
-                alt61=1;
+                alt66=1;
                 }
                 break;
             case 64:
@@ -6150,12 +6706,12 @@ public TreeAdaptor getTreeAdaptor() {
                 switch ( input.LA(2) ) {
                 case VAR:
                     {
-                    alt61=1;
+                    alt66=1;
                     }
                     break;
                 case INT:
                     {
-                    alt61=2;
+                    alt66=2;
                     }
                     break;
                 case AndOr:
@@ -6170,12 +6726,12 @@ public TreeAdaptor getTreeAdaptor() {
                 case 60:
                 case 64:
                     {
-                    alt61=1;
+                    alt66=1;
                     }
                     break;
                 default:
                     NoViableAltException nvae =
-                        new NoViableAltException("", 61, 3, input);
+                        new NoViableAltException("", 66, 3, input);
 
                     throw nvae;
 
@@ -6183,74 +6739,79 @@ public TreeAdaptor getTreeAdaptor() {
 
                 }
                 break;
+            case NUM:
+            case 60:
+                {
+                alt66=1;
+                }
+                break;
             case DNUM:
             case Fun:
-            case NUM:
             case 57:
                 {
-                alt61=2;
+                alt66=2;
                 }
                 break;
             default:
                 NoViableAltException nvae =
-                    new NoViableAltException("", 61, 0, input);
+                    new NoViableAltException("", 66, 0, input);
 
                 throw nvae;
 
             }
 
-            switch (alt61) {
+            switch (alt66) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:173:7: object
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:177:7: object
                     {
                     root_0 = (Object)adaptor.nil();
 
 
-                    pushFollow(FOLLOW_object_in_term1373);
-                    object195=object();
+                    pushFollow(FOLLOW_object_in_term1440);
+                    object208=object();
 
                     state._fsp--;
 
-                    adaptor.addChild(root_0, object195.getTree());
+                    adaptor.addChild(root_0, object208.getTree());
 
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:173:15: factor ( ( '*' | '/' ) ^ factor )*
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:177:15: factor ( ( '*' | '/' ) ^ factor )*
                     {
                     root_0 = (Object)adaptor.nil();
 
 
-                    pushFollow(FOLLOW_factor_in_term1376);
-                    factor196=factor();
+                    pushFollow(FOLLOW_factor_in_term1443);
+                    factor209=factor();
 
                     state._fsp--;
 
-                    adaptor.addChild(root_0, factor196.getTree());
+                    adaptor.addChild(root_0, factor209.getTree());
 
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:173:22: ( ( '*' | '/' ) ^ factor )*
-                    loop60:
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:177:22: ( ( '*' | '/' ) ^ factor )*
+                    loop65:
                     do {
-                        int alt60=2;
-                        int LA60_0 = input.LA(1);
+                        int alt65=2;
+                        int LA65_0 = input.LA(1);
 
-                        if ( (LA60_0==59||LA60_0==67) ) {
-                            alt60=1;
+                        if ( (LA65_0==59||LA65_0==67) ) {
+                            alt65=1;
                         }
 
 
-                        switch (alt60) {
+                        switch (alt65) {
                     	case 1 :
-                    	    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:173:24: ( '*' | '/' ) ^ factor
+                    	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:177:24: ( '*' | '/' ) ^ factor
                     	    {
-                    	    set197=(Token)input.LT(1);
+                    	    set210=(Token)input.LT(1);
 
-                    	    set197=(Token)input.LT(1);
+                    	    set210=(Token)input.LT(1);
 
                     	    if ( input.LA(1)==59||input.LA(1)==67 ) {
                     	        input.consume();
                     	        root_0 = (Object)adaptor.becomeRoot(
-                    	        (Object)adaptor.create(set197)
+                    	        (Object)adaptor.create(set210)
                     	        , root_0);
                     	        state.errorRecovery=false;
                     	    }
@@ -6260,18 +6821,18 @@ public TreeAdaptor getTreeAdaptor() {
                     	    }
 
 
-                    	    pushFollow(FOLLOW_factor_in_term1392);
-                    	    factor198=factor();
+                    	    pushFollow(FOLLOW_factor_in_term1459);
+                    	    factor211=factor();
 
                     	    state._fsp--;
 
-                    	    adaptor.addChild(root_0, factor198.getTree());
+                    	    adaptor.addChild(root_0, factor211.getTree());
 
                     	    }
                     	    break;
 
                     	default :
-                    	    break loop60;
+                    	    break loop65;
                         }
                     } while (true);
 
@@ -6312,7 +6873,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "factor"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:181:1: factor : ( VAR -> ^( Factor VAR ) | NUM -> ^( Factor NUM ) | DNUM -> ^( Factor DOUBLE ) | '-' VAR -> ^( Factor '-' VAR ) | '-' INT -> ^( Factor '-' INT ) | '-' DNUM -> ^( Factor '-' DOUBLE ) | '(' generalArithExpr ')' -> ^( Factor '(' generalArithExpr ')' ) | Fun '(' generalArithExpr ')' -> ^( Factor Fun '(' generalArithExpr ')' ) );
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:185:1: factor : ( VAR -> ^( Factor VAR ) | NUM -> ^( Factor NUM ) | DNUM -> ^( Factor DOUBLE ) | '-' VAR -> ^( Factor '-' VAR ) | '-' INT -> ^( Factor '-' INT ) | '-' DNUM -> ^( Factor '-' DOUBLE ) | '(' generalArithExpr ')' -> ^( Factor '(' generalArithExpr ')' ) | Fun '(' generalArithExpr ')' -> ^( Factor Fun '(' generalArithExpr ')' ) );
     public final ArithmeticExpressionsParser.factor_return factor() throws RecognitionException {
         ArithmeticExpressionsParser.factor_return retval = new ArithmeticExpressionsParser.factor_return();
         retval.start = input.LT(1);
@@ -6320,39 +6881,39 @@ public TreeAdaptor getTreeAdaptor() {
 
         Object root_0 = null;
 
-        Token VAR199=null;
-        Token NUM200=null;
-        Token DNUM201=null;
-        Token char_literal202=null;
-        Token VAR203=null;
-        Token char_literal204=null;
-        Token INT205=null;
-        Token char_literal206=null;
-        Token DNUM207=null;
-        Token char_literal208=null;
-        Token char_literal210=null;
-        Token Fun211=null;
-        Token char_literal212=null;
-        Token char_literal214=null;
-        ArithmeticExpressionsParser.generalArithExpr_return generalArithExpr209 =null;
+        Token VAR212=null;
+        Token NUM213=null;
+        Token DNUM214=null;
+        Token char_literal215=null;
+        Token VAR216=null;
+        Token char_literal217=null;
+        Token INT218=null;
+        Token char_literal219=null;
+        Token DNUM220=null;
+        Token char_literal221=null;
+        Token char_literal223=null;
+        Token Fun224=null;
+        Token char_literal225=null;
+        Token char_literal227=null;
+        ArithmeticExpressionsParser.generalArithExpr_return generalArithExpr222 =null;
 
-        ArithmeticExpressionsParser.generalArithExpr_return generalArithExpr213 =null;
+        ArithmeticExpressionsParser.generalArithExpr_return generalArithExpr226 =null;
 
 
-        Object VAR199_tree=null;
-        Object NUM200_tree=null;
-        Object DNUM201_tree=null;
-        Object char_literal202_tree=null;
-        Object VAR203_tree=null;
-        Object char_literal204_tree=null;
-        Object INT205_tree=null;
-        Object char_literal206_tree=null;
-        Object DNUM207_tree=null;
-        Object char_literal208_tree=null;
-        Object char_literal210_tree=null;
-        Object Fun211_tree=null;
-        Object char_literal212_tree=null;
-        Object char_literal214_tree=null;
+        Object VAR212_tree=null;
+        Object NUM213_tree=null;
+        Object DNUM214_tree=null;
+        Object char_literal215_tree=null;
+        Object VAR216_tree=null;
+        Object char_literal217_tree=null;
+        Object INT218_tree=null;
+        Object char_literal219_tree=null;
+        Object DNUM220_tree=null;
+        Object char_literal221_tree=null;
+        Object char_literal223_tree=null;
+        Object Fun224_tree=null;
+        Object char_literal225_tree=null;
+        Object char_literal227_tree=null;
         RewriteRuleTokenStream stream_DNUM=new RewriteRuleTokenStream(adaptor,"token DNUM");
         RewriteRuleTokenStream stream_57=new RewriteRuleTokenStream(adaptor,"token 57");
         RewriteRuleTokenStream stream_58=new RewriteRuleTokenStream(adaptor,"token 58");
@@ -6363,22 +6924,22 @@ public TreeAdaptor getTreeAdaptor() {
         RewriteRuleTokenStream stream_Fun=new RewriteRuleTokenStream(adaptor,"token Fun");
         RewriteRuleSubtreeStream stream_generalArithExpr=new RewriteRuleSubtreeStream(adaptor,"rule generalArithExpr");
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:181:8: ( VAR -> ^( Factor VAR ) | NUM -> ^( Factor NUM ) | DNUM -> ^( Factor DOUBLE ) | '-' VAR -> ^( Factor '-' VAR ) | '-' INT -> ^( Factor '-' INT ) | '-' DNUM -> ^( Factor '-' DOUBLE ) | '(' generalArithExpr ')' -> ^( Factor '(' generalArithExpr ')' ) | Fun '(' generalArithExpr ')' -> ^( Factor Fun '(' generalArithExpr ')' ) )
-            int alt62=8;
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:185:8: ( VAR -> ^( Factor VAR ) | NUM -> ^( Factor NUM ) | DNUM -> ^( Factor DOUBLE ) | '-' VAR -> ^( Factor '-' VAR ) | '-' INT -> ^( Factor '-' INT ) | '-' DNUM -> ^( Factor '-' DOUBLE ) | '(' generalArithExpr ')' -> ^( Factor '(' generalArithExpr ')' ) | Fun '(' generalArithExpr ')' -> ^( Factor Fun '(' generalArithExpr ')' ) )
+            int alt67=8;
             switch ( input.LA(1) ) {
             case VAR:
                 {
-                alt62=1;
+                alt67=1;
                 }
                 break;
             case NUM:
                 {
-                alt62=2;
+                alt67=2;
                 }
                 break;
             case DNUM:
                 {
-                alt62=3;
+                alt67=3;
                 }
                 break;
             case 64:
@@ -6386,22 +6947,22 @@ public TreeAdaptor getTreeAdaptor() {
                 switch ( input.LA(2) ) {
                 case VAR:
                     {
-                    alt62=4;
+                    alt67=4;
                     }
                     break;
                 case INT:
                     {
-                    alt62=5;
+                    alt67=5;
                     }
                     break;
                 case DNUM:
                     {
-                    alt62=6;
+                    alt67=6;
                     }
                     break;
                 default:
                     NoViableAltException nvae =
-                        new NoViableAltException("", 62, 4, input);
+                        new NoViableAltException("", 67, 4, input);
 
                     throw nvae;
 
@@ -6411,28 +6972,28 @@ public TreeAdaptor getTreeAdaptor() {
                 break;
             case 57:
                 {
-                alt62=7;
+                alt67=7;
                 }
                 break;
             case Fun:
                 {
-                alt62=8;
+                alt67=8;
                 }
                 break;
             default:
                 NoViableAltException nvae =
-                    new NoViableAltException("", 62, 0, input);
+                    new NoViableAltException("", 67, 0, input);
 
                 throw nvae;
 
             }
 
-            switch (alt62) {
+            switch (alt67) {
                 case 1 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:182:2: VAR
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:186:2: VAR
                     {
-                    VAR199=(Token)match(input,VAR,FOLLOW_VAR_in_factor1432);  
-                    stream_VAR.add(VAR199);
+                    VAR212=(Token)match(input,VAR,FOLLOW_VAR_in_factor1499);  
+                    stream_VAR.add(VAR212);
 
 
                     // AST REWRITE
@@ -6446,9 +7007,9 @@ public TreeAdaptor getTreeAdaptor() {
                     RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.tree:null);
 
                     root_0 = (Object)adaptor.nil();
-                    // 182:6: -> ^( Factor VAR )
+                    // 186:6: -> ^( Factor VAR )
                     {
-                        // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:182:9: ^( Factor VAR )
+                        // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:186:9: ^( Factor VAR )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -6470,10 +7031,10 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:183:3: NUM
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:187:3: NUM
                     {
-                    NUM200=(Token)match(input,NUM,FOLLOW_NUM_in_factor1444);  
-                    stream_NUM.add(NUM200);
+                    NUM213=(Token)match(input,NUM,FOLLOW_NUM_in_factor1511);  
+                    stream_NUM.add(NUM213);
 
 
                     // AST REWRITE
@@ -6487,9 +7048,9 @@ public TreeAdaptor getTreeAdaptor() {
                     RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.tree:null);
 
                     root_0 = (Object)adaptor.nil();
-                    // 183:7: -> ^( Factor NUM )
+                    // 187:7: -> ^( Factor NUM )
                     {
-                        // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:183:10: ^( Factor NUM )
+                        // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:187:10: ^( Factor NUM )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -6511,10 +7072,10 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:184:3: DNUM
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:188:3: DNUM
                     {
-                    DNUM201=(Token)match(input,DNUM,FOLLOW_DNUM_in_factor1456);  
-                    stream_DNUM.add(DNUM201);
+                    DNUM214=(Token)match(input,DNUM,FOLLOW_DNUM_in_factor1523);  
+                    stream_DNUM.add(DNUM214);
 
 
                     // AST REWRITE
@@ -6528,9 +7089,9 @@ public TreeAdaptor getTreeAdaptor() {
                     RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.tree:null);
 
                     root_0 = (Object)adaptor.nil();
-                    // 184:8: -> ^( Factor DOUBLE )
+                    // 188:8: -> ^( Factor DOUBLE )
                     {
-                        // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:184:11: ^( Factor DOUBLE )
+                        // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:188:11: ^( Factor DOUBLE )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -6552,18 +7113,18 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:185:3: '-' VAR
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:189:3: '-' VAR
                     {
-                    char_literal202=(Token)match(input,64,FOLLOW_64_in_factor1468);  
-                    stream_64.add(char_literal202);
+                    char_literal215=(Token)match(input,64,FOLLOW_64_in_factor1535);  
+                    stream_64.add(char_literal215);
 
 
-                    VAR203=(Token)match(input,VAR,FOLLOW_VAR_in_factor1471);  
-                    stream_VAR.add(VAR203);
+                    VAR216=(Token)match(input,VAR,FOLLOW_VAR_in_factor1538);  
+                    stream_VAR.add(VAR216);
 
 
                     // AST REWRITE
-                    // elements: 64, VAR
+                    // elements: VAR, 64
                     // token labels: 
                     // rule labels: retval
                     // token list labels: 
@@ -6573,9 +7134,9 @@ public TreeAdaptor getTreeAdaptor() {
                     RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.tree:null);
 
                     root_0 = (Object)adaptor.nil();
-                    // 185:12: -> ^( Factor '-' VAR )
+                    // 189:12: -> ^( Factor '-' VAR )
                     {
-                        // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:185:15: ^( Factor '-' VAR )
+                        // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:189:15: ^( Factor '-' VAR )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -6601,14 +7162,14 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:186:3: '-' INT
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:190:3: '-' INT
                     {
-                    char_literal204=(Token)match(input,64,FOLLOW_64_in_factor1486);  
-                    stream_64.add(char_literal204);
+                    char_literal217=(Token)match(input,64,FOLLOW_64_in_factor1553);  
+                    stream_64.add(char_literal217);
 
 
-                    INT205=(Token)match(input,INT,FOLLOW_INT_in_factor1489);  
-                    stream_INT.add(INT205);
+                    INT218=(Token)match(input,INT,FOLLOW_INT_in_factor1556);  
+                    stream_INT.add(INT218);
 
 
                     // AST REWRITE
@@ -6622,9 +7183,9 @@ public TreeAdaptor getTreeAdaptor() {
                     RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.tree:null);
 
                     root_0 = (Object)adaptor.nil();
-                    // 186:12: -> ^( Factor '-' INT )
+                    // 190:12: -> ^( Factor '-' INT )
                     {
-                        // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:186:15: ^( Factor '-' INT )
+                        // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:190:15: ^( Factor '-' INT )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -6650,14 +7211,14 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 6 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:187:3: '-' DNUM
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:191:3: '-' DNUM
                     {
-                    char_literal206=(Token)match(input,64,FOLLOW_64_in_factor1504);  
-                    stream_64.add(char_literal206);
+                    char_literal219=(Token)match(input,64,FOLLOW_64_in_factor1571);  
+                    stream_64.add(char_literal219);
 
 
-                    DNUM207=(Token)match(input,DNUM,FOLLOW_DNUM_in_factor1507);  
-                    stream_DNUM.add(DNUM207);
+                    DNUM220=(Token)match(input,DNUM,FOLLOW_DNUM_in_factor1574);  
+                    stream_DNUM.add(DNUM220);
 
 
                     // AST REWRITE
@@ -6671,9 +7232,9 @@ public TreeAdaptor getTreeAdaptor() {
                     RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.tree:null);
 
                     root_0 = (Object)adaptor.nil();
-                    // 187:14: -> ^( Factor '-' DOUBLE )
+                    // 191:14: -> ^( Factor '-' DOUBLE )
                     {
-                        // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:187:17: ^( Factor '-' DOUBLE )
+                        // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:191:17: ^( Factor '-' DOUBLE )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -6699,25 +7260,25 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 7 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:188:3: '(' generalArithExpr ')'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:192:3: '(' generalArithExpr ')'
                     {
-                    char_literal208=(Token)match(input,57,FOLLOW_57_in_factor1523);  
-                    stream_57.add(char_literal208);
+                    char_literal221=(Token)match(input,57,FOLLOW_57_in_factor1590);  
+                    stream_57.add(char_literal221);
 
 
-                    pushFollow(FOLLOW_generalArithExpr_in_factor1525);
-                    generalArithExpr209=generalArithExpr();
+                    pushFollow(FOLLOW_generalArithExpr_in_factor1592);
+                    generalArithExpr222=generalArithExpr();
 
                     state._fsp--;
 
-                    stream_generalArithExpr.add(generalArithExpr209.getTree());
+                    stream_generalArithExpr.add(generalArithExpr222.getTree());
 
-                    char_literal210=(Token)match(input,58,FOLLOW_58_in_factor1527);  
-                    stream_58.add(char_literal210);
+                    char_literal223=(Token)match(input,58,FOLLOW_58_in_factor1594);  
+                    stream_58.add(char_literal223);
 
 
                     // AST REWRITE
-                    // elements: 57, generalArithExpr, 58
+                    // elements: 57, 58, generalArithExpr
                     // token labels: 
                     // rule labels: retval
                     // token list labels: 
@@ -6727,9 +7288,9 @@ public TreeAdaptor getTreeAdaptor() {
                     RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.tree:null);
 
                     root_0 = (Object)adaptor.nil();
-                    // 188:28: -> ^( Factor '(' generalArithExpr ')' )
+                    // 192:28: -> ^( Factor '(' generalArithExpr ')' )
                     {
-                        // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:188:31: ^( Factor '(' generalArithExpr ')' )
+                        // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:192:31: ^( Factor '(' generalArithExpr ')' )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -6757,29 +7318,29 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 8 :
-                    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:189:4: Fun '(' generalArithExpr ')'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:193:4: Fun '(' generalArithExpr ')'
                     {
-                    Fun211=(Token)match(input,Fun,FOLLOW_Fun_in_factor1545);  
-                    stream_Fun.add(Fun211);
+                    Fun224=(Token)match(input,Fun,FOLLOW_Fun_in_factor1612);  
+                    stream_Fun.add(Fun224);
 
 
-                    char_literal212=(Token)match(input,57,FOLLOW_57_in_factor1547);  
-                    stream_57.add(char_literal212);
+                    char_literal225=(Token)match(input,57,FOLLOW_57_in_factor1614);  
+                    stream_57.add(char_literal225);
 
 
-                    pushFollow(FOLLOW_generalArithExpr_in_factor1549);
-                    generalArithExpr213=generalArithExpr();
+                    pushFollow(FOLLOW_generalArithExpr_in_factor1616);
+                    generalArithExpr226=generalArithExpr();
 
                     state._fsp--;
 
-                    stream_generalArithExpr.add(generalArithExpr213.getTree());
+                    stream_generalArithExpr.add(generalArithExpr226.getTree());
 
-                    char_literal214=(Token)match(input,58,FOLLOW_58_in_factor1551);  
-                    stream_58.add(char_literal214);
+                    char_literal227=(Token)match(input,58,FOLLOW_58_in_factor1618);  
+                    stream_58.add(char_literal227);
 
 
                     // AST REWRITE
-                    // elements: 57, 58, Fun, generalArithExpr
+                    // elements: 58, Fun, generalArithExpr, 57
                     // token labels: 
                     // rule labels: retval
                     // token list labels: 
@@ -6789,9 +7350,9 @@ public TreeAdaptor getTreeAdaptor() {
                     RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.tree:null);
 
                     root_0 = (Object)adaptor.nil();
-                    // 189:33: -> ^( Factor Fun '(' generalArithExpr ')' )
+                    // 193:33: -> ^( Factor Fun '(' generalArithExpr ')' )
                     {
-                        // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:189:36: ^( Factor Fun '(' generalArithExpr ')' )
+                        // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:193:36: ^( Factor Fun '(' generalArithExpr ')' )
                         {
                         Object root_1 = (Object)adaptor.nil();
                         root_1 = (Object)adaptor.becomeRoot(
@@ -6856,7 +7417,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "types"
-    // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:206:1: types : ( STRING | BOOLEAN | DOUBLE | INT );
+    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:210:1: types : ( STRING | BOOLEAN | DOUBLE | INT );
     public final ArithmeticExpressionsParser.types_return types() throws RecognitionException {
         ArithmeticExpressionsParser.types_return retval = new ArithmeticExpressionsParser.types_return();
         retval.start = input.LT(1);
@@ -6864,23 +7425,23 @@ public TreeAdaptor getTreeAdaptor() {
 
         Object root_0 = null;
 
-        Token set215=null;
+        Token set228=null;
 
-        Object set215_tree=null;
+        Object set228_tree=null;
 
         try {
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:206:7: ( STRING | BOOLEAN | DOUBLE | INT )
-            // C:\\Users\\hazem\\Desktop\\SECOND TERM\\CS407 compiler\\project\\comp407\\ArithmeticExpressions.g:
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:210:7: ( STRING | BOOLEAN | DOUBLE | INT )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:
             {
             root_0 = (Object)adaptor.nil();
 
 
-            set215=(Token)input.LT(1);
+            set228=(Token)input.LT(1);
 
             if ( input.LA(1)==BOOLEAN||input.LA(1)==DOUBLE||input.LA(1)==INT||input.LA(1)==STRING ) {
                 input.consume();
                 adaptor.addChild(root_0, 
-                (Object)adaptor.create(set215)
+                (Object)adaptor.create(set228)
                 );
                 state.errorRecovery=false;
             }
@@ -7006,127 +7567,140 @@ public TreeAdaptor getTreeAdaptor() {
     public static final BitSet FOLLOW_58_in_sys_print688 = new BitSet(new long[]{0x0400000000000000L});
     public static final BitSet FOLLOW_58_in_sys_print692 = new BitSet(new long[]{0x0000008000000000L});
     public static final BitSet FOLLOW_SEMICOLON_in_sys_print694 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_55_in_object702 = new BitSet(new long[]{0x0008000000000000L});
-    public static final BitSet FOLLOW_VAR_in_object706 = new BitSet(new long[]{0x0000000000010000L});
-    public static final BitSet FOLLOW_Dot_in_object708 = new BitSet(new long[]{0x0008000000000000L});
-    public static final BitSet FOLLOW_VAR_in_object710 = new BitSet(new long[]{0x0200000000000000L});
-    public static final BitSet FOLLOW_57_in_object712 = new BitSet(new long[]{0x0408000200000000L});
-    public static final BitSet FOLLOW_58_in_object721 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_VAR_in_object725 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_57_in_params735 = new BitSet(new long[]{0x0408020000404080L});
-    public static final BitSet FOLLOW_types_in_params738 = new BitSet(new long[]{0x0008000000000000L});
-    public static final BitSet FOLLOW_VAR_in_params740 = new BitSet(new long[]{0x8400000000000000L});
-    public static final BitSet FOLLOW_VAR_in_params742 = new BitSet(new long[]{0x0008000000000000L});
-    public static final BitSet FOLLOW_VAR_in_params744 = new BitSet(new long[]{0x8400000000000000L});
-    public static final BitSet FOLLOW_63_in_params748 = new BitSet(new long[]{0x0000020000404080L});
-    public static final BitSet FOLLOW_types_in_params750 = new BitSet(new long[]{0x0008000000000000L});
-    public static final BitSet FOLLOW_VAR_in_params752 = new BitSet(new long[]{0x8400000000000000L});
-    public static final BitSet FOLLOW_58_in_params758 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_int_dec_in_decl772 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_double_dec_in_decl784 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_57_in_while_condition805 = new BitSet(new long[]{0x0288000200102000L,0x0000000000000001L});
-    public static final BitSet FOLLOW_condition_in_while_condition807 = new BitSet(new long[]{0x0400000000000000L});
-    public static final BitSet FOLLOW_58_in_while_condition809 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_object_in_while_condition811 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_78_in_whilestmt820 = new BitSet(new long[]{0x0200000000000000L});
-    public static final BitSet FOLLOW_57_in_whilestmt822 = new BitSet(new long[]{0x0288000000000000L});
-    public static final BitSet FOLLOW_while_condition_in_whilestmt824 = new BitSet(new long[]{0x0400000000000000L});
-    public static final BitSet FOLLOW_58_in_whilestmt826 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-    public static final BitSet FOLLOW_79_in_whilestmt828 = new BitSet(new long[]{0x0009028100404080L,0x0000000000015800L});
-    public static final BitSet FOLLOW_stmt_in_whilestmt830 = new BitSet(new long[]{0x0009028100404080L,0x0000000000015800L});
-    public static final BitSet FOLLOW_80_in_whilestmt833 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_76_in_ifstmt878 = new BitSet(new long[]{0x0200000000000000L});
-    public static final BitSet FOLLOW_57_in_ifstmt880 = new BitSet(new long[]{0x0388000000000000L,0x0000000000000050L});
-    public static final BitSet FOLLOW_55_in_ifstmt883 = new BitSet(new long[]{0x0388000000000000L,0x0000000000000050L});
-    public static final BitSet FOLLOW_57_in_ifstmt889 = new BitSet(new long[]{0x0188000000000000L,0x0000000000000050L});
-    public static final BitSet FOLLOW_if_cond_in_ifstmt893 = new BitSet(new long[]{0x0400000000000000L});
-    public static final BitSet FOLLOW_58_in_ifstmt896 = new BitSet(new long[]{0x0400000000000000L});
-    public static final BitSet FOLLOW_58_in_ifstmt900 = new BitSet(new long[]{0x0009028100404082L,0x000000000001DC00L});
-    public static final BitSet FOLLOW_79_in_ifstmt903 = new BitSet(new long[]{0x0009028100404082L,0x0000000000015C00L});
-    public static final BitSet FOLLOW_stmt_in_ifstmt907 = new BitSet(new long[]{0x0009028100404082L,0x0000000000015C00L});
-    public static final BitSet FOLLOW_80_in_ifstmt911 = new BitSet(new long[]{0x0000000000000002L,0x0000000000000400L});
-    public static final BitSet FOLLOW_74_in_ifstmt916 = new BitSet(new long[]{0x0009028100404082L,0x000000000001DC00L});
-    public static final BitSet FOLLOW_79_in_ifstmt919 = new BitSet(new long[]{0x0009028100404082L,0x0000000000015C00L});
-    public static final BitSet FOLLOW_stmt_in_ifstmt923 = new BitSet(new long[]{0x0009028100404082L,0x0000000000015C00L});
-    public static final BitSet FOLLOW_80_in_ifstmt927 = new BitSet(new long[]{0x0000000000000002L,0x0000000000000400L});
-    public static final BitSet FOLLOW_74_in_ifstmt934 = new BitSet(new long[]{0x0009028100404082L,0x000000000001D800L});
-    public static final BitSet FOLLOW_79_in_ifstmt937 = new BitSet(new long[]{0x0009028100404082L,0x0000000000015800L});
-    public static final BitSet FOLLOW_stmt_in_ifstmt941 = new BitSet(new long[]{0x0009028100404082L,0x0000000000015800L});
-    public static final BitSet FOLLOW_80_in_ifstmt945 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_if_nor_in_if_cond963 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_object_in_if_nor975 = new BitSet(new long[]{0x0100000000000002L,0x0000000000000050L});
-    public static final BitSet FOLLOW_set_in_if_nor978 = new BitSet(new long[]{0x0188000000000000L,0x0000000000000050L});
-    public static final BitSet FOLLOW_object_in_if_nor993 = new BitSet(new long[]{0x0100000000000002L,0x0000000000000050L});
-    public static final BitSet FOLLOW_75_in_forloop1007 = new BitSet(new long[]{0x0200000000000000L});
-    public static final BitSet FOLLOW_57_in_forloop1009 = new BitSet(new long[]{0x0000000100404000L});
-    public static final BitSet FOLLOW_decl_in_forloop1012 = new BitSet(new long[]{0x0288000200102000L,0x0000000000000001L});
-    public static final BitSet FOLLOW_condition_in_forloop1016 = new BitSet(new long[]{0x0000008000000000L});
-    public static final BitSet FOLLOW_SEMICOLON_in_forloop1019 = new BitSet(new long[]{0x0008000000000000L});
-    public static final BitSet FOLLOW_VAR_in_forloop1022 = new BitSet(new long[]{0x6000000000000000L,0x0000000000000006L});
-    public static final BitSet FOLLOW_change_in_forloop1024 = new BitSet(new long[]{0x0400000000000000L});
-    public static final BitSet FOLLOW_58_in_forloop1027 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
-    public static final BitSet FOLLOW_79_in_forloop1029 = new BitSet(new long[]{0x0009028100404080L,0x0000000000015800L});
-    public static final BitSet FOLLOW_stmt_in_forloop1031 = new BitSet(new long[]{0x0009028100404080L,0x0000000000015800L});
-    public static final BitSet FOLLOW_80_in_forloop1034 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_assign_in_assigment1046 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_VAR_in_assign1090 = new BitSet(new long[]{0x6000000000000000L,0x0000000000000026L});
-    public static final BitSet FOLLOW_change_in_assign1093 = new BitSet(new long[]{0x0000008000000000L});
-    public static final BitSet FOLLOW_69_in_assign1095 = new BitSet(new long[]{0x0288000200102000L,0x0000000000000001L});
-    public static final BitSet FOLLOW_generalArithExpr_in_assign1097 = new BitSet(new long[]{0x0000008000000000L});
-    public static final BitSet FOLLOW_SEMICOLON_in_assign1100 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_61_in_change1111 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_65_in_change1113 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_set_in_change1115 = new BitSet(new long[]{0x0288000200102000L,0x0000000000000001L});
-    public static final BitSet FOLLOW_generalArithExpr_in_change1120 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_generalArithExpr_in_condition1133 = new BitSet(new long[]{0x0000004000000000L});
-    public static final BitSet FOLLOW_RelationalOperators_in_condition1135 = new BitSet(new long[]{0x0288000200102000L,0x0000000000000001L});
-    public static final BitSet FOLLOW_generalArithExpr_in_condition1137 = new BitSet(new long[]{0x0000000000000012L});
-    public static final BitSet FOLLOW_AndOr_in_condition1140 = new BitSet(new long[]{0x0288000200102000L,0x0000000000000001L});
-    public static final BitSet FOLLOW_condition_in_condition1142 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_Modifier_in_int_dec1201 = new BitSet(new long[]{0x0000000000400000L});
-    public static final BitSet FOLLOW_INT_in_int_dec1204 = new BitSet(new long[]{0x0008000000000000L});
-    public static final BitSet FOLLOW_VAR_in_int_dec1206 = new BitSet(new long[]{0x8000008000000000L,0x0000000000000020L});
-    public static final BitSet FOLLOW_69_in_int_dec1210 = new BitSet(new long[]{0x0288000200102000L,0x0000000000000001L});
-    public static final BitSet FOLLOW_generalArithExpr_in_int_dec1212 = new BitSet(new long[]{0x0000008000000000L});
-    public static final BitSet FOLLOW_63_in_int_dec1217 = new BitSet(new long[]{0x0008000000000000L});
-    public static final BitSet FOLLOW_VAR_in_int_dec1219 = new BitSet(new long[]{0x8000008000000000L});
-    public static final BitSet FOLLOW_SEMICOLON_in_int_dec1224 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_Modifier_in_double_dec1239 = new BitSet(new long[]{0x0000000000004000L});
-    public static final BitSet FOLLOW_DOUBLE_in_double_dec1242 = new BitSet(new long[]{0x0008000000000000L});
-    public static final BitSet FOLLOW_VAR_in_double_dec1244 = new BitSet(new long[]{0x8000008000000000L,0x0000000000000020L});
-    public static final BitSet FOLLOW_69_in_double_dec1248 = new BitSet(new long[]{0x0288000200102000L,0x0000000000000001L});
-    public static final BitSet FOLLOW_generalArithExpr_in_double_dec1250 = new BitSet(new long[]{0x0000008000000000L});
-    public static final BitSet FOLLOW_63_in_double_dec1255 = new BitSet(new long[]{0x0008000000000000L});
-    public static final BitSet FOLLOW_VAR_in_double_dec1257 = new BitSet(new long[]{0x8000008000000000L});
-    public static final BitSet FOLLOW_SEMICOLON_in_double_dec1262 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_Modifier_in_string_dec1275 = new BitSet(new long[]{0x0000020000000000L});
-    public static final BitSet FOLLOW_STRING_in_string_dec1278 = new BitSet(new long[]{0x0008000000000000L});
-    public static final BitSet FOLLOW_VAR_in_string_dec1280 = new BitSet(new long[]{0x0000008000000000L,0x0000000000000020L});
-    public static final BitSet FOLLOW_69_in_string_dec1283 = new BitSet(new long[]{0x0000400000000000L});
-    public static final BitSet FOLLOW_Strings_in_string_dec1285 = new BitSet(new long[]{0x0000008000000000L});
-    public static final BitSet FOLLOW_SEMICOLON_in_string_dec1289 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_term_in_generalArithExpr1321 = new BitSet(new long[]{0x1000000000000002L,0x0000000000000001L});
-    public static final BitSet FOLLOW_set_in_generalArithExpr1324 = new BitSet(new long[]{0x0288000200102000L,0x0000000000000001L});
-    public static final BitSet FOLLOW_term_in_generalArithExpr1336 = new BitSet(new long[]{0x1000000000000002L,0x0000000000000001L});
-    public static final BitSet FOLLOW_object_in_term1373 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_factor_in_term1376 = new BitSet(new long[]{0x0800000000000002L,0x0000000000000008L});
-    public static final BitSet FOLLOW_set_in_term1380 = new BitSet(new long[]{0x0208000200102000L,0x0000000000000001L});
-    public static final BitSet FOLLOW_factor_in_term1392 = new BitSet(new long[]{0x0800000000000002L,0x0000000000000008L});
-    public static final BitSet FOLLOW_VAR_in_factor1432 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_NUM_in_factor1444 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_DNUM_in_factor1456 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_64_in_factor1468 = new BitSet(new long[]{0x0008000000000000L});
-    public static final BitSet FOLLOW_VAR_in_factor1471 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_64_in_factor1486 = new BitSet(new long[]{0x0000000000400000L});
-    public static final BitSet FOLLOW_INT_in_factor1489 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_64_in_factor1504 = new BitSet(new long[]{0x0000000000002000L});
-    public static final BitSet FOLLOW_DNUM_in_factor1507 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_57_in_factor1523 = new BitSet(new long[]{0x0288000200102000L,0x0000000000000001L});
-    public static final BitSet FOLLOW_generalArithExpr_in_factor1525 = new BitSet(new long[]{0x0400000000000000L});
-    public static final BitSet FOLLOW_58_in_factor1527 = new BitSet(new long[]{0x0000000000000002L});
-    public static final BitSet FOLLOW_Fun_in_factor1545 = new BitSet(new long[]{0x0200000000000000L});
-    public static final BitSet FOLLOW_57_in_factor1547 = new BitSet(new long[]{0x0288000200102000L,0x0000000000000001L});
-    public static final BitSet FOLLOW_generalArithExpr_in_factor1549 = new BitSet(new long[]{0x0400000000000000L});
-    public static final BitSet FOLLOW_58_in_factor1551 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ob_cho_in_object701 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_VAR_in_object705 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_NUM_in_object710 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_55_in_ob_body719 = new BitSet(new long[]{0x0008000000000000L});
+    public static final BitSet FOLLOW_VAR_in_ob_body723 = new BitSet(new long[]{0x0000000000010000L});
+    public static final BitSet FOLLOW_Dot_in_ob_body725 = new BitSet(new long[]{0x0008000000000000L});
+    public static final BitSet FOLLOW_VAR_in_ob_body727 = new BitSet(new long[]{0x0200000000000000L});
+    public static final BitSet FOLLOW_57_in_ob_body729 = new BitSet(new long[]{0x0008000200000000L});
+    public static final BitSet FOLLOW_set_in_ob_body731 = new BitSet(new long[]{0x0288000200102000L,0x0000000000000001L});
+    public static final BitSet FOLLOW_generalArithExpr_in_ob_body739 = new BitSet(new long[]{0x0400000000000000L});
+    public static final BitSet FOLLOW_58_in_ob_body742 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_55_in_ob_cho749 = new BitSet(new long[]{0x0008000000000000L});
+    public static final BitSet FOLLOW_VAR_in_ob_cho753 = new BitSet(new long[]{0x0000000000010000L});
+    public static final BitSet FOLLOW_Dot_in_ob_cho755 = new BitSet(new long[]{0x0008000000000000L});
+    public static final BitSet FOLLOW_VAR_in_ob_cho757 = new BitSet(new long[]{0x0200000000000000L});
+    public static final BitSet FOLLOW_57_in_ob_cho759 = new BitSet(new long[]{0x0408000200000000L});
+    public static final BitSet FOLLOW_58_in_ob_cho769 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ob_body_in_ob_cho773 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_57_in_params781 = new BitSet(new long[]{0x0408020000404080L});
+    public static final BitSet FOLLOW_types_in_params784 = new BitSet(new long[]{0x0008000000000000L});
+    public static final BitSet FOLLOW_VAR_in_params786 = new BitSet(new long[]{0x8400000000000000L});
+    public static final BitSet FOLLOW_VAR_in_params788 = new BitSet(new long[]{0x0008000000000000L});
+    public static final BitSet FOLLOW_VAR_in_params790 = new BitSet(new long[]{0x8400000000000000L});
+    public static final BitSet FOLLOW_63_in_params794 = new BitSet(new long[]{0x0000020000404080L});
+    public static final BitSet FOLLOW_types_in_params796 = new BitSet(new long[]{0x0008000000000000L});
+    public static final BitSet FOLLOW_VAR_in_params798 = new BitSet(new long[]{0x8400000000000000L});
+    public static final BitSet FOLLOW_58_in_params804 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_int_dec_in_decl818 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_double_dec_in_decl830 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_57_in_while_condition851 = new BitSet(new long[]{0x0288000200102000L,0x0000000000000001L});
+    public static final BitSet FOLLOW_condition_in_while_condition853 = new BitSet(new long[]{0x0400000000000000L});
+    public static final BitSet FOLLOW_58_in_while_condition855 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_object_in_while_condition857 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_78_in_whilestmt866 = new BitSet(new long[]{0x0200000000000000L});
+    public static final BitSet FOLLOW_57_in_whilestmt868 = new BitSet(new long[]{0x0288000200000000L});
+    public static final BitSet FOLLOW_while_condition_in_whilestmt870 = new BitSet(new long[]{0x0400000000000000L});
+    public static final BitSet FOLLOW_58_in_whilestmt872 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+    public static final BitSet FOLLOW_79_in_whilestmt874 = new BitSet(new long[]{0x0009028100404080L,0x0000000000015800L});
+    public static final BitSet FOLLOW_stmt_in_whilestmt876 = new BitSet(new long[]{0x0009028100404080L,0x0000000000015800L});
+    public static final BitSet FOLLOW_80_in_whilestmt879 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_76_in_ifstmt924 = new BitSet(new long[]{0x0200000000000000L});
+    public static final BitSet FOLLOW_57_in_ifstmt926 = new BitSet(new long[]{0x0388000200000000L,0x0000000000000050L});
+    public static final BitSet FOLLOW_55_in_ifstmt929 = new BitSet(new long[]{0x0388000200000000L,0x0000000000000050L});
+    public static final BitSet FOLLOW_57_in_ifstmt935 = new BitSet(new long[]{0x0188000200000000L,0x0000000000000050L});
+    public static final BitSet FOLLOW_if_cond_in_ifstmt939 = new BitSet(new long[]{0x0400000000000000L});
+    public static final BitSet FOLLOW_58_in_ifstmt942 = new BitSet(new long[]{0x0400000000000000L});
+    public static final BitSet FOLLOW_58_in_ifstmt946 = new BitSet(new long[]{0x0009028100404082L,0x000000000001DC00L});
+    public static final BitSet FOLLOW_79_in_ifstmt949 = new BitSet(new long[]{0x0009028100404082L,0x0000000000015C00L});
+    public static final BitSet FOLLOW_stmt_in_ifstmt953 = new BitSet(new long[]{0x0009028100404082L,0x0000000000015C00L});
+    public static final BitSet FOLLOW_80_in_ifstmt957 = new BitSet(new long[]{0x0000000000000002L,0x0000000000000400L});
+    public static final BitSet FOLLOW_74_in_ifstmt962 = new BitSet(new long[]{0x0009028100404082L,0x000000000001DC00L});
+    public static final BitSet FOLLOW_79_in_ifstmt965 = new BitSet(new long[]{0x0009028100404082L,0x0000000000015C00L});
+    public static final BitSet FOLLOW_stmt_in_ifstmt969 = new BitSet(new long[]{0x0009028100404082L,0x0000000000015C00L});
+    public static final BitSet FOLLOW_80_in_ifstmt973 = new BitSet(new long[]{0x0000000000000002L,0x0000000000000400L});
+    public static final BitSet FOLLOW_74_in_ifstmt980 = new BitSet(new long[]{0x0009028100404082L,0x000000000001D800L});
+    public static final BitSet FOLLOW_79_in_ifstmt983 = new BitSet(new long[]{0x0009028100404082L,0x0000000000015800L});
+    public static final BitSet FOLLOW_stmt_in_ifstmt987 = new BitSet(new long[]{0x0009028100404082L,0x0000000000015800L});
+    public static final BitSet FOLLOW_80_in_ifstmt991 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_if_nor_in_if_cond1009 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_object_in_if_nor1021 = new BitSet(new long[]{0x0100000000000002L,0x0000000000000050L});
+    public static final BitSet FOLLOW_set_in_if_nor1024 = new BitSet(new long[]{0x0188000200000000L,0x0000000000000050L});
+    public static final BitSet FOLLOW_object_in_if_nor1039 = new BitSet(new long[]{0x0100000000000002L,0x0000000000000050L});
+    public static final BitSet FOLLOW_75_in_forloop1054 = new BitSet(new long[]{0x0200000000000000L});
+    public static final BitSet FOLLOW_57_in_forloop1056 = new BitSet(new long[]{0x0000000100404000L});
+    public static final BitSet FOLLOW_decl_in_forloop1059 = new BitSet(new long[]{0x0288000200102000L,0x0000000000000001L});
+    public static final BitSet FOLLOW_condition_in_forloop1063 = new BitSet(new long[]{0x0000008000000000L});
+    public static final BitSet FOLLOW_SEMICOLON_in_forloop1066 = new BitSet(new long[]{0x0008000000000000L});
+    public static final BitSet FOLLOW_VAR_in_forloop1069 = new BitSet(new long[]{0x6000000000000000L,0x0000000000000006L});
+    public static final BitSet FOLLOW_change_in_forloop1071 = new BitSet(new long[]{0x0400000000000000L});
+    public static final BitSet FOLLOW_58_in_forloop1074 = new BitSet(new long[]{0x0000000000000000L,0x0000000000008000L});
+    public static final BitSet FOLLOW_79_in_forloop1076 = new BitSet(new long[]{0x0009028100404080L,0x0000000000015800L});
+    public static final BitSet FOLLOW_stmt_in_forloop1078 = new BitSet(new long[]{0x0009028100404080L,0x0000000000015800L});
+    public static final BitSet FOLLOW_80_in_forloop1081 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_assign_in_assigment1093 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_VAR_in_assign1141 = new BitSet(new long[]{0x6000008000000000L,0x0000000000000026L});
+    public static final BitSet FOLLOW_change_in_assign1144 = new BitSet(new long[]{0x0000008000000000L});
+    public static final BitSet FOLLOW_69_in_assign1147 = new BitSet(new long[]{0x0A88000200102000L,0x0000000000000001L});
+    public static final BitSet FOLLOW_VAR_in_assign1151 = new BitSet(new long[]{0x0A88000200102000L,0x0000000000000001L});
+    public static final BitSet FOLLOW_59_in_assign1156 = new BitSet(new long[]{0x0288000200102000L,0x0000000000000001L});
+    public static final BitSet FOLLOW_generalArithExpr_in_assign1161 = new BitSet(new long[]{0x0000008000000000L});
+    public static final BitSet FOLLOW_SEMICOLON_in_assign1166 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_61_in_change1178 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_65_in_change1180 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_set_in_change1182 = new BitSet(new long[]{0x0288000200102000L,0x0000000000000001L});
+    public static final BitSet FOLLOW_generalArithExpr_in_change1187 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_generalArithExpr_in_condition1200 = new BitSet(new long[]{0x0000004000000000L});
+    public static final BitSet FOLLOW_RelationalOperators_in_condition1202 = new BitSet(new long[]{0x0288000200102000L,0x0000000000000001L});
+    public static final BitSet FOLLOW_generalArithExpr_in_condition1204 = new BitSet(new long[]{0x0000000000000012L});
+    public static final BitSet FOLLOW_AndOr_in_condition1207 = new BitSet(new long[]{0x0288000200102000L,0x0000000000000001L});
+    public static final BitSet FOLLOW_condition_in_condition1209 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_Modifier_in_int_dec1268 = new BitSet(new long[]{0x0000000000400000L});
+    public static final BitSet FOLLOW_INT_in_int_dec1271 = new BitSet(new long[]{0x0008000000000000L});
+    public static final BitSet FOLLOW_VAR_in_int_dec1273 = new BitSet(new long[]{0x8000008000000000L,0x0000000000000020L});
+    public static final BitSet FOLLOW_69_in_int_dec1277 = new BitSet(new long[]{0x0288000200102000L,0x0000000000000001L});
+    public static final BitSet FOLLOW_generalArithExpr_in_int_dec1279 = new BitSet(new long[]{0x0000008000000000L});
+    public static final BitSet FOLLOW_63_in_int_dec1284 = new BitSet(new long[]{0x0008000000000000L});
+    public static final BitSet FOLLOW_VAR_in_int_dec1286 = new BitSet(new long[]{0x8000008000000000L});
+    public static final BitSet FOLLOW_SEMICOLON_in_int_dec1291 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_Modifier_in_double_dec1306 = new BitSet(new long[]{0x0000000000004000L});
+    public static final BitSet FOLLOW_DOUBLE_in_double_dec1309 = new BitSet(new long[]{0x0008000000000000L});
+    public static final BitSet FOLLOW_VAR_in_double_dec1311 = new BitSet(new long[]{0x8000008000000000L,0x0000000000000020L});
+    public static final BitSet FOLLOW_69_in_double_dec1315 = new BitSet(new long[]{0x0288000200102000L,0x0000000000000001L});
+    public static final BitSet FOLLOW_generalArithExpr_in_double_dec1317 = new BitSet(new long[]{0x0000008000000000L});
+    public static final BitSet FOLLOW_63_in_double_dec1322 = new BitSet(new long[]{0x0008000000000000L});
+    public static final BitSet FOLLOW_VAR_in_double_dec1324 = new BitSet(new long[]{0x8000008000000000L});
+    public static final BitSet FOLLOW_SEMICOLON_in_double_dec1329 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_Modifier_in_string_dec1342 = new BitSet(new long[]{0x0000020000000000L});
+    public static final BitSet FOLLOW_STRING_in_string_dec1345 = new BitSet(new long[]{0x0008000000000000L});
+    public static final BitSet FOLLOW_VAR_in_string_dec1347 = new BitSet(new long[]{0x0000008000000000L,0x0000000000000020L});
+    public static final BitSet FOLLOW_69_in_string_dec1350 = new BitSet(new long[]{0x0000400000000000L});
+    public static final BitSet FOLLOW_Strings_in_string_dec1352 = new BitSet(new long[]{0x0000008000000000L});
+    public static final BitSet FOLLOW_SEMICOLON_in_string_dec1356 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_term_in_generalArithExpr1388 = new BitSet(new long[]{0x1000000000000002L,0x0000000000000001L});
+    public static final BitSet FOLLOW_set_in_generalArithExpr1391 = new BitSet(new long[]{0x0288000200102000L,0x0000000000000001L});
+    public static final BitSet FOLLOW_term_in_generalArithExpr1403 = new BitSet(new long[]{0x1000000000000002L,0x0000000000000001L});
+    public static final BitSet FOLLOW_object_in_term1440 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_factor_in_term1443 = new BitSet(new long[]{0x0800000000000002L,0x0000000000000008L});
+    public static final BitSet FOLLOW_set_in_term1447 = new BitSet(new long[]{0x0208000200102000L,0x0000000000000001L});
+    public static final BitSet FOLLOW_factor_in_term1459 = new BitSet(new long[]{0x0800000000000002L,0x0000000000000008L});
+    public static final BitSet FOLLOW_VAR_in_factor1499 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_NUM_in_factor1511 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_DNUM_in_factor1523 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_64_in_factor1535 = new BitSet(new long[]{0x0008000000000000L});
+    public static final BitSet FOLLOW_VAR_in_factor1538 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_64_in_factor1553 = new BitSet(new long[]{0x0000000000400000L});
+    public static final BitSet FOLLOW_INT_in_factor1556 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_64_in_factor1571 = new BitSet(new long[]{0x0000000000002000L});
+    public static final BitSet FOLLOW_DNUM_in_factor1574 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_57_in_factor1590 = new BitSet(new long[]{0x0288000200102000L,0x0000000000000001L});
+    public static final BitSet FOLLOW_generalArithExpr_in_factor1592 = new BitSet(new long[]{0x0400000000000000L});
+    public static final BitSet FOLLOW_58_in_factor1594 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_Fun_in_factor1612 = new BitSet(new long[]{0x0200000000000000L});
+    public static final BitSet FOLLOW_57_in_factor1614 = new BitSet(new long[]{0x0288000200102000L,0x0000000000000001L});
+    public static final BitSet FOLLOW_generalArithExpr_in_factor1616 = new BitSet(new long[]{0x0400000000000000L});
+    public static final BitSet FOLLOW_58_in_factor1618 = new BitSet(new long[]{0x0000000000000002L});
 
 }
