@@ -29,6 +29,8 @@ Initialize;
 Initialize_1;
 Sys_print;
 Ifstmt_2;
+Big_init;
+Init_4;
 
 }
 @members {
@@ -54,7 +56,9 @@ classDec:	Modifier? Class VAR* '{' stmt* '}' ->^(ClassDec Modifier? Class VAR '{
 
 stmt    :   (
 	decl -> ^(Decl decl)
-	
+	|
+init_4	-> ^(Init_4 init_4)
+	|big_init -> ^(Big_init big_init)
 	|main_method->^(Main_METHOD main_method)
 	|ifstmt -> ^(Ifstmt ifstmt)
 	|whilestmt -> ^(Whilestmt whilestmt)
@@ -80,9 +84,11 @@ method	:
 	;
 	
 	
-	
+
+
+
+ 
 main_method
-	
 	:Modifier Static VOID Main '('STRING '['']' 'a' ')' '{'print*'}'-> ^(Main_METHOD Modifier Static VOID Main '('STRING '['']' 'a'  ')' '{'print*'}');
 print	:System Dot Out Dot Println '('New VAR '('')'Dot VAR '('NUM?')' ')' SEMICOLON->^(Print System Dot Out Dot Println '('New VAR '('')'Dot VAR '('NUM?')' ')' SEMICOLON);
 
@@ -115,10 +121,10 @@ whilestmt	:
 	//ifstmt_2  :    
 	//'if' '(' if_cond ')' VAR ('{')? stmt* ('}')?('else' ('{')? stmt* ('}')?)?; 
 ifstmt  :    
-	'if' '(' ('!' )? ('(')? if_cond (')')? ')' ('{')? stmt* ('}')? ('else' ('{')? stmt* ('}')?)? ('else' ('{')? stmt* ('}')?)?;
+	'if' '(' ('!' )? ('(')? if_nor (')')? ')' ('{')? stmt* ('}')? ('else' ('{')? stmt* ('}')?)? ('else' ('{')? stmt* ('}')?)?;
 	
   
- if_cond	:  if_nor  ; 
+ if_cond:  if_nor  ; 
  if_nor :	 object (( '>' | '<' |'&&' )^  object  )*;
 forloop	:   
 	'for' '(' (decl) (condition) SEMICOLON (VAR change) ')' '{' stmt* '}'
@@ -139,11 +145,25 @@ initialize_2
 //ob_body :	('!')? VAR Dot VAR '(' (NUM|VAR)  (generalArithExpr) ')';
 //ob_cho	:('!')? VAR Dot VAR '(' (NUM|VAR)?  ')' | ob_body;	
 assign	:	
-	 VAR (change?|'=' ( (VAR | New)? ('*')? ( generalArithExpr |initialize_2) )) SEMICOLON 
+	 VAR (change?'='  VAR | New? ('*')? ( generalArithExpr |initialize_2)) SEMICOLON 
 	;
 change	:
 	('++'|'--'|('+='|'-=')generalArithExpr)
 	;
+op	:	Plus|Minus;
+ init_1	:var_num '=' 'this' '.' VAR '(' (VAR|NUM)?')';
+ init_2	:types var_num;
+ init_3	:types '[' ']'var_num;
+ init_4	:var_num '='var_num op var_num;	
+
+ init_5	:var_num '=' var_num;	
+ init_6	:var_num '['var_num ']''='var_num op var_num;
+var_num:VAR|NUM;	
+ big_init
+ 	:init_1|init_2|init_3|init_4|init_5|init_6;
+ 
+ 
+
 
 condition:  
 	generalArithExpr RelationalOperators generalArithExpr (AndOr condition)?
@@ -177,7 +197,7 @@ generalArithExpr: term (( '+' | '-' )^  term)*
   catch[NoViableAltException e] { s = s +getErrorMessage(e,new String[]{e.input.toString()})+": "+getErrorHeader(e) +"\n";}
   catch[RecognitionException e] { s = s +getErrorMessage(e,new String[]{e.input.toString()})+": "+getErrorHeader(e) +"\n";}
   
-term	:object| factor ( ( '*' | '/'  )^ factor)* 
+term	: factor ( ( '*' | '/'  )^ factor)* 
 	//-> ^(Term factor ( ( '*' | '/' ) factor)*)
 	;
 // catch blocks go first
@@ -201,6 +221,8 @@ factor	:
   catch[NoViableAltException e] { s = s +getErrorMessage(e,new String[]{e.input.toString()})+": "+getErrorHeader(e) +"\n";}
   catch[RecognitionException e] { s = s +getErrorMessage(e,new String[]{e.input.toString()})+": "+getErrorHeader(e) +"\n";}
 Class:'class';
+Plus	:'+';
+Minus	:'-';		
 System	:'System';
 New	:	'new';
 Dot	:	'.';
