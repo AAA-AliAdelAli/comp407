@@ -122,9 +122,9 @@ whilestmt	:
 	//'if' '(' if_cond ')' VAR ('{')? stmt* ('}')?('else' ('{')? stmt* ('}')?)?; 
 ifstmt  :    
 	'if' '(' ('!' )? ('(')? if_nor (')')? ')' ('{')? stmt* ('}')? ('else' ('{')? stmt* ('}')?)? ('else' ('{')? stmt* ('}')?)?;
-	
-  
- if_cond:  if_nor  ; 
+	 
+ 
+  if_cond:  if_nor  ; 
  if_nor :	 object (( '>' | '<' |'&&' )^  object  )*;
 forloop	:   
 	'for' '(' (decl) (condition) SEMICOLON (VAR change) ')' '{' stmt* '}'
