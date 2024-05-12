@@ -127,6 +127,9 @@ assigment:
 	assign
 	-> ^(Assigment assign)
 	;
+initialize_2
+	:	 Dot? VAR '('(NUM|VAR)?','?(NUM|VAR)? ')' ;
+	
 	// catch blocks go first
   catch[MismatchedTokenException e] { s = s +getErrorMessage(e,new String[]{e.input.toString()})+": "+getErrorHeader(e) +"\n";}
   catch[NoViableAltException e] { s = s +getErrorMessage(e,new String[]{e.input.toString()})+": "+getErrorHeader(e) +"\n";}
@@ -136,7 +139,7 @@ assigment:
 //ob_body :	('!')? VAR Dot VAR '(' (NUM|VAR)  (generalArithExpr) ')';
 //ob_cho	:('!')? VAR Dot VAR '(' (NUM|VAR)?  ')' | ob_body;	
 assign	:	
-	 VAR (change?|'=' ((VAR)? ('*')?  generalArithExpr) ) SEMICOLON 
+	 VAR (change?|'=' ( (VAR | New)? ('*')? ( generalArithExpr |initialize_2) )) SEMICOLON 
 	;
 change	:
 	('++'|'--'|('+='|'-=')generalArithExpr)

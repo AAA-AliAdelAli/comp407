@@ -1,4 +1,4 @@
-// $ANTLR 3.4 E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g 2024-05-12 17:58:28
+// $ANTLR 3.4 E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g 2024-05-12 18:52:25
 
 import org.antlr.runtime.*;
 import java.util.Stack;
@@ -672,8 +672,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = Class;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:200:6: ( 'class' )
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:200:7: 'class'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:203:6: ( 'class' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:203:7: 'class'
             {
             match("class"); 
 
@@ -695,8 +695,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = System;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:201:8: ( 'System' )
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:201:9: 'System'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:204:8: ( 'System' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:204:9: 'System'
             {
             match("System"); 
 
@@ -718,8 +718,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = New;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:202:5: ( 'new' )
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:202:7: 'new'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:205:5: ( 'new' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:205:7: 'new'
             {
             match("new"); 
 
@@ -741,8 +741,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = Dot;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:203:5: ( '.' )
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:203:7: '.'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:206:5: ( '.' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:206:7: '.'
             {
             match('.'); 
 
@@ -762,8 +762,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = Out;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:204:5: ( 'out' )
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:204:7: 'out'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:207:5: ( 'out' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:207:7: 'out'
             {
             match("out"); 
 
@@ -785,8 +785,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = Println;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:205:9: ( 'println' )
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:205:11: 'println'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:208:9: ( 'println' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:208:11: 'println'
             {
             match("println"); 
 
@@ -808,8 +808,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = Args;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:207:6: ( 'args' )
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:207:8: 'args'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:210:6: ( 'args' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:210:8: 'args'
             {
             match("args"); 
 
@@ -831,8 +831,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = Static;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:208:8: ( 'static' )
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:208:10: 'static'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:211:8: ( 'static' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:211:10: 'static'
             {
             match("static"); 
 
@@ -854,8 +854,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = Main;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:209:6: ( 'main' )
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:209:8: 'main'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:212:6: ( 'main' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:212:8: 'main'
             {
             match("main"); 
 
@@ -877,7 +877,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = AndOr;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:211:7: ( '&&' | '||' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:214:7: ( '&&' | '||' )
             int alt1=2;
             int LA1_0 = input.LA(1);
 
@@ -896,7 +896,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
             }
             switch (alt1) {
                 case 1 :
-                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:211:9: '&&'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:214:9: '&&'
                     {
                     match("&&"); 
 
@@ -905,7 +905,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:211:14: '||'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:214:14: '||'
                     {
                     match("||"); 
 
@@ -929,7 +929,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = Modifier;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:212:9: ( 'private' | 'public' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:215:9: ( 'private' | 'public' )
             int alt2=2;
             int LA2_0 = input.LA(1);
 
@@ -959,7 +959,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
             }
             switch (alt2) {
                 case 1 :
-                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:212:11: 'private'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:215:11: 'private'
                     {
                     match("private"); 
 
@@ -968,7 +968,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:212:21: 'public'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:215:21: 'public'
                     {
                     match("public"); 
 
@@ -992,7 +992,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = Fun;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:213:5: ( 'sin' | 'cos' | 'tan' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:216:5: ( 'sin' | 'cos' | 'tan' )
             int alt3=3;
             switch ( input.LA(1) ) {
             case 's':
@@ -1020,7 +1020,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
 
             switch (alt3) {
                 case 1 :
-                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:213:7: 'sin'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:216:7: 'sin'
                     {
                     match("sin"); 
 
@@ -1029,7 +1029,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:213:15: 'cos'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:216:15: 'cos'
                     {
                     match("cos"); 
 
@@ -1038,7 +1038,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:213:22: 'tan'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:216:22: 'tan'
                     {
                     match("tan"); 
 
@@ -1062,8 +1062,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = INT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:214:5: ( 'int' )
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:214:7: 'int'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:217:5: ( 'int' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:217:7: 'int'
             {
             match("int"); 
 
@@ -1085,8 +1085,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = DOUBLE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:215:8: ( 'double' )
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:215:10: 'double'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:218:8: ( 'double' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:218:10: 'double'
             {
             match("double"); 
 
@@ -1108,8 +1108,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = VOID;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:216:6: ( 'void' )
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:216:8: 'void'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:219:6: ( 'void' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:219:8: 'void'
             {
             match("void"); 
 
@@ -1131,8 +1131,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = BOOLEAN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:217:9: ( 'boolean' )
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:217:11: 'boolean'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:220:9: ( 'boolean' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:220:11: 'boolean'
             {
             match("boolean"); 
 
@@ -1154,8 +1154,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = STRING;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:218:9: ( 'String' )
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:218:11: 'String'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:221:9: ( 'String' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:221:11: 'String'
             {
             match("String"); 
 
@@ -1177,8 +1177,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = VAR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:219:5: ( ( 'a' .. 'z' | 'A' .. 'Z' | '$' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' | '$' )* )
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:219:7: ( 'a' .. 'z' | 'A' .. 'Z' | '$' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' | '$' )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:222:5: ( ( 'a' .. 'z' | 'A' .. 'Z' | '$' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' | '$' )* )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:222:7: ( 'a' .. 'z' | 'A' .. 'Z' | '$' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' | '$' )*
             {
             if ( input.LA(1)=='$'||(input.LA(1) >= 'A' && input.LA(1) <= 'Z')||input.LA(1)=='_'||(input.LA(1) >= 'a' && input.LA(1) <= 'z') ) {
                 input.consume();
@@ -1190,7 +1190,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
             }
 
 
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:219:35: ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' | '$' )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:222:35: ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' | '$' )*
             loop4:
             do {
                 int alt4=2;
@@ -1240,10 +1240,10 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = NUM;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:220:5: ( ( '-' )? ( '0' .. '9' )* )
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:220:7: ( '-' )? ( '0' .. '9' )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:223:5: ( ( '-' )? ( '0' .. '9' )* )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:223:7: ( '-' )? ( '0' .. '9' )*
             {
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:220:7: ( '-' )?
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:223:7: ( '-' )?
             int alt5=2;
             int LA5_0 = input.LA(1);
 
@@ -1252,7 +1252,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
             }
             switch (alt5) {
                 case 1 :
-                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:220:8: '-'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:223:8: '-'
                     {
                     match('-'); 
 
@@ -1262,7 +1262,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
             }
 
 
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:220:13: ( '0' .. '9' )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:223:13: ( '0' .. '9' )*
             loop6:
             do {
                 int alt6=2;
@@ -1312,10 +1312,10 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = DNUM;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:221:6: ( ( '-' )? ( '0' .. '9' )* '.' ( '0' .. '9' )* )
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:221:8: ( '-' )? ( '0' .. '9' )* '.' ( '0' .. '9' )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:224:6: ( ( '-' )? ( '0' .. '9' )* '.' ( '0' .. '9' )* )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:224:8: ( '-' )? ( '0' .. '9' )* '.' ( '0' .. '9' )*
             {
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:221:8: ( '-' )?
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:224:8: ( '-' )?
             int alt7=2;
             int LA7_0 = input.LA(1);
 
@@ -1324,7 +1324,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
             }
             switch (alt7) {
                 case 1 :
-                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:221:9: '-'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:224:9: '-'
                     {
                     match('-'); 
 
@@ -1334,7 +1334,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
             }
 
 
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:221:14: ( '0' .. '9' )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:224:14: ( '0' .. '9' )*
             loop8:
             do {
                 int alt8=2;
@@ -1370,7 +1370,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
 
             match('.'); 
 
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:221:30: ( '0' .. '9' )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:224:30: ( '0' .. '9' )*
             loop9:
             do {
                 int alt9=2;
@@ -1420,8 +1420,8 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = SEMICOLON;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:222:10: ( ';' )
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:222:12: ';'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:225:10: ( ';' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:225:12: ';'
             {
             match(';'); 
 
@@ -1441,12 +1441,12 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = Strings;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:223:9: ( '\"' ( . )* '\"' )
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:223:11: '\"' ( . )* '\"'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:226:9: ( '\"' ( . )* '\"' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:226:11: '\"' ( . )* '\"'
             {
             match('\"'); 
 
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:223:15: ( . )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:226:15: ( . )*
             loop10:
             do {
                 int alt10=2;
@@ -1462,7 +1462,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
 
                 switch (alt10) {
             	case 1 :
-            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:223:16: .
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:226:16: .
             	    {
             	    matchAny(); 
 
@@ -1493,7 +1493,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = RelationalOperators;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:224:20: ( '==' | '!=' | '>' | '<' | '>=' | '<=' |)
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:227:20: ( '==' | '!=' | '>' | '<' | '>=' | '<=' |)
             int alt11=7;
             switch ( input.LA(1) ) {
             case '=':
@@ -1536,7 +1536,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
 
             switch (alt11) {
                 case 1 :
-                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:224:24: '=='
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:227:24: '=='
                     {
                     match("=="); 
 
@@ -1545,7 +1545,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:224:29: '!='
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:227:29: '!='
                     {
                     match("!="); 
 
@@ -1554,21 +1554,21 @@ public class ArithmeticExpressionsLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:224:34: '>'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:227:34: '>'
                     {
                     match('>'); 
 
                     }
                     break;
                 case 4 :
-                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:224:38: '<'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:227:38: '<'
                     {
                     match('<'); 
 
                     }
                     break;
                 case 5 :
-                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:224:42: '>='
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:227:42: '>='
                     {
                     match(">="); 
 
@@ -1577,7 +1577,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                     }
                     break;
                 case 6 :
-                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:224:47: '<='
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:227:47: '<='
                     {
                     match("<="); 
 
@@ -1586,7 +1586,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
                     }
                     break;
                 case 7 :
-                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:224:52: 
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:227:52: 
                     {
                     }
                     break;
@@ -1606,14 +1606,14 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = ML_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:225:12: ( '/*' ( options {greedy=false; } : . )* ( '*/' )+ )
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:225:14: '/*' ( options {greedy=false; } : . )* ( '*/' )+
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:228:12: ( '/*' ( options {greedy=false; } : . )* ( '*/' )+ )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:228:14: '/*' ( options {greedy=false; } : . )* ( '*/' )+
             {
             match("/*"); 
 
 
 
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:225:19: ( options {greedy=false; } : . )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:228:19: ( options {greedy=false; } : . )*
             loop12:
             do {
                 int alt12=2;
@@ -1638,7 +1638,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
 
                 switch (alt12) {
             	case 1 :
-            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:225:47: .
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:228:47: .
             	    {
             	    matchAny(); 
 
@@ -1651,7 +1651,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
             } while (true);
 
 
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:225:51: ( '*/' )+
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:228:51: ( '*/' )+
             int cnt13=0;
             loop13:
             do {
@@ -1665,7 +1665,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
 
                 switch (alt13) {
             	case 1 :
-            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:225:51: '*/'
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:228:51: '*/'
             	    {
             	    match("*/"); 
 
@@ -1702,14 +1702,14 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = SL_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:226:12: ( '//' ( . )* ( '\\n' )+ )
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:226:14: '//' ( . )* ( '\\n' )+
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:229:12: ( '//' ( . )* ( '\\n' )+ )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:229:14: '//' ( . )* ( '\\n' )+
             {
             match("//"); 
 
 
 
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:226:19: ( . )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:229:19: ( . )*
             loop14:
             do {
                 int alt14=2;
@@ -1725,7 +1725,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
 
                 switch (alt14) {
             	case 1 :
-            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:226:20: .
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:229:20: .
             	    {
             	    matchAny(); 
 
@@ -1738,7 +1738,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
             } while (true);
 
 
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:226:23: ( '\\n' )+
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:229:23: ( '\\n' )+
             int cnt15=0;
             loop15:
             do {
@@ -1752,7 +1752,7 @@ public class ArithmeticExpressionsLexer extends Lexer {
 
                 switch (alt15) {
             	case 1 :
-            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:226:23: '\\n'
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:229:23: '\\n'
             	    {
             	    match('\n'); 
 
@@ -1787,10 +1787,10 @@ public class ArithmeticExpressionsLexer extends Lexer {
         try {
             int _type = WhiteSpace;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:227:11: ( ( ' ' | '\\n' | '\\r' | '\\t' )+ )
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:227:13: ( ' ' | '\\n' | '\\r' | '\\t' )+
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:230:11: ( ( ' ' | '\\n' | '\\r' | '\\t' )+ )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:230:13: ( ' ' | '\\n' | '\\r' | '\\t' )+
             {
-            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:227:13: ( ' ' | '\\n' | '\\r' | '\\t' )+
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\ArithmeticExpressions.g:230:13: ( ' ' | '\\n' | '\\r' | '\\t' )+
             int cnt16=0;
             loop16:
             do {
