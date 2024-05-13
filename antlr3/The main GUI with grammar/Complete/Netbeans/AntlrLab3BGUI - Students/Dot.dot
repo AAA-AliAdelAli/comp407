@@ -1,0 +1,172 @@
+digraph {
+
+	ordering=out;
+	ranksep=.4;
+	bgcolor="lightgrey"; node [shape=box, fixedsize=false, fontsize=12, fontname="Helvetica-bold", fontcolor="blue"
+		width=.25, height=.25, color="black", fillcolor="white", style="filled, solid, bold"];
+	edge [arrowsize=.5, color="black", style="bold"]
+
+  n0 [label=""];
+  n1 [label="class"];
+  n2 [label="Factorial"];
+  n3 [label="{"];
+  n4 [label="public"];
+  n5 [label="static"];
+  n6 [label="void"];
+  n7 [label="main"];
+  n8 [label="("];
+  n9 [label="String"];
+  n10 [label="["];
+  n11 [label="]"];
+  n12 [label="a"];
+  n13 [label=")"];
+  n14 [label="{"];
+  n15 [label="MAINSTMT"];
+  n15 [label="MAINSTMT"];
+  n16 [label="System.out.println"];
+  n17 [label="("];
+  n18 [label="new"];
+  n19 [label="Fac"];
+  n20 [label="("];
+  n21 [label=")"];
+  n22 [label="."];
+  n23 [label="ComputeFac"];
+  n24 [label="("];
+  n25 [label="10"];
+  n26 [label=")"];
+  n27 [label=")"];
+  n28 [label=";"];
+  n29 [label="}"];
+  n30 [label="}"];
+  n31 [label="class"];
+  n32 [label="Fac"];
+  n33 [label="{"];
+  n34 [label="public"];
+  n35 [label="int"];
+  n36 [label="ComputeFac"];
+  n37 [label="("];
+  n38 [label="int"];
+  n39 [label="num"];
+  n40 [label=")"];
+  n41 [label="{"];
+  n42 [label="int"];
+  n43 [label="num_aux"];
+  n44 [label=";"];
+  n45 [label="MAINSTMT"];
+  n45 [label="MAINSTMT"];
+  n46 [label="if"];
+  n47 [label="("];
+  n48 [label="num"];
+  n49 [label="<"];
+  n50 [label="1"];
+  n51 [label=")"];
+  n52 [label="MAINSTMT"];
+  n52 [label="MAINSTMT"];
+  n53 [label="num_aux"];
+  n54 [label="="];
+  n55 [label="1"];
+  n56 [label=";"];
+  n57 [label="else"];
+  n58 [label="MAINSTMT"];
+  n58 [label="MAINSTMT"];
+  n59 [label="num_aux"];
+  n60 [label="="];
+  n61 [label="num"];
+  n62 [label="*"];
+  n63 [label="("];
+  n64 [label="this"];
+  n65 [label="."];
+  n66 [label="ComputeFac"];
+  n67 [label="("];
+  n68 [label="num"];
+  n69 [label="-"];
+  n70 [label="1"];
+  n71 [label=")"];
+  n72 [label=")"];
+  n73 [label=";"];
+  n74 [label="return"];
+  n75 [label="num_aux"];
+  n76 [label=";"];
+  n77 [label="}"];
+  n78 [label="}"];
+
+  n0 -> n1 // "" -> "class"
+  n0 -> n2 // "" -> "Factorial"
+  n0 -> n3 // "" -> "{"
+  n0 -> n4 // "" -> "public"
+  n0 -> n5 // "" -> "static"
+  n0 -> n6 // "" -> "void"
+  n0 -> n7 // "" -> "main"
+  n0 -> n8 // "" -> "("
+  n0 -> n9 // "" -> "String"
+  n0 -> n10 // "" -> "["
+  n0 -> n11 // "" -> "]"
+  n0 -> n12 // "" -> "a"
+  n0 -> n13 // "" -> ")"
+  n0 -> n14 // "" -> "{"
+  n0 -> n15 // "" -> "MAINSTMT"
+  n15 -> n16 // "MAINSTMT" -> "System.out.println"
+  n15 -> n17 // "MAINSTMT" -> "("
+  n15 -> n18 // "MAINSTMT" -> "new"
+  n15 -> n19 // "MAINSTMT" -> "Fac"
+  n15 -> n20 // "MAINSTMT" -> "("
+  n15 -> n21 // "MAINSTMT" -> ")"
+  n15 -> n22 // "MAINSTMT" -> "."
+  n15 -> n23 // "MAINSTMT" -> "ComputeFac"
+  n15 -> n24 // "MAINSTMT" -> "("
+  n15 -> n25 // "MAINSTMT" -> "10"
+  n15 -> n26 // "MAINSTMT" -> ")"
+  n15 -> n27 // "MAINSTMT" -> ")"
+  n15 -> n28 // "MAINSTMT" -> ";"
+  n0 -> n29 // "" -> "}"
+  n0 -> n30 // "" -> "}"
+  n0 -> n31 // "" -> "class"
+  n0 -> n32 // "" -> "Fac"
+  n0 -> n33 // "" -> "{"
+  n0 -> n34 // "" -> "public"
+  n0 -> n35 // "" -> "int"
+  n0 -> n36 // "" -> "ComputeFac"
+  n0 -> n37 // "" -> "("
+  n0 -> n38 // "" -> "int"
+  n0 -> n39 // "" -> "num"
+  n0 -> n40 // "" -> ")"
+  n0 -> n41 // "" -> "{"
+  n0 -> n42 // "" -> "int"
+  n0 -> n43 // "" -> "num_aux"
+  n0 -> n44 // "" -> ";"
+  n0 -> n45 // "" -> "MAINSTMT"
+  n45 -> n46 // "MAINSTMT" -> "if"
+  n45 -> n47 // "MAINSTMT" -> "("
+  n45 -> n48 // "MAINSTMT" -> "num"
+  n45 -> n49 // "MAINSTMT" -> "<"
+  n45 -> n50 // "MAINSTMT" -> "1"
+  n45 -> n51 // "MAINSTMT" -> ")"
+  n45 -> n52 // "MAINSTMT" -> "MAINSTMT"
+  n52 -> n53 // "MAINSTMT" -> "num_aux"
+  n52 -> n54 // "MAINSTMT" -> "="
+  n52 -> n55 // "MAINSTMT" -> "1"
+  n52 -> n56 // "MAINSTMT" -> ";"
+  n45 -> n57 // "MAINSTMT" -> "else"
+  n45 -> n58 // "MAINSTMT" -> "MAINSTMT"
+  n58 -> n59 // "MAINSTMT" -> "num_aux"
+  n58 -> n60 // "MAINSTMT" -> "="
+  n58 -> n61 // "MAINSTMT" -> "num"
+  n58 -> n62 // "MAINSTMT" -> "*"
+  n58 -> n63 // "MAINSTMT" -> "("
+  n58 -> n64 // "MAINSTMT" -> "this"
+  n58 -> n65 // "MAINSTMT" -> "."
+  n58 -> n66 // "MAINSTMT" -> "ComputeFac"
+  n58 -> n67 // "MAINSTMT" -> "("
+  n58 -> n68 // "MAINSTMT" -> "num"
+  n58 -> n69 // "MAINSTMT" -> "-"
+  n58 -> n70 // "MAINSTMT" -> "1"
+  n58 -> n71 // "MAINSTMT" -> ")"
+  n58 -> n72 // "MAINSTMT" -> ")"
+  n58 -> n73 // "MAINSTMT" -> ";"
+  n0 -> n74 // "" -> "return"
+  n0 -> n75 // "" -> "num_aux"
+  n0 -> n76 // "" -> ";"
+  n0 -> n77 // "" -> "}"
+  n0 -> n78 // "" -> "}"
+
+}
