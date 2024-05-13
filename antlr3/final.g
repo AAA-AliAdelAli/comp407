@@ -95,9 +95,9 @@ stmt 	:	(new_stmt) -> ^( MAINSTMT  new_stmt );
          | ID '=' expression ';' 
          | ID '[' expression ']' '=' expression ';';
          
-if_stmt	:	'if' '(' expression ')' stmt 'else' stmt ;
+if_stmt	:	IF '(' expression ')' stmt ELSE stmt ;
 while_stmt
-	:	'while' '(' expression ')' stmt | 'System.out.println' '(' expression ')' ';' ;
+	:	WHILE '(' expression ')' stmt | 'System.out.println' '(' expression ')' ';' ;
 
 expression
 	:	ast_expression -> ^(EXPR ast_expression);
@@ -116,14 +116,17 @@ tail: (Operator term
 
 
 
-term: Int_L | Bool_L | ID | 'this' | 'new' 'int' '[' expression ']' | 'new' ID '(' ')'
+term: Int_N | Bool_CH | ID | 'this' | 'new' 'int' '[' expression ']' | 'new' ID '(' ')'
      | '!' expression | '(' expression ')' ;
 
 type: ('int' '[' ']' | 'boolean' | 'int' | ID);
 
-Bool_L: ('true' | 'false');
+Bool_CH: ('true' | 'false');
 
-Int_L: '0'..'9'+;
+Int_N: '0'..'9'+;
+IF	:	'if';
+ELSE	:	'else';
+WHILE 	:	'while' ;
 
 Operator: ('&&' | '<' | '+' | '-' | '*');
 

@@ -1,4 +1,4 @@
-// $ANTLR 3.4 E:\\antlr3\\final.g 2024-05-13 16:28:25
+// $ANTLR 3.4 E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g 2024-05-13 23:06:30
 
 import org.antlr.runtime.*;
 import java.util.Stack;
@@ -8,9 +8,6 @@ import java.util.ArrayList;
 @SuppressWarnings({"all", "warnings", "unchecked"})
 public class finalLexer extends Lexer {
     public static final int EOF=-1;
-    public static final int T__16=16;
-    public static final int T__17=17;
-    public static final int T__18=18;
     public static final int T__19=19;
     public static final int T__20=20;
     public static final int T__21=21;
@@ -36,18 +33,21 @@ public class finalLexer extends Lexer {
     public static final int T__41=41;
     public static final int T__42=42;
     public static final int T__43=43;
-    public static final int Bool_L=4;
+    public static final int Bool_CH=4;
     public static final int CLASSDEC=5;
     public static final int COMMENT=6;
-    public static final int EXPR=7;
-    public static final int ID=8;
-    public static final int Int_L=9;
-    public static final int MAINCLASS=10;
-    public static final int MAINSTMT=11;
-    public static final int METHODDEC=12;
-    public static final int Operator=13;
-    public static final int STARTIT=14;
-    public static final int WS=15;
+    public static final int ELSE=7;
+    public static final int EXPR=8;
+    public static final int ID=9;
+    public static final int IF=10;
+    public static final int Int_N=11;
+    public static final int MAINCLASS=12;
+    public static final int MAINSTMT=13;
+    public static final int METHODDEC=14;
+    public static final int Operator=15;
+    public static final int STARTIT=16;
+    public static final int WHILE=17;
+    public static final int WS=18;
 
     // delegates
     // delegators
@@ -62,80 +62,17 @@ public class finalLexer extends Lexer {
     public finalLexer(CharStream input, RecognizerSharedState state) {
         super(input,state);
     }
-    public String getGrammarFileName() { return "E:\\antlr3\\final.g"; }
-
-    // $ANTLR start "T__16"
-    public final void mT__16() throws RecognitionException {
-        try {
-            int _type = T__16;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:2:7: ( '!' )
-            // E:\\antlr3\\final.g:2:9: '!'
-            {
-            match('!'); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__16"
-
-    // $ANTLR start "T__17"
-    public final void mT__17() throws RecognitionException {
-        try {
-            int _type = T__17;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:3:7: ( '(' )
-            // E:\\antlr3\\final.g:3:9: '('
-            {
-            match('('); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__17"
-
-    // $ANTLR start "T__18"
-    public final void mT__18() throws RecognitionException {
-        try {
-            int _type = T__18;
-            int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:4:7: ( ')' )
-            // E:\\antlr3\\final.g:4:9: ')'
-            {
-            match(')'); 
-
-            }
-
-            state.type = _type;
-            state.channel = _channel;
-        }
-        finally {
-        	// do for sure before leaving
-        }
-    }
-    // $ANTLR end "T__18"
+    public String getGrammarFileName() { return "E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g"; }
 
     // $ANTLR start "T__19"
     public final void mT__19() throws RecognitionException {
         try {
             int _type = T__19;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:5:7: ( ',' )
-            // E:\\antlr3\\final.g:5:9: ','
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:2:7: ( '!' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:2:9: '!'
             {
-            match(','); 
+            match('!'); 
 
             }
 
@@ -153,10 +90,10 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__20;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:6:7: ( '.' )
-            // E:\\antlr3\\final.g:6:9: '.'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:3:7: ( '(' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:3:9: '('
             {
-            match('.'); 
+            match('('); 
 
             }
 
@@ -174,10 +111,10 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__21;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:7:7: ( ';' )
-            // E:\\antlr3\\final.g:7:9: ';'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:4:7: ( ')' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:4:9: ')'
             {
-            match(';'); 
+            match(')'); 
 
             }
 
@@ -195,10 +132,10 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__22;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:8:7: ( '=' )
-            // E:\\antlr3\\final.g:8:9: '='
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:5:7: ( ',' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:5:9: ','
             {
-            match('='); 
+            match(','); 
 
             }
 
@@ -216,12 +153,10 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__23;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:9:7: ( 'String' )
-            // E:\\antlr3\\final.g:9:9: 'String'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:6:7: ( '.' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:6:9: '.'
             {
-            match("String"); 
-
-
+            match('.'); 
 
             }
 
@@ -239,12 +174,10 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__24;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:10:7: ( 'System.out.println' )
-            // E:\\antlr3\\final.g:10:9: 'System.out.println'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:7:7: ( ';' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:7:9: ';'
             {
-            match("System.out.println"); 
-
-
+            match(';'); 
 
             }
 
@@ -262,10 +195,10 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__25;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:11:7: ( '[' )
-            // E:\\antlr3\\final.g:11:9: '['
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:8:7: ( '=' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:8:9: '='
             {
-            match('['); 
+            match('='); 
 
             }
 
@@ -283,10 +216,12 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__26;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:12:7: ( ']' )
-            // E:\\antlr3\\final.g:12:9: ']'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:9:7: ( 'String' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:9:9: 'String'
             {
-            match(']'); 
+            match("String"); 
+
+
 
             }
 
@@ -304,10 +239,10 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__27;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:13:7: ( 'boolean' )
-            // E:\\antlr3\\final.g:13:9: 'boolean'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:10:7: ( 'System.out.println' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:10:9: 'System.out.println'
             {
-            match("boolean"); 
+            match("System.out.println"); 
 
 
 
@@ -327,12 +262,10 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__28;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:14:7: ( 'class' )
-            // E:\\antlr3\\final.g:14:9: 'class'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:11:7: ( '[' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:11:9: '['
             {
-            match("class"); 
-
-
+            match('['); 
 
             }
 
@@ -350,12 +283,10 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__29;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:15:7: ( 'else' )
-            // E:\\antlr3\\final.g:15:9: 'else'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:12:7: ( ']' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:12:9: ']'
             {
-            match("else"); 
-
-
+            match(']'); 
 
             }
 
@@ -373,10 +304,10 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__30;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:16:7: ( 'extends' )
-            // E:\\antlr3\\final.g:16:9: 'extends'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:13:7: ( 'boolean' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:13:9: 'boolean'
             {
-            match("extends"); 
+            match("boolean"); 
 
 
 
@@ -396,10 +327,10 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__31;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:17:7: ( 'if' )
-            // E:\\antlr3\\final.g:17:9: 'if'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:14:7: ( 'class' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:14:9: 'class'
             {
-            match("if"); 
+            match("class"); 
 
 
 
@@ -419,10 +350,10 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__32;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:18:7: ( 'int' )
-            // E:\\antlr3\\final.g:18:9: 'int'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:15:7: ( 'extends' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:15:9: 'extends'
             {
-            match("int"); 
+            match("extends"); 
 
 
 
@@ -442,10 +373,10 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__33;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:19:7: ( 'length' )
-            // E:\\antlr3\\final.g:19:9: 'length'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:16:7: ( 'int' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:16:9: 'int'
             {
-            match("length"); 
+            match("int"); 
 
 
 
@@ -465,10 +396,10 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__34;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:20:7: ( 'main' )
-            // E:\\antlr3\\final.g:20:9: 'main'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:17:7: ( 'length' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:17:9: 'length'
             {
-            match("main"); 
+            match("length"); 
 
 
 
@@ -488,10 +419,10 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__35;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:21:7: ( 'new' )
-            // E:\\antlr3\\final.g:21:9: 'new'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:18:7: ( 'main' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:18:9: 'main'
             {
-            match("new"); 
+            match("main"); 
 
 
 
@@ -511,10 +442,10 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__36;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:22:7: ( 'public' )
-            // E:\\antlr3\\final.g:22:9: 'public'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:19:7: ( 'new' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:19:9: 'new'
             {
-            match("public"); 
+            match("new"); 
 
 
 
@@ -534,10 +465,10 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__37;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:23:7: ( 'return' )
-            // E:\\antlr3\\final.g:23:9: 'return'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:20:7: ( 'public' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:20:9: 'public'
             {
-            match("return"); 
+            match("public"); 
 
 
 
@@ -557,10 +488,10 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__38;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:24:7: ( 'static' )
-            // E:\\antlr3\\final.g:24:9: 'static'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:21:7: ( 'return' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:21:9: 'return'
             {
-            match("static"); 
+            match("return"); 
 
 
 
@@ -580,10 +511,10 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__39;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:25:7: ( 'this' )
-            // E:\\antlr3\\final.g:25:9: 'this'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:22:7: ( 'static' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:22:9: 'static'
             {
-            match("this"); 
+            match("static"); 
 
 
 
@@ -603,10 +534,10 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__40;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:26:7: ( 'void' )
-            // E:\\antlr3\\final.g:26:9: 'void'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:23:7: ( 'this' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:23:9: 'this'
             {
-            match("void"); 
+            match("this"); 
 
 
 
@@ -626,10 +557,10 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__41;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:27:7: ( 'while' )
-            // E:\\antlr3\\final.g:27:9: 'while'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:24:7: ( 'void' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:24:9: 'void'
             {
-            match("while"); 
+            match("void"); 
 
 
 
@@ -649,8 +580,8 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__42;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:28:7: ( '{' )
-            // E:\\antlr3\\final.g:28:9: '{'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:25:7: ( '{' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:25:9: '{'
             {
             match('{'); 
 
@@ -670,8 +601,8 @@ public class finalLexer extends Lexer {
         try {
             int _type = T__43;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:29:7: ( '}' )
-            // E:\\antlr3\\final.g:29:9: '}'
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:26:7: ( '}' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:26:9: '}'
             {
             match('}'); 
 
@@ -686,15 +617,15 @@ public class finalLexer extends Lexer {
     }
     // $ANTLR end "T__43"
 
-    // $ANTLR start "Bool_L"
-    public final void mBool_L() throws RecognitionException {
+    // $ANTLR start "Bool_CH"
+    public final void mBool_CH() throws RecognitionException {
         try {
-            int _type = Bool_L;
+            int _type = Bool_CH;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:124:7: ( ( 'true' | 'false' ) )
-            // E:\\antlr3\\final.g:124:9: ( 'true' | 'false' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:124:8: ( ( 'true' | 'false' ) )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:124:10: ( 'true' | 'false' )
             {
-            // E:\\antlr3\\final.g:124:9: ( 'true' | 'false' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:124:10: ( 'true' | 'false' )
             int alt1=2;
             int LA1_0 = input.LA(1);
 
@@ -713,7 +644,7 @@ public class finalLexer extends Lexer {
             }
             switch (alt1) {
                 case 1 :
-                    // E:\\antlr3\\final.g:124:10: 'true'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:124:11: 'true'
                     {
                     match("true"); 
 
@@ -722,7 +653,7 @@ public class finalLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // E:\\antlr3\\final.g:124:19: 'false'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:124:20: 'false'
                     {
                     match("false"); 
 
@@ -743,17 +674,17 @@ public class finalLexer extends Lexer {
         	// do for sure before leaving
         }
     }
-    // $ANTLR end "Bool_L"
+    // $ANTLR end "Bool_CH"
 
-    // $ANTLR start "Int_L"
-    public final void mInt_L() throws RecognitionException {
+    // $ANTLR start "Int_N"
+    public final void mInt_N() throws RecognitionException {
         try {
-            int _type = Int_L;
+            int _type = Int_N;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:126:6: ( ( '0' .. '9' )+ )
-            // E:\\antlr3\\final.g:126:8: ( '0' .. '9' )+
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:126:6: ( ( '0' .. '9' )+ )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:126:8: ( '0' .. '9' )+
             {
-            // E:\\antlr3\\final.g:126:8: ( '0' .. '9' )+
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:126:8: ( '0' .. '9' )+
             int cnt2=0;
             loop2:
             do {
@@ -767,7 +698,7 @@ public class finalLexer extends Lexer {
 
                 switch (alt2) {
             	case 1 :
-            	    // E:\\antlr3\\final.g:
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:
             	    {
             	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
             	        input.consume();
@@ -801,17 +732,86 @@ public class finalLexer extends Lexer {
         	// do for sure before leaving
         }
     }
-    // $ANTLR end "Int_L"
+    // $ANTLR end "Int_N"
+
+    // $ANTLR start "IF"
+    public final void mIF() throws RecognitionException {
+        try {
+            int _type = IF;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:127:4: ( 'if' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:127:6: 'if'
+            {
+            match("if"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "IF"
+
+    // $ANTLR start "ELSE"
+    public final void mELSE() throws RecognitionException {
+        try {
+            int _type = ELSE;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:128:6: ( 'else' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:128:8: 'else'
+            {
+            match("else"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "ELSE"
+
+    // $ANTLR start "WHILE"
+    public final void mWHILE() throws RecognitionException {
+        try {
+            int _type = WHILE;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:129:8: ( 'while' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:129:10: 'while'
+            {
+            match("while"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "WHILE"
 
     // $ANTLR start "Operator"
     public final void mOperator() throws RecognitionException {
         try {
             int _type = Operator;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:128:9: ( ( '&&' | '<' | '+' | '-' | '*' ) )
-            // E:\\antlr3\\final.g:128:11: ( '&&' | '<' | '+' | '-' | '*' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:131:9: ( ( '&&' | '<' | '+' | '-' | '*' ) )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:131:11: ( '&&' | '<' | '+' | '-' | '*' )
             {
-            // E:\\antlr3\\final.g:128:11: ( '&&' | '<' | '+' | '-' | '*' )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:131:11: ( '&&' | '<' | '+' | '-' | '*' )
             int alt3=5;
             switch ( input.LA(1) ) {
             case '&':
@@ -849,7 +849,7 @@ public class finalLexer extends Lexer {
 
             switch (alt3) {
                 case 1 :
-                    // E:\\antlr3\\final.g:128:12: '&&'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:131:12: '&&'
                     {
                     match("&&"); 
 
@@ -858,28 +858,28 @@ public class finalLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // E:\\antlr3\\final.g:128:19: '<'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:131:19: '<'
                     {
                     match('<'); 
 
                     }
                     break;
                 case 3 :
-                    // E:\\antlr3\\final.g:128:25: '+'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:131:25: '+'
                     {
                     match('+'); 
 
                     }
                     break;
                 case 4 :
-                    // E:\\antlr3\\final.g:128:31: '-'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:131:31: '-'
                     {
                     match('-'); 
 
                     }
                     break;
                 case 5 :
-                    // E:\\antlr3\\final.g:128:37: '*'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:131:37: '*'
                     {
                     match('*'); 
 
@@ -905,8 +905,8 @@ public class finalLexer extends Lexer {
         try {
             int _type = ID;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:130:5: ( ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' | '0' .. '9' )* )
-            // E:\\antlr3\\final.g:130:7: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' | '0' .. '9' )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:133:5: ( ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' | '0' .. '9' )* )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:133:7: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' | '0' .. '9' )*
             {
             if ( input.LA(1)=='$'||(input.LA(1) >= 'A' && input.LA(1) <= 'Z')||input.LA(1)=='_'||(input.LA(1) >= 'a' && input.LA(1) <= 'z') ) {
                 input.consume();
@@ -918,7 +918,7 @@ public class finalLexer extends Lexer {
             }
 
 
-            // E:\\antlr3\\final.g:130:34: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' | '0' .. '9' )*
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:133:34: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '$' | '0' .. '9' )*
             loop4:
             do {
                 int alt4=2;
@@ -931,7 +931,7 @@ public class finalLexer extends Lexer {
 
                 switch (alt4) {
             	case 1 :
-            	    // E:\\antlr3\\final.g:
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:
             	    {
             	    if ( input.LA(1)=='$'||(input.LA(1) >= '0' && input.LA(1) <= '9')||(input.LA(1) >= 'A' && input.LA(1) <= 'Z')||input.LA(1)=='_'||(input.LA(1) >= 'a' && input.LA(1) <= 'z') ) {
             	        input.consume();
@@ -968,10 +968,10 @@ public class finalLexer extends Lexer {
         try {
             int _type = COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:132:8: ( ( '/*' ( options {greedy=false; } : . )* '*/' | '//' (~ ( '\\n' | '\\r' ) )* ) )
-            // E:\\antlr3\\final.g:132:12: ( '/*' ( options {greedy=false; } : . )* '*/' | '//' (~ ( '\\n' | '\\r' ) )* )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:135:8: ( ( '/*' ( options {greedy=false; } : . )* '*/' | '//' (~ ( '\\n' | '\\r' ) )* ) )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:135:12: ( '/*' ( options {greedy=false; } : . )* '*/' | '//' (~ ( '\\n' | '\\r' ) )* )
             {
-            // E:\\antlr3\\final.g:132:12: ( '/*' ( options {greedy=false; } : . )* '*/' | '//' (~ ( '\\n' | '\\r' ) )* )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:135:12: ( '/*' ( options {greedy=false; } : . )* '*/' | '//' (~ ( '\\n' | '\\r' ) )* )
             int alt7=2;
             int LA7_0 = input.LA(1);
 
@@ -1001,13 +1001,13 @@ public class finalLexer extends Lexer {
             }
             switch (alt7) {
                 case 1 :
-                    // E:\\antlr3\\final.g:132:13: '/*' ( options {greedy=false; } : . )* '*/'
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:135:13: '/*' ( options {greedy=false; } : . )* '*/'
                     {
                     match("/*"); 
 
 
 
-                    // E:\\antlr3\\final.g:132:18: ( options {greedy=false; } : . )*
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:135:18: ( options {greedy=false; } : . )*
                     loop5:
                     do {
                         int alt5=2;
@@ -1032,7 +1032,7 @@ public class finalLexer extends Lexer {
 
                         switch (alt5) {
                     	case 1 :
-                    	    // E:\\antlr3\\final.g:132:46: .
+                    	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:135:46: .
                     	    {
                     	    matchAny(); 
 
@@ -1054,13 +1054,13 @@ public class finalLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // E:\\antlr3\\final.g:132:70: '//' (~ ( '\\n' | '\\r' ) )*
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:135:70: '//' (~ ( '\\n' | '\\r' ) )*
                     {
                     match("//"); 
 
 
 
-                    // E:\\antlr3\\final.g:132:75: (~ ( '\\n' | '\\r' ) )*
+                    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:135:75: (~ ( '\\n' | '\\r' ) )*
                     loop6:
                     do {
                         int alt6=2;
@@ -1073,7 +1073,7 @@ public class finalLexer extends Lexer {
 
                         switch (alt6) {
                     	case 1 :
-                    	    // E:\\antlr3\\final.g:
+                    	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:
                     	    {
                     	    if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\t')||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||(input.LA(1) >= '\u000E' && input.LA(1) <= '\uFFFF') ) {
                     	        input.consume();
@@ -1118,10 +1118,10 @@ public class finalLexer extends Lexer {
         try {
             int _type = WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // E:\\antlr3\\final.g:135:5: ( ( ' ' | '\\t' | '\\n' | '\\r' )+ )
-            // E:\\antlr3\\final.g:135:7: ( ' ' | '\\t' | '\\n' | '\\r' )+
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:138:5: ( ( ' ' | '\\t' | '\\n' | '\\r' )+ )
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:138:7: ( ' ' | '\\t' | '\\n' | '\\r' )+
             {
-            // E:\\antlr3\\final.g:135:7: ( ' ' | '\\t' | '\\n' | '\\r' )+
+            // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:138:7: ( ' ' | '\\t' | '\\n' | '\\r' )+
             int cnt8=0;
             loop8:
             do {
@@ -1135,7 +1135,7 @@ public class finalLexer extends Lexer {
 
                 switch (alt8) {
             	case 1 :
-            	    // E:\\antlr3\\final.g:
+            	    // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:
             	    {
             	    if ( (input.LA(1) >= '\t' && input.LA(1) <= '\n')||input.LA(1)=='\r'||input.LA(1)==' ' ) {
             	        input.consume();
@@ -1174,252 +1174,252 @@ public class finalLexer extends Lexer {
     // $ANTLR end "WS"
 
     public void mTokens() throws RecognitionException {
-        // E:\\antlr3\\final.g:1:8: ( T__16 | T__17 | T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | T__42 | T__43 | Bool_L | Int_L | Operator | ID | COMMENT | WS )
+        // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:8: ( T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | T__42 | T__43 | Bool_CH | Int_N | IF | ELSE | WHILE | Operator | ID | COMMENT | WS )
         int alt9=34;
         alt9 = dfa9.predict(input);
         switch (alt9) {
             case 1 :
-                // E:\\antlr3\\final.g:1:10: T__16
-                {
-                mT__16(); 
-
-
-                }
-                break;
-            case 2 :
-                // E:\\antlr3\\final.g:1:16: T__17
-                {
-                mT__17(); 
-
-
-                }
-                break;
-            case 3 :
-                // E:\\antlr3\\final.g:1:22: T__18
-                {
-                mT__18(); 
-
-
-                }
-                break;
-            case 4 :
-                // E:\\antlr3\\final.g:1:28: T__19
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:10: T__19
                 {
                 mT__19(); 
 
 
                 }
                 break;
-            case 5 :
-                // E:\\antlr3\\final.g:1:34: T__20
+            case 2 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:16: T__20
                 {
                 mT__20(); 
 
 
                 }
                 break;
-            case 6 :
-                // E:\\antlr3\\final.g:1:40: T__21
+            case 3 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:22: T__21
                 {
                 mT__21(); 
 
 
                 }
                 break;
-            case 7 :
-                // E:\\antlr3\\final.g:1:46: T__22
+            case 4 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:28: T__22
                 {
                 mT__22(); 
 
 
                 }
                 break;
-            case 8 :
-                // E:\\antlr3\\final.g:1:52: T__23
+            case 5 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:34: T__23
                 {
                 mT__23(); 
 
 
                 }
                 break;
-            case 9 :
-                // E:\\antlr3\\final.g:1:58: T__24
+            case 6 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:40: T__24
                 {
                 mT__24(); 
 
 
                 }
                 break;
-            case 10 :
-                // E:\\antlr3\\final.g:1:64: T__25
+            case 7 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:46: T__25
                 {
                 mT__25(); 
 
 
                 }
                 break;
-            case 11 :
-                // E:\\antlr3\\final.g:1:70: T__26
+            case 8 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:52: T__26
                 {
                 mT__26(); 
 
 
                 }
                 break;
-            case 12 :
-                // E:\\antlr3\\final.g:1:76: T__27
+            case 9 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:58: T__27
                 {
                 mT__27(); 
 
 
                 }
                 break;
-            case 13 :
-                // E:\\antlr3\\final.g:1:82: T__28
+            case 10 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:64: T__28
                 {
                 mT__28(); 
 
 
                 }
                 break;
-            case 14 :
-                // E:\\antlr3\\final.g:1:88: T__29
+            case 11 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:70: T__29
                 {
                 mT__29(); 
 
 
                 }
                 break;
-            case 15 :
-                // E:\\antlr3\\final.g:1:94: T__30
+            case 12 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:76: T__30
                 {
                 mT__30(); 
 
 
                 }
                 break;
-            case 16 :
-                // E:\\antlr3\\final.g:1:100: T__31
+            case 13 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:82: T__31
                 {
                 mT__31(); 
 
 
                 }
                 break;
-            case 17 :
-                // E:\\antlr3\\final.g:1:106: T__32
+            case 14 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:88: T__32
                 {
                 mT__32(); 
 
 
                 }
                 break;
-            case 18 :
-                // E:\\antlr3\\final.g:1:112: T__33
+            case 15 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:94: T__33
                 {
                 mT__33(); 
 
 
                 }
                 break;
-            case 19 :
-                // E:\\antlr3\\final.g:1:118: T__34
+            case 16 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:100: T__34
                 {
                 mT__34(); 
 
 
                 }
                 break;
-            case 20 :
-                // E:\\antlr3\\final.g:1:124: T__35
+            case 17 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:106: T__35
                 {
                 mT__35(); 
 
 
                 }
                 break;
-            case 21 :
-                // E:\\antlr3\\final.g:1:130: T__36
+            case 18 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:112: T__36
                 {
                 mT__36(); 
 
 
                 }
                 break;
-            case 22 :
-                // E:\\antlr3\\final.g:1:136: T__37
+            case 19 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:118: T__37
                 {
                 mT__37(); 
 
 
                 }
                 break;
-            case 23 :
-                // E:\\antlr3\\final.g:1:142: T__38
+            case 20 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:124: T__38
                 {
                 mT__38(); 
 
 
                 }
                 break;
-            case 24 :
-                // E:\\antlr3\\final.g:1:148: T__39
+            case 21 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:130: T__39
                 {
                 mT__39(); 
 
 
                 }
                 break;
-            case 25 :
-                // E:\\antlr3\\final.g:1:154: T__40
+            case 22 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:136: T__40
                 {
                 mT__40(); 
 
 
                 }
                 break;
-            case 26 :
-                // E:\\antlr3\\final.g:1:160: T__41
+            case 23 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:142: T__41
                 {
                 mT__41(); 
 
 
                 }
                 break;
-            case 27 :
-                // E:\\antlr3\\final.g:1:166: T__42
+            case 24 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:148: T__42
                 {
                 mT__42(); 
 
 
                 }
                 break;
-            case 28 :
-                // E:\\antlr3\\final.g:1:172: T__43
+            case 25 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:154: T__43
                 {
                 mT__43(); 
 
 
                 }
                 break;
-            case 29 :
-                // E:\\antlr3\\final.g:1:178: Bool_L
+            case 26 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:160: Bool_CH
                 {
-                mBool_L(); 
+                mBool_CH(); 
+
+
+                }
+                break;
+            case 27 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:168: Int_N
+                {
+                mInt_N(); 
+
+
+                }
+                break;
+            case 28 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:174: IF
+                {
+                mIF(); 
+
+
+                }
+                break;
+            case 29 :
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:177: ELSE
+                {
+                mELSE(); 
 
 
                 }
                 break;
             case 30 :
-                // E:\\antlr3\\final.g:1:185: Int_L
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:182: WHILE
                 {
-                mInt_L(); 
+                mWHILE(); 
 
 
                 }
                 break;
             case 31 :
-                // E:\\antlr3\\final.g:1:191: Operator
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:188: Operator
                 {
                 mOperator(); 
 
@@ -1427,7 +1427,7 @@ public class finalLexer extends Lexer {
                 }
                 break;
             case 32 :
-                // E:\\antlr3\\final.g:1:200: ID
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:197: ID
                 {
                 mID(); 
 
@@ -1435,7 +1435,7 @@ public class finalLexer extends Lexer {
                 }
                 break;
             case 33 :
-                // E:\\antlr3\\final.g:1:203: COMMENT
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:200: COMMENT
                 {
                 mCOMMENT(); 
 
@@ -1443,7 +1443,7 @@ public class finalLexer extends Lexer {
                 }
                 break;
             case 34 :
-                // E:\\antlr3\\final.g:1:211: WS
+                // E:\\computer science\\cs\\level4\\407\\try\\sub\\project\\comp407\\antlr3\\final.g:1:208: WS
                 {
                 mWS(); 
 
@@ -1458,48 +1458,48 @@ public class finalLexer extends Lexer {
 
     protected DFA9 dfa9 = new DFA9(this);
     static final String DFA9_eotS =
-        "\10\uffff\1\35\2\uffff\15\35\2\uffff\1\35\5\uffff\6\35\1\71\22\35"+
-        "\1\uffff\1\114\2\35\1\117\14\35\1\134\1\35\1\uffff\1\35\1\137\1"+
-        "\uffff\3\35\1\143\1\144\1\145\5\35\1\153\1\uffff\2\35\1\uffff\3"+
-        "\35\3\uffff\1\161\1\144\1\162\2\35\1\uffff\1\35\1\166\1\167\1\170"+
-        "\1\171\3\uffff\1\172\1\173\6\uffff";
+        "\10\uffff\1\35\2\uffff\14\35\2\uffff\1\35\1\uffff\1\35\4\uffff\7"+
+        "\35\1\72\21\35\1\114\1\uffff\2\35\1\117\15\35\1\135\1\uffff\1\35"+
+        "\1\137\1\uffff\3\35\1\143\1\144\1\145\5\35\1\153\1\35\1\uffff\1"+
+        "\35\1\uffff\3\35\3\uffff\1\144\1\161\1\162\2\35\1\uffff\1\35\1\166"+
+        "\1\167\1\170\1\171\3\uffff\1\172\1\173\6\uffff";
     static final String DFA9_eofS =
         "\174\uffff";
     static final String DFA9_minS =
         "\1\11\7\uffff\1\164\2\uffff\1\157\2\154\1\146\1\145\1\141\1\145"+
-        "\1\165\1\145\1\164\1\150\1\157\1\150\2\uffff\1\141\5\uffff\1\162"+
-        "\1\163\1\157\1\141\1\163\1\164\1\44\1\164\1\156\1\151\1\167\1\142"+
-        "\1\164\1\141\1\151\1\165\2\151\1\154\1\151\1\164\1\154\1\163\2\145"+
-        "\1\uffff\1\44\1\147\1\156\1\44\1\154\1\165\1\164\1\163\1\145\1\144"+
-        "\1\154\1\163\1\156\2\145\1\163\1\44\1\156\1\uffff\1\164\1\44\1\uffff"+
-        "\1\151\1\162\1\151\3\44\2\145\1\147\1\155\1\141\1\44\1\uffff\1\144"+
-        "\1\150\1\uffff\1\143\1\156\1\143\3\uffff\3\44\1\56\1\156\1\uffff"+
-        "\1\163\4\44\3\uffff\2\44\6\uffff";
+        "\1\165\1\145\1\164\1\150\1\157\2\uffff\1\141\1\uffff\1\150\4\uffff"+
+        "\1\162\1\163\1\157\1\141\1\164\1\163\1\164\1\44\1\156\1\151\1\167"+
+        "\1\142\1\164\1\141\1\151\1\165\1\151\1\154\2\151\1\164\1\154\1\163"+
+        "\2\145\1\44\1\uffff\1\147\1\156\1\44\1\154\1\165\1\164\1\163\1\145"+
+        "\1\144\1\163\1\154\1\156\2\145\1\163\1\156\1\44\1\uffff\1\164\1"+
+        "\44\1\uffff\1\151\1\162\1\151\3\44\2\145\1\147\1\155\1\141\1\44"+
+        "\1\144\1\uffff\1\150\1\uffff\1\143\1\156\1\143\3\uffff\3\44\1\56"+
+        "\1\156\1\uffff\1\163\4\44\3\uffff\2\44\6\uffff";
     static final String DFA9_maxS =
         "\1\175\7\uffff\1\171\2\uffff\1\157\1\154\1\170\1\156\1\145\1\141"+
-        "\1\145\1\165\1\145\1\164\1\162\1\157\1\150\2\uffff\1\141\5\uffff"+
-        "\1\162\1\163\1\157\1\141\1\163\1\164\1\172\1\164\1\156\1\151\1\167"+
-        "\1\142\1\164\1\141\1\151\1\165\2\151\1\154\1\151\1\164\1\154\1\163"+
-        "\2\145\1\uffff\1\172\1\147\1\156\1\172\1\154\1\165\1\164\1\163\1"+
-        "\145\1\144\1\154\1\163\1\156\2\145\1\163\1\172\1\156\1\uffff\1\164"+
-        "\1\172\1\uffff\1\151\1\162\1\151\3\172\2\145\1\147\1\155\1\141\1"+
-        "\172\1\uffff\1\144\1\150\1\uffff\1\143\1\156\1\143\3\uffff\3\172"+
-        "\1\56\1\156\1\uffff\1\163\4\172\3\uffff\2\172\6\uffff";
+        "\1\145\1\165\1\145\1\164\1\162\1\157\2\uffff\1\141\1\uffff\1\150"+
+        "\4\uffff\1\162\1\163\1\157\1\141\1\164\1\163\1\164\1\172\1\156\1"+
+        "\151\1\167\1\142\1\164\1\141\1\151\1\165\1\151\1\154\2\151\1\164"+
+        "\1\154\1\163\2\145\1\172\1\uffff\1\147\1\156\1\172\1\154\1\165\1"+
+        "\164\1\163\1\145\1\144\1\163\1\154\1\156\2\145\1\163\1\156\1\172"+
+        "\1\uffff\1\164\1\172\1\uffff\1\151\1\162\1\151\3\172\2\145\1\147"+
+        "\1\155\1\141\1\172\1\144\1\uffff\1\150\1\uffff\1\143\1\156\1\143"+
+        "\3\uffff\3\172\1\56\1\156\1\uffff\1\163\4\172\3\uffff\2\172\6\uffff";
     static final String DFA9_acceptS =
-        "\1\uffff\1\1\1\2\1\3\1\4\1\5\1\6\1\7\1\uffff\1\12\1\13\15\uffff"+
-        "\1\33\1\34\1\uffff\1\36\1\37\1\40\1\41\1\42\31\uffff\1\20\22\uffff"+
-        "\1\21\2\uffff\1\24\14\uffff\1\16\2\uffff\1\23\3\uffff\1\30\1\35"+
-        "\1\31\5\uffff\1\15\5\uffff\1\32\1\10\1\11\2\uffff\1\22\1\25\1\26"+
-        "\1\27\1\14\1\17";
+        "\1\uffff\1\1\1\2\1\3\1\4\1\5\1\6\1\7\1\uffff\1\12\1\13\14\uffff"+
+        "\1\30\1\31\1\uffff\1\33\1\uffff\1\37\1\40\1\41\1\42\32\uffff\1\34"+
+        "\21\uffff\1\17\2\uffff\1\22\15\uffff\1\35\1\uffff\1\21\3\uffff\1"+
+        "\26\1\32\1\27\5\uffff\1\15\5\uffff\1\36\1\10\1\11\2\uffff\1\20\1"+
+        "\23\1\24\1\25\1\14\1\16";
     static final String DFA9_specialS =
         "\174\uffff}>";
     static final String[] DFA9_transitionS = {
             "\2\37\2\uffff\1\37\22\uffff\1\37\1\1\2\uffff\1\35\1\uffff\1"+
-            "\34\1\uffff\1\2\1\3\2\34\1\4\1\34\1\5\1\36\12\33\1\uffff\1\6"+
+            "\34\1\uffff\1\2\1\3\2\34\1\4\1\34\1\5\1\36\12\32\1\uffff\1\6"+
             "\1\34\1\7\3\uffff\22\35\1\10\7\35\1\11\1\uffff\1\12\1\uffff"+
-            "\1\35\1\uffff\1\35\1\13\1\14\1\35\1\15\1\32\2\35\1\16\2\35\1"+
-            "\17\1\20\1\21\1\35\1\22\1\35\1\23\1\24\1\25\1\35\1\26\1\27\3"+
-            "\35\1\30\1\uffff\1\31",
+            "\1\35\1\uffff\1\35\1\13\1\14\1\35\1\15\1\31\2\35\1\16\2\35\1"+
+            "\17\1\20\1\21\1\35\1\22\1\35\1\23\1\24\1\25\1\35\1\26\1\33\3"+
+            "\35\1\27\1\uffff\1\30",
             "",
             "",
             "",
@@ -1512,8 +1512,8 @@ public class finalLexer extends Lexer {
             "",
             "\1\42",
             "\1\43",
-            "\1\44\13\uffff\1\45",
-            "\1\46\7\uffff\1\47",
+            "\1\45\13\uffff\1\44",
+            "\1\47\7\uffff\1\46",
             "\1\50",
             "\1\51",
             "\1\52",
@@ -1522,11 +1522,11 @@ public class finalLexer extends Lexer {
             "\1\55",
             "\1\56\11\uffff\1\57",
             "\1\60",
+            "",
+            "",
             "\1\61",
             "",
-            "",
             "\1\62",
-            "",
             "",
             "",
             "",
@@ -1537,9 +1537,9 @@ public class finalLexer extends Lexer {
             "\1\66",
             "\1\67",
             "\1\70",
+            "\1\71",
             "\1\35\13\uffff\12\35\7\uffff\32\35\4\uffff\1\35\1\uffff\32"+
             "\35",
-            "\1\72",
             "\1\73",
             "\1\74",
             "\1\75",
@@ -1557,9 +1557,9 @@ public class finalLexer extends Lexer {
             "\1\111",
             "\1\112",
             "\1\113",
-            "",
             "\1\35\13\uffff\12\35\7\uffff\32\35\4\uffff\1\35\1\uffff\32"+
             "\35",
+            "",
             "\1\115",
             "\1\116",
             "\1\35\13\uffff\12\35\7\uffff\32\35\4\uffff\1\35\1\uffff\32"+
@@ -1576,9 +1576,9 @@ public class finalLexer extends Lexer {
             "\1\131",
             "\1\132",
             "\1\133",
+            "\1\134",
             "\1\35\13\uffff\12\35\7\uffff\32\35\4\uffff\1\35\1\uffff\32"+
             "\35",
-            "\1\135",
             "",
             "\1\136",
             "\1\35\13\uffff\12\35\7\uffff\32\35\4\uffff\1\35\1\uffff\32"+
@@ -1600,8 +1600,8 @@ public class finalLexer extends Lexer {
             "\1\152",
             "\1\35\13\uffff\12\35\7\uffff\32\35\4\uffff\1\35\1\uffff\32"+
             "\35",
-            "",
             "\1\154",
+            "",
             "\1\155",
             "",
             "\1\156",
@@ -1673,7 +1673,7 @@ public class finalLexer extends Lexer {
             this.transition = DFA9_transition;
         }
         public String getDescription() {
-            return "1:1: Tokens : ( T__16 | T__17 | T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | T__42 | T__43 | Bool_L | Int_L | Operator | ID | COMMENT | WS );";
+            return "1:1: Tokens : ( T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | T__42 | T__43 | Bool_CH | Int_N | IF | ELSE | WHILE | Operator | ID | COMMENT | WS );";
         }
     }
  
